@@ -1,0 +1,26 @@
+
+service: aws-nodejs # NOTE: update this with your service name
+
+provider:
+  name: aws
+  runtime: nodejs4.3
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          path: hello
+          method: get
+  random_ten:
+    handler: handler.random_ten
+    events:
+      - http:
+          path: random_ten
+          method: get
+  random_joke:
+    handler: handler.random_joke
+    events:
+      - http:
+          path: random_joke
+          method: get
