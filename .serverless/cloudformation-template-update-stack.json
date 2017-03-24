@@ -158,7 +158,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/aws-nodejs/dev/1490330149212-2017-03-24T04:35:49.212Z/aws-nodejs.zip"
+          "S3Key": "serverless/aws-nodejs/dev/1490369269302-2017-03-24T15:27:49.302Z/aws-nodejs.zip"
         },
         "FunctionName": "aws-nodejs-dev-hello",
         "Handler": "handler.hello",
@@ -176,14 +176,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "HelloLambdaVersion67evqtroSYo1S5BepyO1xomqyYGkHImdTPfa0E1jqk": {
+    "HelloLambdaVersioncVA4Tw62pG0OeOEXX8Z2sbLcmMgnPZBAUtnUfIjQwA": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "HelloLambdaFunction"
         },
-        "CodeSha256": "67evqtroSYo1S5Be/pyO1xomqyYGkHImdTPfa0E1jqk="
+        "CodeSha256": "cVA4Tw62pG0OeOEXX8Z2sbLcmMg/nPZBAUtnUfIjQwA="
       }
     },
     "RandomUnderscoretenLambdaFunction": {
@@ -193,7 +193,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/aws-nodejs/dev/1490330149212-2017-03-24T04:35:49.212Z/aws-nodejs.zip"
+          "S3Key": "serverless/aws-nodejs/dev/1490369269302-2017-03-24T15:27:49.302Z/aws-nodejs.zip"
         },
         "FunctionName": "aws-nodejs-dev-random_ten",
         "Handler": "handler.random_ten",
@@ -211,14 +211,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "RandomUnderscoretenLambdaVersion67evqtroSYo1S5BepyO1xomqyYGkHImdTPfa0E1jqk": {
+    "RandomUnderscoretenLambdaVersioncVA4Tw62pG0OeOEXX8Z2sbLcmMgnPZBAUtnUfIjQwA": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "RandomUnderscoretenLambdaFunction"
         },
-        "CodeSha256": "67evqtroSYo1S5Be/pyO1xomqyYGkHImdTPfa0E1jqk="
+        "CodeSha256": "cVA4Tw62pG0OeOEXX8Z2sbLcmMg/nPZBAUtnUfIjQwA="
       }
     },
     "RandomUnderscorejokeLambdaFunction": {
@@ -228,7 +228,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/aws-nodejs/dev/1490330149212-2017-03-24T04:35:49.212Z/aws-nodejs.zip"
+          "S3Key": "serverless/aws-nodejs/dev/1490369269302-2017-03-24T15:27:49.302Z/aws-nodejs.zip"
         },
         "FunctionName": "aws-nodejs-dev-random_joke",
         "Handler": "handler.random_joke",
@@ -246,14 +246,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "RandomUnderscorejokeLambdaVersion67evqtroSYo1S5BepyO1xomqyYGkHImdTPfa0E1jqk": {
+    "RandomUnderscorejokeLambdaVersioncVA4Tw62pG0OeOEXX8Z2sbLcmMgnPZBAUtnUfIjQwA": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "RandomUnderscorejokeLambdaFunction"
         },
-        "CodeSha256": "67evqtroSYo1S5Be/pyO1xomqyYGkHImdTPfa0E1jqk="
+        "CodeSha256": "cVA4Tw62pG0OeOEXX8Z2sbLcmMg/nPZBAUtnUfIjQwA="
       }
     },
     "ApiGatewayRestApi": {
@@ -302,6 +302,144 @@
           ]
         },
         "PathPart": "random_joke",
+        "RestApiId": {
+          "Ref": "ApiGatewayRestApi"
+        }
+      }
+    },
+    "ApiGatewayMethodHelloOptions": {
+      "Type": "AWS::ApiGateway::Method",
+      "Properties": {
+        "AuthorizationType": "NONE",
+        "HttpMethod": "OPTIONS",
+        "MethodResponses": [
+          {
+            "StatusCode": "200",
+            "ResponseParameters": {
+              "method.response.header.Access-Control-Allow-Origin": true,
+              "method.response.header.Access-Control-Allow-Headers": true,
+              "method.response.header.Access-Control-Allow-Methods": true,
+              "method.response.header.Access-Control-Allow-Credentials": true
+            },
+            "ResponseModels": {}
+          }
+        ],
+        "RequestParameters": {},
+        "Integration": {
+          "Type": "MOCK",
+          "RequestTemplates": {
+            "application/json": "{statusCode:200}"
+          },
+          "IntegrationResponses": [
+            {
+              "StatusCode": "200",
+              "ResponseParameters": {
+                "method.response.header.Access-Control-Allow-Origin": "'*'",
+                "method.response.header.Access-Control-Allow-Headers": "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'",
+                "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,GET'",
+                "method.response.header.Access-Control-Allow-Credentials": "'false'"
+              },
+              "ResponseTemplates": {
+                "application/json": ""
+              }
+            }
+          ]
+        },
+        "ResourceId": {
+          "Ref": "ApiGatewayResourceHello"
+        },
+        "RestApiId": {
+          "Ref": "ApiGatewayRestApi"
+        }
+      }
+    },
+    "ApiGatewayMethodRandomtenOptions": {
+      "Type": "AWS::ApiGateway::Method",
+      "Properties": {
+        "AuthorizationType": "NONE",
+        "HttpMethod": "OPTIONS",
+        "MethodResponses": [
+          {
+            "StatusCode": "200",
+            "ResponseParameters": {
+              "method.response.header.Access-Control-Allow-Origin": true,
+              "method.response.header.Access-Control-Allow-Headers": true,
+              "method.response.header.Access-Control-Allow-Methods": true,
+              "method.response.header.Access-Control-Allow-Credentials": true
+            },
+            "ResponseModels": {}
+          }
+        ],
+        "RequestParameters": {},
+        "Integration": {
+          "Type": "MOCK",
+          "RequestTemplates": {
+            "application/json": "{statusCode:200}"
+          },
+          "IntegrationResponses": [
+            {
+              "StatusCode": "200",
+              "ResponseParameters": {
+                "method.response.header.Access-Control-Allow-Origin": "'*'",
+                "method.response.header.Access-Control-Allow-Headers": "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'",
+                "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,GET'",
+                "method.response.header.Access-Control-Allow-Credentials": "'false'"
+              },
+              "ResponseTemplates": {
+                "application/json": ""
+              }
+            }
+          ]
+        },
+        "ResourceId": {
+          "Ref": "ApiGatewayResourceRandomten"
+        },
+        "RestApiId": {
+          "Ref": "ApiGatewayRestApi"
+        }
+      }
+    },
+    "ApiGatewayMethodRandomjokeOptions": {
+      "Type": "AWS::ApiGateway::Method",
+      "Properties": {
+        "AuthorizationType": "NONE",
+        "HttpMethod": "OPTIONS",
+        "MethodResponses": [
+          {
+            "StatusCode": "200",
+            "ResponseParameters": {
+              "method.response.header.Access-Control-Allow-Origin": true,
+              "method.response.header.Access-Control-Allow-Headers": true,
+              "method.response.header.Access-Control-Allow-Methods": true,
+              "method.response.header.Access-Control-Allow-Credentials": true
+            },
+            "ResponseModels": {}
+          }
+        ],
+        "RequestParameters": {},
+        "Integration": {
+          "Type": "MOCK",
+          "RequestTemplates": {
+            "application/json": "{statusCode:200}"
+          },
+          "IntegrationResponses": [
+            {
+              "StatusCode": "200",
+              "ResponseParameters": {
+                "method.response.header.Access-Control-Allow-Origin": "'*'",
+                "method.response.header.Access-Control-Allow-Headers": "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'",
+                "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,GET'",
+                "method.response.header.Access-Control-Allow-Credentials": "'false'"
+              },
+              "ResponseTemplates": {
+                "application/json": ""
+              }
+            }
+          ]
+        },
+        "ResourceId": {
+          "Ref": "ApiGatewayResourceRandomjoke"
+        },
         "RestApiId": {
           "Ref": "ApiGatewayRestApi"
         }
@@ -421,7 +559,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1490330149223": {
+    "ApiGatewayDeployment1490369269314": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -544,19 +682,19 @@
     "HelloLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "HelloLambdaVersion67evqtroSYo1S5BepyO1xomqyYGkHImdTPfa0E1jqk"
+        "Ref": "HelloLambdaVersioncVA4Tw62pG0OeOEXX8Z2sbLcmMgnPZBAUtnUfIjQwA"
       }
     },
     "RandomUnderscoretenLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "RandomUnderscoretenLambdaVersion67evqtroSYo1S5BepyO1xomqyYGkHImdTPfa0E1jqk"
+        "Ref": "RandomUnderscoretenLambdaVersioncVA4Tw62pG0OeOEXX8Z2sbLcmMgnPZBAUtnUfIjQwA"
       }
     },
     "RandomUnderscorejokeLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "RandomUnderscorejokeLambdaVersion67evqtroSYo1S5BepyO1xomqyYGkHImdTPfa0E1jqk"
+        "Ref": "RandomUnderscorejokeLambdaVersioncVA4Tw62pG0OeOEXX8Z2sbLcmMgnPZBAUtnUfIjQwA"
       }
     },
     "ServiceEndpoint": {

@@ -6,6 +6,9 @@ var jokes = require('./jokes/index.json');
 module.exports.hello = (event, context, callback) => {
   const response = {
     statusCode: 200,
+    headers: {
+      "Access-Control-Allow-Origin" : "*"
+    },
     body: JSON.stringify({hello: 'Hello, world'}),
   };
 
@@ -31,7 +34,10 @@ module.exports.random_ten = (event, context, callback) => {
 
   const response = {
     statusCode: 200,
-    body: JSON.stringify([r_jokes])
+    headers: {
+      "Access-Control-Allow-Origin" : "*"
+    },
+    body: JSON.stringify(r_jokes)
   }
 
   callback(null, response);
@@ -42,6 +48,9 @@ module.exports.random_joke = (event, context, callback) => {
   var r_joke = jokes[random_index];
   const response = {
     statusCode: 200,
+    headers: {
+      "Access-Control-Allow-Origin" : "*"
+    },
     body: JSON.stringify(r_joke)
   }
   callback(null, response);

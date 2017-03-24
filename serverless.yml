@@ -12,15 +12,18 @@ functions:
       - http:
           path: hello
           method: get
+          cors: true
   random_ten:
     handler: handler.random_ten
     events:
       - http:
           path: random_ten
           method: get
+          cors: true
   random_joke:
     handler: handler.random_joke
     events:
       - http:
           path: random_joke
           method: get
+          cors: true
