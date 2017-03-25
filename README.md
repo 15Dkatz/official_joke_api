@@ -15,3 +15,18 @@
 How did the jokes get collected?
 
 I have some pretty funny friends. And of course, I did a lot of googling.
+
+
+### Got a good joke?
+
+Directions to submit:
+
+Submit a Pull Request, with your joke added to the jokes/index.json file. Make sure the joke is in this format:
+
+```javascript
+{
+  "type": "your joke's type",
+  "setup": "your joke's setup line",
+  "punchline": "your joke's punchline"
+}
+```

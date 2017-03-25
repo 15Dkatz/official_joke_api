@@ -158,7 +158,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/aws-nodejs/dev/1490369269302-2017-03-24T15:27:49.302Z/aws-nodejs.zip"
+          "S3Key": "serverless/aws-nodejs/dev/1490387758833-2017-03-24T20:35:58.833Z/aws-nodejs.zip"
         },
         "FunctionName": "aws-nodejs-dev-hello",
         "Handler": "handler.hello",
@@ -176,14 +176,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "HelloLambdaVersioncVA4Tw62pG0OeOEXX8Z2sbLcmMgnPZBAUtnUfIjQwA": {
+    "HelloLambdaVersionj3ZLICx3071o6rCgNauamYDENq1NlOibEJtgKMrI": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "HelloLambdaFunction"
         },
-        "CodeSha256": "cVA4Tw62pG0OeOEXX8Z2sbLcmMg/nPZBAUtnUfIjQwA="
+        "CodeSha256": "j3ZLICx3071o6/rCgNauamYDENq1N/l/OibEJtgKMrI="
       }
     },
     "RandomUnderscoretenLambdaFunction": {
@@ -193,7 +193,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/aws-nodejs/dev/1490369269302-2017-03-24T15:27:49.302Z/aws-nodejs.zip"
+          "S3Key": "serverless/aws-nodejs/dev/1490387758833-2017-03-24T20:35:58.833Z/aws-nodejs.zip"
         },
         "FunctionName": "aws-nodejs-dev-random_ten",
         "Handler": "handler.random_ten",
@@ -211,14 +211,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "RandomUnderscoretenLambdaVersioncVA4Tw62pG0OeOEXX8Z2sbLcmMgnPZBAUtnUfIjQwA": {
+    "RandomUnderscoretenLambdaVersionj3ZLICx3071o6rCgNauamYDENq1NlOibEJtgKMrI": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "RandomUnderscoretenLambdaFunction"
         },
-        "CodeSha256": "cVA4Tw62pG0OeOEXX8Z2sbLcmMg/nPZBAUtnUfIjQwA="
+        "CodeSha256": "j3ZLICx3071o6/rCgNauamYDENq1N/l/OibEJtgKMrI="
       }
     },
     "RandomUnderscorejokeLambdaFunction": {
@@ -228,7 +228,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/aws-nodejs/dev/1490369269302-2017-03-24T15:27:49.302Z/aws-nodejs.zip"
+          "S3Key": "serverless/aws-nodejs/dev/1490387758833-2017-03-24T20:35:58.833Z/aws-nodejs.zip"
         },
         "FunctionName": "aws-nodejs-dev-random_joke",
         "Handler": "handler.random_joke",
@@ -246,14 +246,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "RandomUnderscorejokeLambdaVersioncVA4Tw62pG0OeOEXX8Z2sbLcmMgnPZBAUtnUfIjQwA": {
+    "RandomUnderscorejokeLambdaVersionj3ZLICx3071o6rCgNauamYDENq1NlOibEJtgKMrI": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "RandomUnderscorejokeLambdaFunction"
         },
-        "CodeSha256": "cVA4Tw62pG0OeOEXX8Z2sbLcmMg/nPZBAUtnUfIjQwA="
+        "CodeSha256": "j3ZLICx3071o6/rCgNauamYDENq1N/l/OibEJtgKMrI="
       }
     },
     "ApiGatewayRestApi": {
@@ -559,7 +559,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1490369269314": {
+    "ApiGatewayDeployment1490387758844": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -682,19 +682,19 @@
     "HelloLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "HelloLambdaVersioncVA4Tw62pG0OeOEXX8Z2sbLcmMgnPZBAUtnUfIjQwA"
+        "Ref": "HelloLambdaVersionj3ZLICx3071o6rCgNauamYDENq1NlOibEJtgKMrI"
       }
     },
     "RandomUnderscoretenLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "RandomUnderscoretenLambdaVersioncVA4Tw62pG0OeOEXX8Z2sbLcmMgnPZBAUtnUfIjQwA"
+        "Ref": "RandomUnderscoretenLambdaVersionj3ZLICx3071o6rCgNauamYDENq1NlOibEJtgKMrI"
       }
     },
     "RandomUnderscorejokeLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "RandomUnderscorejokeLambdaVersioncVA4Tw62pG0OeOEXX8Z2sbLcmMgnPZBAUtnUfIjQwA"
+        "Ref": "RandomUnderscorejokeLambdaVersionj3ZLICx3071o6rCgNauamYDENq1NlOibEJtgKMrI"
       }
     },
     "ServiceEndpoint": {
