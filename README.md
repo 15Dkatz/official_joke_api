@@ -1,3 +1,5 @@
+### Currently working on an issue with AWS that may take 24 hours - 9/10/2017
+
 ## Endpoints:
 
 ### Grab a random joke!
