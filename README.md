@@ -25,6 +25,7 @@ Submit a Pull Request, with your joke added to the jokes/index.json file. Make s
 
 ```javascript
 {
+  "id": <one higher than the previous joke>,
   "type": "your joke's type",
   "setup": "your joke's setup line",
   "punchline": "your joke's punchline"
