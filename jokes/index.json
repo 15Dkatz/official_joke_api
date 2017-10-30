@@ -190,5 +190,11 @@
     "type": "general",
     "setup": "did you know the first French fries weren't cooked in France?",
     "punchline": "they were cooked in Greece"  
+  },
+  {
+    "id": 32,
+    "type": "programming",
+    "setup": "Which song would an excpetion sing?",
+    "punchline": "Can't cath me - Avicii"
   }
 ]
