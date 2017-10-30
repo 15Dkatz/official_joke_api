@@ -118,7 +118,7 @@
     "type": "general",
     "setup": "What do you call a laughing motorcycle?",
     "punchline": "A Yamahahahaha."
-  },  
+  },
   {
     "id": 20,
     "type": "general",
@@ -185,4 +185,10 @@
     "setup": "What happens to a frog's car when it breaks down?",
     "punchline": "It gets toad away"
   },
+  {
+    "id": 31,
+    "type": "general",
+    "setup": "did you know the first French fries weren't cooked in France?",
+    "punchline": "they were cooked in Greece"  
+  }
 ]
