@@ -199,8 +199,22 @@
   },
   {
     "id": 33,
+    "type": "knock-knock",
+    "setup": "Knock knock. \n Who's there? \n Opportunity.",
+    "punchline": "That is impossible. Opportunity doesn’t come knocking twice!"
+  },
+  {
+    "id": 34,
     "type": "programming",
-    "setup": "What is the object oriented way to become wealthy?",
-    "punchline": "Inheritance!"
+    "setup": "Why is it that women find C to be more attractive than Java?",
+    "punchline": "Because C doesn’t treat them like objects."
+  },
+  {
+    "id": 34,
+    "type": "programming",
+    "setup": "Why do Java programmers wear glasses?",
+    "punchline": "Because they don't C#"
   }
+
+
 ]
