@@ -196,5 +196,11 @@
     "type": "programming",
     "setup": "Which song would an exception sing?",
     "punchline": "Can't catch me - Avicii"
+  },
+  {
+    "id": 33,
+    "type": "programming",
+    "setup": "What is the object oriented way to become wealthy?",
+    "punchline": "Inheritance!"
   }
 ]
