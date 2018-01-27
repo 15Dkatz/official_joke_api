@@ -198,7 +198,13 @@
     "punchline": "Can't catch me - Avicii"
   },
   {
-    "id": 33,
+      "id": 33,
+     "type": "knock-knock",
+    "setup": "Knock knock. \n Who's there? \n Opportunity.",
+     "punchline": "That is impossible. Opportunity doesn’t come knocking twice!"
+  },
+  {
+    "id": 34,
     "type": "programming",
     "setup": "Why do Java programmers wear glasses?",
     "punchline": "Because they don't C#"
