@@ -48,163 +48,163 @@
     "punchline": "Tulips"
   },
   {
-    "id": 8,
+    "id": 9,
     "type": "general",
     "setup": "How do you organize an outer space party?",
     "punchline": "You planet"
   },
   {
-    "id": 9,
+    "id": 10,
     "type": "general",
     "setup": "What kind of shoes does a thief wear?",
     "punchline": "Sneakers"
   },
   {
-    "id": 10,
+    "id": 11,
     "type": "general",
     "setup": "What's the best time to go to the dentist?",
     "punchline": "Tooth hurty."
   },
   {
-    "id": 11,
+    "id": 12,
     "type": "knock-knock",
     "setup": "Knock knock. \n Who's there? \n A broken pencil. \n A broken pencil who?",
     "punchline": "Never mind. It's pointless."
   },
   {
-    "id": 12,
+    "id": 13,
     "type": "knock-knock",
     "setup": "Knock knock. \n Who's there? \n Cows go. \n Cows go who?",
     "punchline": "No, cows go moo."
   },
   {
-    "id": 13,
+    "id": 14,
     "type": "knock-knock",
     "setup": "Knock knock. \n Who's there? \n Little old lady. \n Little old lady who?",
     "punchline": "I didn't know you could yodel!"
   },
   {
-    "id": 14,
+    "id": 15,
     "type": "programming",
     "setup": "What's the best thing about a Boolean?",
     "punchline": "Even if you're wrong, you're only off by a bit."
   },
   {
-    "id": 15,
+    "id": 16,
     "type": "programming",
     "setup": "What's the object-oriented way to become wealthy?",
     "punchline": "Inheritance"
   },
   {
-    "id": 16,
+    "id": 17,
     "type": "programming",
     "setup": "Where do programmers like to hangout?",
     "punchline": "The Foo Bar."
   },
   {
-    "id": 17,
+    "id": 18,
     "type": "programming",
     "setup": "Why did the programmer quit his job?",
     "punchline": "Because he didn't get arrays."
   },
   {
-    "id": 18,
+    "id": 19,
     "type": "general",
     "setup": "Did you hear about the two silk worms in a race?",
     "punchline": "It ended in a tie."
   },
   {
-    "id": 19,
+    "id": 20,
     "type": "general",
     "setup": "What do you call a laughing motorcycle?",
     "punchline": "A Yamahahahaha."
   },
   {
-    "id": 20,
+    "id": 21,
     "type": "general",
     "setup": "A termite walks into a bar and says...",
     "punchline": "'Where is the bar tended?'"
   },
   {
-    "id": 21,
+    "id": 22,
     "type": "general",
     "setup": "What does C.S. Lewis keep at the back of his wardrobe?",
     "punchline": "Narnia business!"
   },
   {
-    "id": 22,
+    "id": 23,
     "type": "programming",
     "setup": "Why do programmers always mix up Halloween and Christmans?",
     "punchline": "Because Oct 31 == Dec 25"
   },
   {
-    "id": 23,
+    "id": 24,
     "type": "programming",
     "setup": "A SQL query walks into a bar, walks up to two tables and asks...",
     "punchline": "'Can I join you?'"
   },
   {
-    "id": 24,
+    "id": 25,
     "type": "programming",
     "setup": "How many programmers does it take to change a lightbulb?",
     "punchline": "None that's a hardware problem"
   },
   {
-    "id": 25,
+    "id": 26,
     "type": "programming",
     "setup": "If you put a million monkeys at a million keyboards, one of them will eventually write a Java program",
     "punchline": "the rest of them will write Perl"
   },
   {
-    "id": 26,
+    "id": 27,
     "type": "programming",
     "setup": "['hip', 'hip']",
     "punchline": "(hip hip array)"
   },
   {
-    "id": 27,
+    "id": 28,
     "type": "programming",
     "setup": "To understand what recursion is...",
     "punchline": "You must first understand what recursion is"
   },
   {
-    "id": 28,
+    "id": 29,
     "type": "programming",
     "setup": "There are 10 types of people in this world...",
     "punchline": "Those who understand binary and those who don't"
   },
   {
-    "id": 29,
+    "id": 30,
     "type": "general",
     "setup": "What did the duck say when he bought lipstick?",
     "punchline": "Put it on my bill"
   },
   {
-    "id": 30,
+    "id": 31,
     "type": "general",
     "setup": "What happens to a frog's car when it breaks down?",
     "punchline": "It gets toad away"
   },
   {
-    "id": 31,
+    "id": 32,
     "type": "general",
     "setup": "did you know the first French fries weren't cooked in France?",
     "punchline": "they were cooked in Greece"
    },
    {
-    "id": 32,
+    "id": 33,
     "type": "programming",
     "setup": "Which song would an exception sing?",
     "punchline": "Can't catch me - Avicii"
   },
   {
-    "id": 33,
+    "id": 34,
     "type": "knock-knock",
     "setup": "Knock knock. \n Who's there? \n Opportunity.",
     "punchline": "That is impossible. Opportunity doesn’t come knocking twice!"
   },
   {
-    "id": 34,
+    "id": 35,
     "type": "programming",
     "setup": "Why do Java programmers wear glasses?",
     "punchline": "Because they don't C#"
