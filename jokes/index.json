@@ -134,7 +134,7 @@
   {
     "id": 23,
     "type": "programming",
-    "setup": "Why do programmers always mix up Halloween and Christmans?",
+    "setup": "Why do programmers always mix up Halloween and Christmas?",
     "punchline": "Because Oct 31 == Dec 25"
   },
   {
@@ -208,5 +208,119 @@
     "type": "programming",
     "setup": "Why do Java programmers wear glasses?",
     "punchline": "Because they don't C#"
-  }
+  },
+    {
+     "id": 36,
+     "type": "general",
+     "setup": "Why did the mushroom get invited to the party?",
+     "punchline": "Because he was a fungi."
+    },
+    {
+     "id": 37,
+     "type": "general",
+     "setup": "Why did the mushroom get invited to the party?",
+     "punchline": "Because he was a fungi."
+    },
+    {
+     "id": 38,
+     "type": "general",
+     "setup": "I'm reading a book about anti-gravity...",
+     "punchline": "It's impossible to put down"
+    },
+    {
+     "id": 39,
+     "type": "general",
+     "setup": "If you're American when you go into the bathroom, and American when you come out, what are you when you're in there?",
+     "punchline": "European"
+    },
+    {
+     "id": 40,
+     "type": "general",
+     "setup": "Want to hear a joke about a peice of paper?",
+     "punchline": "Never mind...it's tearable"
+    },
+    {
+     "id": 41,
+     "type": "general",
+     "setup": "I just watched a documentary about beavers.",
+     "punchline": "It was the best dam show I ever saw"
+    },
+    {
+     "id": 42,
+     "type": "general",
+     "setup": "If you see a robbery at an Apple Store...",
+     "punchline": "Does that make you an iWitness?"
+    },
+    {
+     "id": 43,
+     "type": "general",
+     "setup": "A ham sandwhich walks into a bar and orders a beer. The bartender says...",
+     "punchline": "I'm sorry, we don't serve food here"
+    },
+    {
+     "id": 44,
+     "type": "general",
+     "setup": "Why did the Clydesdale give the pony a glass of water?",
+     "punchline": "Because he was a little horse"
+    },
+    {
+     "id": 45,
+     "type": "general",
+     "setup": "If you boil a clown...",
+     "punchline": "Do you get a laughing stock?"
+    },
+    {
+     "id": 46,
+     "type": "general",
+     "setup": "Finally realized why my plant sits around doing nothing all day...",
+     "punchline": "He loves his pot."
+    },
+    {
+     "id": 47,
+     "type": "general",
+     "setup": "Don't look at the eclipse through a colander.",
+     "punchline": "You'll strain your eyes."
+    },
+    {
+     "id": 48,
+     "type": "general",
+     "setup": "I bought some shoes from a drug dealer.",
+     "punchline": "I don't know what he laced them with, but I was tripping all day!"
+    },
+    {
+     "id": 49,
+     "type": "general",
+     "setup": "Why do chicken coops only have two doors?",
+     "punchline": "Because if they had four, they would be chicken sedans"
+    },
+    {
+     "id": 50,
+     "type": "general",
+     "setup": "What do you call a factory that sells passable products?",
+     "punchline": "A satisfactory"
+    },
+    {
+     "id": 51,
+     "type": "general",
+     "setup": "When a dad drives past a graveyard: Did you know that's a popular cemetery?",
+     "punchline": "Yep, people are just dying to get in there"
+    },
+    {
+     "id": 52,
+     "type": "general",
+     "setup": "Why did the invisible man turn down the job offer?",
+     "punchline": "He couldn't see himself doing it"
+    },
+    {
+     "id": 53,
+     "type": "general",
+     "setup": "How do you make holy water?",
+     "punchline": "You boil the hell out of it"
+    },
+    {
+     "id": 54,
+     "type": "general",
+     "setup": "I had a dream that I was a muffler last night.",
+     "punchline": "I woke up exhausted!"
+    }
 ]
