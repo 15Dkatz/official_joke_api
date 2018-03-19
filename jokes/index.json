@@ -201,12 +201,24 @@
     "id": 33,
     "type": "knock-knock",
     "setup": "Knock knock. \n Who's there? \n Opportunity.",
-    "punchline": "That is impossible. Opportunity doesn’t come knocking twice!"
+    "punchline": "That is impossible. Opportunity doesnâ€™t come knocking twice!"
   },
   {
     "id": 34,
     "type": "programming",
     "setup": "Why do Java programmers wear glasses?",
     "punchline": "Because they don't C#"
+  },
+    {
+    "id": 35,
+    "type": "character",
+    "setup": "Why does peter pan always flying?",
+    "punchline": "Because he neverlands"
+  },
+  {
+    "id": 36,
+    "type": "programming",
+    "setup": "How do you check if a webpage is HTML5?",
+    "punchline": "Try it out on Internet Explorer"
   }
 ]
