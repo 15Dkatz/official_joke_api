@@ -15,7 +15,7 @@
 How did the jokes get collected?
 
 I have some pretty funny friends. And of course, I did a lot of googling.
-
+Many of them are also open-source contributed!
 
 ### Got a good joke?
 
