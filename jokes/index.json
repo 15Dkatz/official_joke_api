@@ -334,5 +334,11 @@
   "type": "programming",
   "setup": "How do you check if a webpage is HTML5?",
   "punchline": "Try it out on Internet Explorer"
-  }
+  },
+  {
+    "id": 57,
+    "type": "general",
+    "setup": "What do you call a cow with no legs?",
+    "punchline": "Ground beef!"
+    }
 ]
