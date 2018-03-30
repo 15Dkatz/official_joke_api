@@ -1,0 +1,21 @@
+{
+  "name": "official_joke_api",
+  "version": "1.0.0",
+  "description": "### Grab a random joke!",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "./deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/15Dkatz/official_joke_api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/15Dkatz/official_joke_api/issues"
+  },
+  "homepage": "https://github.com/15Dkatz/official_joke_api#readme"
+}
