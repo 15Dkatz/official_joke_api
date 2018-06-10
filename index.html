@@ -5,6 +5,7 @@
    <body>
     <form method="POST" action="https://api.staticman.net/v2/entry/astider/thai_joke_api/master/comments">
       <input name="options[redirect]" type="hidden" value="https://github.com/astider/thai_joke_api">
+      <input name="options[slug]" type="hidden" value="{{ page.slug }}">
       <label><input name="fields[category]" type="text">ประเภทของมุก (เช่น ทั่วไป, geek)</label>
       <label><input name="fields[setup]" type="text">เกริ่นนำ (โคอะไรใหญ่มาก)</label>
       <label><input name="fields[punchline]" type="text">ยิงมุก (โคลัมเบีย!)</label>
