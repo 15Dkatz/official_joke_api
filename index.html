@@ -3,13 +3,19 @@
     <title>Thai Joke API - Add New Joke</title>
    </head>
    <body>
+     <br>
     <form method="POST" action="https://api.staticman.net/v2/entry/astider/thai_joke_api/master/comments">
       <input name="options[redirect]" type="hidden" value="https://github.com/astider/thai_joke_api">
       <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+      <br>
       <label><input name="fields[category]" type="text">ประเภทของมุก (เช่น ทั่วไป, geek)</label>
+      <br>
       <label><input name="fields[setup]" type="text">เกริ่นนำ (โคอะไรใหญ่มาก)</label>
+      <br>
       <label><input name="fields[punchline]" type="text">ยิงมุก (โคลัมเบีย!)</label>
+      <br>
       <label><textarea name="fields[credit]"></textarea>ชื่อในวงการของคุณ</label>
+      <br>
       <button type="submit">เพิ่มมุกควายๆ</button>
     </form>
    </body>
