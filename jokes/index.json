@@ -340,5 +340,11 @@
     "type": "general",
     "setup": "What do you call a cow with no legs?",
     "punchline": "Ground beef!"
+  },
+  {
+    "id": 59,
+    "type": "programming",
+    "setup": "Lady: How do I spread love in this cruel world?",
+    "punchline": "Random Dude: [...💘]"
     }
 ]
