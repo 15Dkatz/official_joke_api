@@ -342,9 +342,15 @@
     "punchline": "Ground beef!"
   },
   {
+    "id": 58,
+    "type": "general",
+    "setup": "I dropped a pear in my car this morning.",
+    "punchline": "You should drop another one, then you would have a pair."
+  },
+  {
     "id": 59,
     "type": "programming",
     "setup": "Lady: How do I spread love in this cruel world?",
     "punchline": "Random Dude: [...💘]"
-    }
+  }
 ]
