@@ -352,5 +352,11 @@
     "type": "programming",
     "setup": "Lady: How do I spread love in this cruel world?",
     "punchline": "Random Dude: [...💘]"
+  },
+  {
+    "id": 60,
+    "type": "programming",
+    "setup": "A user interface is like a joke.",
+    "punchline": "If you have to explain it then it is not that good."
   }
 ]
