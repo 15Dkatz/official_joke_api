@@ -343,8 +343,20 @@
   },
   {
     "id": 58,
+    "type": "general",
+    "setup": "I dropped a pear in my car this morning.",
+    "punchline": "You should drop another one, then you would have a pair."
+  },
+  {
+    "id": 59,
     "type": "programming",
-    "setup": "An User Interface is like a Joke.",
-    "punchline": "If you have to explain it then it is not that Good."
+    "setup": "Lady: How do I spread love in this cruel world?",
+    "punchline": "Random Dude: [...💘]"
+  },
+  {
+    "id": 60,
+    "type": "programming",
+    "setup": "A user interface is like a joke.",
+    "punchline": "If you have to explain it then it is not that good."
   }
 ]
