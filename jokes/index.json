@@ -2,8 +2,8 @@
   {
     "id": 1,
     "type": "general",
-    "setup": "What did the fish say when it hit the wall?",
-    "punchline": "Damn."
+    "setup": "setup",
+    "punchline": "puchline."
   },
   {
     "id": 2,
