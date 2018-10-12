@@ -346,5 +346,23 @@
     "type": "general",
     "setup": "I dropped a pear in my car this morning.",
     "punchline": "You should drop another one, then you would have a pair."
-    }
+  },
+  {
+    "id": 59,
+    "type": "programming",
+    "setup": "I was gonna tell you a joke about UDP...",
+    "punchline": "...but you might not get it."
+  },
+  {
+    "id": 60,
+    "type": "programming",
+    "setup": "The punchline often arrives before the set-up.",
+    "punchline": "Do you know the problem with UDP jokes?"
+  },
+  {
+    "id": 61,
+    "type": "programming",
+    "setup": "Why do C# and Java developers keep breaking their keyboards?",
+    "punchline": "Because they use a strongly typed language."
+  }
 ]
