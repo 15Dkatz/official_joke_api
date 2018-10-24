@@ -376,5 +376,47 @@
     "type": "general",
     "setup": "Why did the butcher work extra hours at the shop?",
     "punchline": "To make ends meat."
+  },
+  {
+    "id": 64,
+    "type": "general",
+    "setup": "WI Couldn't Get A Reservation At The Library...",
+    "punchline": "They were fully booked.”"
+  },
+  {
+    "id": 65,
+    "type": "general",
+    "setup": "Well...",
+    "punchline": "That’s a deep subject."
+  },
+  {
+    "id": 66,
+    "type": "general",
+    "setup": "Did You Hear The Story About The Cheese That Saved The World?",
+    "punchline": "It was legend dairy."
+  },
+  {
+    "id": 67,
+    "type": "general",
+    "setup": "Did You Watch The New Comic Book Movie?",
+    "punchline": "It was very graphic!"
+  },
+  {
+    "id": 68,
+    "type": "general",
+    "setup": "I Started A New Business Making Yachts In My Attic This Year...",
+    "punchline": "The sails are going through the roof."
+  },
+  {
+    "id": 69,
+    "type": "general",
+    "setup": "I Got Hit In the Head By A Soda Can, But It Didn't Hurt That Much...",
+    "punchline": "It was a soft drink."
+  },
+  {
+    "id": 70,
+    "type": "general",
+    "setup": "I Can't Tell If I Like This Blender...",
+    "punchline": "It keeps giving me mixed results."
   }
 ]
