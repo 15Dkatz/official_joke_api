@@ -376,5 +376,11 @@
     "type": "general",
     "setup": "Why did the butcher work extra hours at the shop?",
     "punchline": "To make ends meat."
+  },
+  {
+    "id": 64,
+    "type": "general",
+    "setup": "Did you hear about the hungry clock?,
+    "punchline": "It went back four seconds.
   }
 ]
