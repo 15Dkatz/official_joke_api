@@ -2,20 +2,19 @@
 
 ### Grab a random joke!
 
-[https://08ad1pao69.execute-api.us-east-1.amazonaws.com/dev/random_joke](https://08ad1pao69.execute-api.us-east-1.amazonaws.com/dev/random_joke)
+[https://safe-falls-22549.herokuapp.com/random_joke](https://safe-falls-22549.herokuapp.com/random_joke)
 
 ### Grab ten random jokes!
 
-[https://08ad1pao69.execute-api.us-east-1.amazonaws.com/dev/random_ten](https://08ad1pao69.execute-api.us-east-1.amazonaws.com/dev/random_ten)
+[https://safe-falls-22549.herokuapp.com/random_ten](https://safe-falls-22549.herokuapp.com/random_ten)
 
 
+## How these jokes were collected
 
-## How I collected these jokes
+Full disclosure: I did a lot of googling...
+But since this repo went open source, many of them were contributed by joke-loving coders around the world!
 
-How did the jokes get collected?
-
-I have some pretty funny friends. And of course, I did a lot of googling.
-Many of them are also open-source contributed!
+Make a contribution!
 
 ### Got a good joke?
 
