@@ -358,5 +358,29 @@
     "type": "programming",
     "setup": "A user interface is like a joke.",
     "punchline": "If you have to explain it then it is not that good."
+  },
+  {
+    "id": 61,
+    "type": "knock-knock",
+    "setup":"Knock knock. \n Who's there? \n Hatch. \n Hatch who?",
+    "punchline": "Bless you!"
+  },
+  {
+    "id": 62,
+    "type": "general",
+    "setup": "What do you call sad coffee?",
+    "punchline": "Despresso."
+  },
+  {
+    "id": 63,
+    "type": "general",
+    "setup": "Why did the butcher work extra hours at the shop?",
+    "punchline": "To make ends meat."
+  },
+  {
+    "id": 64,
+    "type": "general",
+    "setup": "Did you hear about the hungry clock?",
+    "punchline": "It went back four seconds."
   }
 ]
