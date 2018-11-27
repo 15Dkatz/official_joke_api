@@ -380,8 +380,8 @@
   {
     "id": 64,
     "type": "general",
-    "setup": "WI Couldn't Get A Reservation At The Library...",
-    "punchline": "They were fully booked.”"
+    "setup": "Did you hear about the hungry clock?",
+    "punchline": "It went back four seconds."
   },
   {
     "id": 65,
@@ -418,5 +418,11 @@
     "type": "general",
     "setup": "I Can't Tell If I Like This Blender...",
     "punchline": "It keeps giving me mixed results."
+  },
+  {
+    "id": 71,
+    "type": "general",
+    "setup": "WI Couldn't Get A Reservation At The Library...",
+    "punchline": "They were fully booked."
   }
 ]
