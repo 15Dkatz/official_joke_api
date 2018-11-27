@@ -2,10 +2,10 @@
   "name": "official_joke_api",
   "version": "1.0.0",
   "description": "### Grab a random joke!",
-  "main": "handler.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "./deploy.sh"
+    "start": "node ./",
+    "deploy": "git push heroku master"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/15Dkatz/official_joke_api/issues"
   },
-  "homepage": "https://github.com/15Dkatz/official_joke_api#readme"
+  "homepage": "https://github.com/15Dkatz/official_joke_api#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
