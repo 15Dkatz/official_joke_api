@@ -4,8 +4,9 @@
   "description": "### Grab a random joke!",
   "main": "index.js",
   "scripts": {
+    "test": "node ./test.js",
     "start": "node ./",
-    "deploy": "git push heroku master"
+    "deploy": "git pull && git push heroku master"
   },
   "repository": {
     "type": "git",
