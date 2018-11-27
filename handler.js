@@ -1,63 +1,26 @@
 'use strict';
 
-
 var jokes = require('./jokes/index.json');
 
-module.exports.hello = (event, context, callback) => {
-  const response = {
-    statusCode: 200,
-    headers: {
-      "Access-Control-Allow-Origin" : "*"
-    },
-    body: JSON.stringify({hello: 'Hello, world'}),
-  };
-
-  callback(null, response);
-};
-
-
-
-
-module.exports.random_ten = (event, context, callback) => {
-  var r_indices = [];
+const random_ten = () => {
+  const r_indices = [];
   while (r_indices.length < 10) {
-    var random_index = Math.floor(Math.random() * jokes.length);
+    const random_index = Math.floor(Math.random() * jokes.length);
     if (!r_indices.indexOf(random_index) > -1) {
       r_indices.push(random_index);
     }
   }
-  var r_jokes = [];
-  for (var i=0; i<r_indices.length; i++) {
-    var r_index = r_indices[i];
+  const r_jokes = [];
+  for (let i=0; i<r_indices.length; i++) {
+    const r_index = r_indices[i];
     r_jokes.push(jokes[r_index]);
   }
 
-  const response = {
-    statusCode: 200,
-    headers: {
-      "Access-Control-Allow-Origin" : "*"
-    },
-    body: JSON.stringify(r_jokes)
-  }
+  return r_jokes;
+};
 
-  callback(null, response);
+const random_joke = () => {
+  return jokes[Math.floor(Math.random() * jokes.length)];
 }
 
-module.exports.random_joke = (event, context, callback) => {
-  var random_index = Math.floor(Math.random() * jokes.length);
-  var r_joke = jokes[random_index];
-  const response = {
-    statusCode: 200,
-    headers: {
-      "Access-Control-Allow-Origin" : "*"
-    },
-    body: JSON.stringify(r_joke)
-  }
-  callback(null, response);
-}
-
-// app.get('/random_joke', function(req, res) {
-//   var random_index = Math.floor(Math.random() * jokes.length);
-//   var r_joke = jokes[random_index];
-//   res.json(r_joke);
-// })
+module.exports = { random_ten, random_joke };
