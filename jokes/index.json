@@ -442,5 +442,11 @@
     "type": "programming",
     "setup": "Why do C# and Java developers keep breaking their keyboards?",
     "punchline": "Because they use a strongly typed language."
+  },
+  {
+    "id": 75,
+    "type": "general",
+    "setup": "What do you give to a lemon in need?",
+    "punchline": "Lemonaid."
   }
 ]
