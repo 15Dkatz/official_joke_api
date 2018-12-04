@@ -1,6 +1,4 @@
-'use strict';
-
-var jokes = require('./jokes/index.json');
+const jokes = require('./jokes/index.json');
 
 const random_ten = () => {
   const r_indices = [];
