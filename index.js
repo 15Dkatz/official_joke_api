@@ -3,6 +3,11 @@ const { random_joke, random_ten } = require('./handler');
 
 const app = express();
 
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  next();
+});
+
 app.get('/random_joke', (req, res) => {
   res.json(random_joke());
 });
