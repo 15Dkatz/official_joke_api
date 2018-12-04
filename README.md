@@ -23,3 +23,8 @@ Submit a Pull Request, with your joke added to the jokes/index.json file. Make s
   "punchline": "your joke's punchline"
 }
 ```
+
+### Run Locally
+* Clone the repo
+* `npm install && npm start`
+* Visit `localhost:3000/random_joke` or `localhost:3000/random_ten` on your browser!
