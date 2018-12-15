@@ -1,10 +1,10 @@
 ## Endpoints:
 
 ### Grab a random joke!
-[https://safe-falls-22549.herokuapp.com/random_joke](https://safe-falls-22549.herokuapp.com/random_joke)
+[https://official-joke-api.herokuapp.com/random_joke](https://official-joke-api.herokuapp.com/random_joke)
 
 ### Grab ten random jokes!
-[https://safe-falls-22549.herokuapp.com/random_ten](https://safe-falls-22549.herokuapp.com/random_ten)
+[https://official-joke-api.herokuapp.com/random_ten](https://official-joke-api.herokuapp.com/random_ten)
 
 ## How these jokes were collected
 
