@@ -1,3 +1,8 @@
+### Announcement:
+
+Due to high usage, the heroku limits have been exceeded! I'll work on getting the API up again as soon as possible, while also implementing rate limiting, so that the service is usable by all.
+Thank you!
+
 ## Endpoints:
 
 ### Grab a random joke!
