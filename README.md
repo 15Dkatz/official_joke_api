@@ -8,10 +8,10 @@ I've created a new heroku instance in the meantime. But I plan to create a more 
 ## Endpoints:
 
 ### Grab a random joke!
-[https://official-joke-api-2.herokuapp.com/random_joke](https://official-joke-api-2.herokuapp.com/random_joke)
+[https://official-joke-api.herokuapp.com/random_joke](https://official-joke-api.herokuapp.com/random_joke)
 
 ### Grab ten random jokes!
-[https://official-joke-api-2.herokuapp.com/random_ten](https://official-joke-api-2.herokuapp.com/random_ten)
+[https://official-joke-api.herokuapp.com/random_ten](https://official-joke-api.herokuapp.com/random_ten)
 
 ## How these jokes were collected
 
