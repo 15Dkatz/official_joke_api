@@ -6,6 +6,7 @@
   "scripts": {
     "test": "node ./test.js",
     "start": "node ./",
+    "dev": "nodemon ./",
     "deploy": "git pull && git push heroku master"
   },
   "repository": {
@@ -21,5 +22,8 @@
   "homepage": "https://github.com/15Dkatz/official_joke_api#readme",
   "dependencies": {
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
   }
 }
