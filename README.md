@@ -1,17 +1,14 @@
-### Announcement:
+### Announcement
 
-Due to high usage, the heroku limits have been exceeded! I'll work on getting the API up again as soon as possible, while also implementing rate limiting, so that the service is usable by all.
-Thank you!
-
-I've created a new heroku instance in the meantime. But I plan to create a more long-term solution with rate limiting on AWS. Stay tuned!
+This API has migrated to the Google Cloud Platform!
 
 ## Endpoints:
 
 ### Grab a random joke!
-[https://official-joke-api.herokuapp.com/random_joke](https://official-joke-api.herokuapp.com/random_joke)
+[https://official-joke-api.appspot.com/random_joke](https://official-joke-api.appspot.com/random_joke)
 
 ### Grab ten random jokes!
-[https://official-joke-api.herokuapp.com/random_ten](https://official-joke-api.herokuapp.com/random_ten)
+[https://official-joke-api.appspot.com/random_ten](https://official-joke-api.appspot.com/random_ten)
 
 ## How these jokes were collected
 
