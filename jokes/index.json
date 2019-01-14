@@ -448,5 +448,23 @@
     "type": "general",
     "setup": "What do you give to a lemon in need?",
     "punchline": "Lemonaid."
+  },
+  {
+    "id": 76,
+    "type": "general",
+    "setup": "A blind man walks into a bar",
+    "punchline": "And a table. And a chair."
+  },
+  {
+    "id": 77,
+    "type": "programming",
+    "setup": "The best thing about a Boolean is that even if you are wrong,",
+    "punchline": "you are only off by a bit."
+  },
+  {
+    "id": 78,
+    "type": "programming",
+    "setup": "What did the router say to the doctor?",
+    "punchline": "It hurts when IP"
   }
 ]

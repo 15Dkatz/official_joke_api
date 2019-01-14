@@ -29,7 +29,7 @@ Submit a Pull Request, with your joke added to the jokes/index.json file. Make s
 
 ```javascript
 {
-  "id": "<last joke id + 1>",
+  "id": <last joke id + 1>,
   "type": "your joke's type",
   "setup": "your joke's setup line",
   "punchline": "your joke's punchline"
