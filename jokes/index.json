@@ -466,5 +466,11 @@
     "type": "programming",
     "setup": "What did the router say to the doctor?",
     "punchline": "It hurts when IP"
+  },
+  {
+    "id": 79,
+    "type": "general",
+    "setup": "A cell phone wearing glasses",
+    "punchline": "Because it lost its CONTACTS"
   }
 ]
