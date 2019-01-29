@@ -8,13 +8,13 @@ const limitingMiddleware = new LimitingMiddleware();
 
 app.use(limitingMiddleware.limitByIp());
 
-app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', '*');
-  next();
-});
+// app.use((req, res, next) => {
+//   res.header('Access-Control-Allow-Origin', '*');
+//   next();
+// });
 
 app.get('/', (req, res) => {
-  res.send('Try /random_joke or /random_ten');
+  res.send('Try /random_joke, /random_ten, /jokes/random, or /jokes/ten');
 });
 
 app.get('/ping', (req, res) => {
@@ -26,6 +26,14 @@ app.get('/random_joke', (req, res) => {
 });
 
 app.get('/random_ten', (req, res) => {
+  res.json(randomTen());
+});
+
+app.get('/jokes/random', (req, res) => {
+  res.json(randomJoke());
+});
+
+app.get('/jokes/ten', (req, res) => {
   res.json(randomTen());
 });
 
