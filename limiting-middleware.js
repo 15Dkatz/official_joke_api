@@ -1,10 +1,12 @@
 const DEFAULT_LIMIT = 100;
-const HOUR = 1000 * 60 * 60;
+const MINUTES = 1000 * 60;
+const HOUR = MINUTES * 60;
 const DEFAULT_INTERVAL = 1 * HOUR;
 
 class LimitingMiddleware {
   constructor({ limit } = {}) {
     this.ipHitsMap = {};
+    this.rate = MINUTES * 15;
     this.limit = limit || DEFAULT_LIMIT;
     this.resetInterval = DEFAULT_INTERVAL;
     this.startResetInterval();
@@ -21,9 +23,9 @@ class LimitingMiddleware {
       }
 
       if (this.ipHitsMap[ip] > DEFAULT_LIMIT) {
-        const rate = this.resetInterval/HOUR;
+        this.rate = this.resetInterval/HOUR;
         const error = new Error(
-          `Your ip has exceeded the ${DEFAULT_LIMIT} request limit per ${rate} hour(s). Try again in in ${rate} hour(s)`
+          `Your ip has exceeded the ${DEFAULT_LIMIT} request limit per ${this.rate} minute(s). Try again in in ${this.rate} minute(s)`
         );
 
         error.statusCode = 429;
