@@ -7,8 +7,16 @@ This API has migrated to the Google Cloud Platform!
 ### Grab a random joke!
 [https://official-joke-api.appspot.com/random_joke](https://official-joke-api.appspot.com/random_joke)
 
+or
+
+[https://official-joke-api.appspot.com/jokes/random](https://official-joke-api.appspot.com/jokes/random)
+
 ### Grab ten random jokes!
 [https://official-joke-api.appspot.com/random_ten](https://official-joke-api.appspot.com/random_ten)
+
+or
+
+[https://official-joke-api.appspot.com/jokes/ten](https://official-joke-api.appspot.com/jokes/ten)
 
 ## How these jokes were collected
 
