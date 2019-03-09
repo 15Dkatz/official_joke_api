@@ -1,6 +1,6 @@
 const DEFAULT_LIMIT = 100;
 const MINUTES = 1000 * 60;
-const HOUR = MINUTES * 60;
+const HOURS = MINUTES * 60;
 const DEFAULT_INTERVAL = MINUTES * 15;
 
 class LimitingMiddleware {
@@ -13,7 +13,13 @@ class LimitingMiddleware {
 
   limitByIp() {
     return (req, res, next) => {
-      const ip = String(req.headers['x-real-ip'] || req.connection.remoteAddress);
+      const ip = String(
+        req.headers['x-real-ip'] ||
+        req.connection.remoteAddress ||
+        ''
+      ).split(',')[0].trim();
+
+      console.log('ip');
 
       if (!this.ipHitsMap[ip]) {
         this.ipHitsMap[ip] = 1;
