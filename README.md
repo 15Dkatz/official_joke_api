@@ -1,6 +1,4 @@
-### Announcement
-
-This API has migrated to the Google Cloud Platform!
+# Official Joke API
 
 ## Endpoints:
 
