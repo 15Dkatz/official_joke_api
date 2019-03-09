@@ -1,9 +1,20 @@
+/**
+ * Express middleware to enforce limits based on IP. So far, the usage is within my own internal projects.
+ * If there is interest, I can improve the usage with the following features:
+ *  - Better instantiation (pass in limits through a time-based DSL)
+ *  - Improved logging
+ *  - And more
+ */
+
+/**
+ * const LimitingMiddleware = require('./limiting-middleware');
+ * app.use(new LimitingMiddleware().limitByIp());
+ */
+
 const DEFAULT_LIMIT = 100;
 const MINUTES = 1000 * 60;
 const HOURS = MINUTES * 60;
 const DEFAULT_INTERVAL = MINUTES * 15;
-
-// TODO: Turn this into a module so I don't have to copy and paste it everywhere
 
 class LimitingMiddleware {
   constructor({ limit } = {}) {
@@ -15,20 +26,20 @@ class LimitingMiddleware {
 
   limitByIp() {
     return (req, res, next) => {
-      const uniqueRequesterId = req.headers['x-forwarded-for'] || req.connection.remoteAddress || 'unknown';
+      const requesterIp = req.headers['x-forwarded-for'] || req.connection.remoteAddress || 'unknown';
 
-      console.log('uniqueRequesterId', uniqueRequesterId);
+      console.log('requesterIp', requesterIp);
 
-      if (!this.ipHitsMap[uniqueRequesterId]) {
-        this.ipHitsMap[uniqueRequesterId] = 1;
+      if (!this.ipHitsMap[requesterIp]) {
+        this.ipHitsMap[requesterIp] = 1;
       } else {
-        this.ipHitsMap[uniqueRequesterId] = this.ipHitsMap[uniqueRequesterId] + 1;
+        this.ipHitsMap[requesterIp] = this.ipHitsMap[requesterIp] + 1;
       }
 
-      if (this.ipHitsMap[uniqueRequesterId] > DEFAULT_LIMIT) {
+      if (this.ipHitsMap[requesterIp] > this.limit) {
         const rate = this.resetInterval/MINUTES;
         const error = new Error(
-          `Your ip has exceeded the ${DEFAULT_LIMIT} request limit per ${rate} minute(s). Try again in in ${rate} minute(s)`
+          `Your ip has exceeded the ${this.limit} request limit per ${rate} minute(s). Try again in in ${rate} minute(s).`
         );
 
         error.statusCode = 429;
@@ -46,7 +57,7 @@ class LimitingMiddleware {
   }
 
   startResetInterval(interval = this.resetInterval) {
-    setInterval(() => this.resetIpHitsMap(), interval);
+    setInterval(this.resetIpHitsMap, interval);
   }
 }
 
