@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/15Dkatz/official_joke_api#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "limiting-middleware": "^1.2.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"
