@@ -1,6 +1,6 @@
 const express = require('express');
 const LimitingMiddleware = require('limiting-middleware');
-const { randomJoke, randomTen } = require('./handler');
+const { randomJoke, randomTen, jokeByType } = require('./handler');
 
 const app = express();
 
@@ -25,6 +25,10 @@ app.get('/random_joke', (req, res) => {
 
 app.get('/random_ten', (req, res) => {
   res.json(randomTen());
+});
+
+app.get('/jokeByType/:type', (req, res) => {
+  res.json(jokeByType(req.params.type));
 });
 
 app.get('/jokes/random', (req, res) => {
