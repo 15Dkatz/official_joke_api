@@ -27,16 +27,20 @@ app.get('/random_ten', (req, res) => {
   res.json(randomTen());
 });
 
-app.get('/jokeByType/:type', (req, res) => {
-  res.json(jokeByType(req.params.type));
-});
-
 app.get('/jokes/random', (req, res) => {
   res.json(randomJoke());
 });
 
 app.get('/jokes/ten', (req, res) => {
   res.json(randomTen());
+});
+
+app.get('/jokes/:type/random', (req, res) => {
+  res.json(jokeByType(req.params.type, 1));
+});
+
+app.get('/jokes/:type/ten', (req, res) => {
+  res.json(jokeByType(req.params.type, 10));
 });
 
 app.use((err, req, res, next) => {

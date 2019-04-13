@@ -4,33 +4,28 @@ const randomJoke = () => {
   return jokes[Math.floor(Math.random() * jokes.length)];
 }
 
-const randomTen = () => {
+/**
+ * Get N random jokes from a jokeArray
+ */
+const randomN = (jokeArray, n) => {
   const randomIndicesSet = new Set();
 
-  while (randomIndicesSet.size < 10) {
-    const randomIndex = Math.floor(Math.random() * jokes.length);
+  while (randomIndicesSet.size < n) {
+    const randomIndex = Math.floor(Math.random() * jokeArray.length);
     if (!randomIndicesSet.has(randomIndex)) {
       randomIndicesSet.add(randomIndex);
     }
   }
 
   return Array.from(randomIndicesSet).map(randomIndex => {
-    return jokes[randomIndex];
+    return jokeArray[randomIndex];
   });
 };
 
-const jokeByType = type => {
-  let typeArray = [];
-  for (let i = 0; i < jokes.length; i++) {
-    if (jokes[i].type === type) {
-      typeArray.push(jokes[i]);
-    }
-  }
-  if (typeArray.length <= 0) {
-    return jokes[Math.floor(Math.random() * jokes.length)];
-  }
+const randomTen = () => randomN(jokes, 10);
 
-  return typeArray[Math.floor(Math.random() * typeArray.length)];
+const jokeByType = (type, n) => {
+  return randomN(jokes.filter(joke => joke.type === type), n);
 };
 
 module.exports = { randomJoke, randomTen, jokeByType };
