@@ -236,7 +236,7 @@
   {
     "id": 40,
     "type": "general",
-    "setup": "Want to hear a joke about a peice of paper?",
+    "setup": "Want to hear a joke about a piece of paper?",
     "punchline": "Never mind...it's tearable"
   },
   {
@@ -349,7 +349,7 @@
   },
   {
     "id": 59,
-    "type": "programming",
+    "type": "general",
     "setup": "Lady: How do I spread love in this cruel world?",
     "punchline": "Random Dude: [...💘]"
   },
