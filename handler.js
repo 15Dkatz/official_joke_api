@@ -19,4 +19,18 @@ const randomTen = () => {
   });
 };
 
-module.exports = { randomJoke, randomTen };
+const jokeByType = type => {
+  let typeArray = [];
+  for (let i = 0; i < jokes.length; i++) {
+    if (jokes[i].type === type) {
+      typeArray.push(jokes[i]);
+    }
+  }
+  if (typeArray.length <= 0) {
+    return jokes[Math.floor(Math.random() * jokes.length)];
+  }
+
+  return typeArray[Math.floor(Math.random() * typeArray.length)];
+};
+
+module.exports = { randomJoke, randomTen, jokeByType };
