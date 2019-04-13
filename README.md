@@ -5,21 +5,29 @@
 ### Grab a random joke!
 [https://official-joke-api.appspot.com/random_joke](https://official-joke-api.appspot.com/random_joke)
 
-or
 
 [https://official-joke-api.appspot.com/jokes/random](https://official-joke-api.appspot.com/jokes/random)
 
 ### Grab ten random jokes!
 [https://official-joke-api.appspot.com/random_ten](https://official-joke-api.appspot.com/random_ten)
 
-or
+
 
 [https://official-joke-api.appspot.com/jokes/ten](https://official-joke-api.appspot.com/jokes/ten)
 
+### Grab jokes by type!
+
+The endpoints are `jokes/:type/random` or `jokes/:type/ten`. For example:
+
+[https://official-joke-api.appspot.com/jokes/programming/random](https://official-joke-api.appspot.com/jokes/programming/random)
+
+[https://official-joke-api.appspot.com/jokes/programming/ten](https://official-joke-api.appspot.com/jokes/programming/ten)
+
+***
+
 ## How these jokes were collected
 
-Full disclosure: I did a lot of googling...
-But since this repo went open source, many of them were contributed by joke-loving coders around the world!
+The majority of these jokes were contributed by joke-loving coders around the world!
 
 ### Make a contribution!
 
@@ -27,14 +35,16 @@ Submit a Pull Request, with your joke added to the jokes/index.json file. Make s
 
 ```javascript
 {
-  "id": "<last joke id + 1>",
-  "type": "your joke's type",
-  "setup": "your joke's setup line",
-  "punchline": "your joke's punchline"
+  "id": last joke id + 1,
+  "type": "programming",
+  "setup": "What's the best thing about a Boolean?",
+  "punchline": "Even if you're wrong, you're only off by a bit."
 }
 ```
 
+***
+
 ### Run Locally
 * Clone the repo
-* `npm install && npm start`
-* Visit `localhost:3000/random_joke` or `localhost:3000/random_ten` on your browser!
+* `npm install && npm run dev`
+* Visit `localhost:3000/jokes/random` or `localhost:3000/jokes/ten` on your browser!
