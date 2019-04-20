@@ -8,9 +8,10 @@ const randomJoke = () => {
  * Get N random jokes from a jokeArray
  */
 const randomN = (jokeArray, n) => {
+  const limit = jokeArray.length < n ? jokeArray.length : n;
   const randomIndicesSet = new Set();
 
-  while (randomIndicesSet.size < n) {
+  while (randomIndicesSet.size < limit) {
     const randomIndex = Math.floor(Math.random() * jokeArray.length);
     if (!randomIndicesSet.has(randomIndex)) {
       randomIndicesSet.add(randomIndex);
