@@ -29,4 +29,4 @@ const jokeByType = (type, n) => {
   return randomN(jokes.filter(joke => joke.type === type), n);
 };
 
-module.exports = { randomJoke, randomTen, jokeByType };
+module.exports = { jokes, randomJoke, randomN, randomTen, jokeByType };
