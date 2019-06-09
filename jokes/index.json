@@ -392,37 +392,37 @@
   {
     "id": 66,
     "type": "general",
-    "setup": "Did You Hear The Story About The Cheese That Saved The World?",
+    "setup": "Did you hear the story about the cheese that saved the Wworld?",
     "punchline": "It was legend dairy."
   },
   {
     "id": 67,
     "type": "general",
-    "setup": "Did You Watch The New Comic Book Movie?",
+    "setup": "Did you watch the new comic book movie?",
     "punchline": "It was very graphic!"
   },
   {
     "id": 68,
     "type": "general",
-    "setup": "I Started A New Business Making Yachts In My Attic This Year...",
+    "setup": "I started a new business making yachts in my attic this year...",
     "punchline": "The sails are going through the roof."
   },
   {
     "id": 69,
     "type": "general",
-    "setup": "I Got Hit In the Head By A Soda Can, But It Didn't Hurt That Much...",
+    "setup": "I got hit in the head by a soda can, but it didn't hurt that much...",
     "punchline": "It was a soft drink."
   },
   {
     "id": 70,
     "type": "general",
-    "setup": "I Can't Tell If I Like This Blender...",
+    "setup": "I can't tell if i like this blender...",
     "punchline": "It keeps giving me mixed results."
   },
   {
     "id": 71,
     "type": "general",
-    "setup": "WI Couldn't Get A Reservation At The Library...",
+    "setup": "I couldn't get a reservation at the library...",
     "punchline": "They were fully booked."
   },
   {
@@ -1941,7 +1941,7 @@
     "id": 333,
     "type": "general",
     "setup": "Why did the Clydesdale give the pony a glass of water?",
-    "punchline": " Because he was a little horse!"
+    "punchline": "Because he was a little horse!"
   },
   {
     "id": 334,
