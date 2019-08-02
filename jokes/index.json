@@ -2200,5 +2200,10 @@
     "type": "general",
     "setup": "Why does Waldo only wear stripes?",
     "punchline": "Because he doesn't want to be spotted."
-  }
-]
+  },
+  {
+    "id": 377,
+    "type": "programming",
+    "setup": "What did the router say to the doctor?",
+    "punchline": "It hurts when IP."
+  }]
