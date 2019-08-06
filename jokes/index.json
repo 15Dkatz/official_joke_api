@@ -2200,5 +2200,11 @@
     "type": "general",
     "setup": "Why does Waldo only wear stripes?",
     "punchline": "Because he doesn't want to be spotted."
-  }
+  },
+  {	
+	"id": 377,
+	"type": "programming",
+	"setup": "How do you tell an introverted computer scientist from an extroverted computer scientist?",
+	"punchline": "An extroverted computer scientist looks at your shoes when he talks to you.”
+	}
 ]
