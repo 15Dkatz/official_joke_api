@@ -156,7 +156,7 @@
     "punchline": "the rest of them will write Perl"
   },
   {
-    "id": 27,
+    "id": 27,f
     "type": "programming",
     "setup": "['hip', 'hip']",
     "punchline": "(hip hip array)"
@@ -392,7 +392,7 @@
   {
     "id": 66,
     "type": "general",
-    "setup": "Did you hear the story about the cheese that saved the Wworld?",
+    "setup": "Did you hear the story about the cheese that saved the world?",
     "punchline": "It was legend dairy."
   },
   {
