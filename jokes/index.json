@@ -156,7 +156,7 @@
     "punchline": "the rest of them will write Perl"
   },
   {
-    "id": 27,
+    "id": 27,f
     "type": "programming",
     "setup": "['hip', 'hip']",
     "punchline": "(hip hip array)"
@@ -392,37 +392,37 @@
   {
     "id": 66,
     "type": "general",
-    "setup": "Did You Hear The Story About The Cheese That Saved The World?",
+    "setup": "Did you hear the story about the cheese that saved the world?",
     "punchline": "It was legend dairy."
   },
   {
     "id": 67,
     "type": "general",
-    "setup": "Did You Watch The New Comic Book Movie?",
+    "setup": "Did you watch the new comic book movie?",
     "punchline": "It was very graphic!"
   },
   {
     "id": 68,
     "type": "general",
-    "setup": "I Started A New Business Making Yachts In My Attic This Year...",
+    "setup": "I started a new business making yachts in my attic this year...",
     "punchline": "The sails are going through the roof."
   },
   {
     "id": 69,
     "type": "general",
-    "setup": "I Got Hit In the Head By A Soda Can, But It Didn't Hurt That Much...",
+    "setup": "I got hit in the head by a soda can, but it didn't hurt that much...",
     "punchline": "It was a soft drink."
   },
   {
     "id": 70,
     "type": "general",
-    "setup": "I Can't Tell If I Like This Blender...",
+    "setup": "I can't tell if i like this blender...",
     "punchline": "It keeps giving me mixed results."
   },
   {
     "id": 71,
     "type": "general",
-    "setup": "WI Couldn't Get A Reservation At The Library...",
+    "setup": "I couldn't get a reservation at the library...",
     "punchline": "They were fully booked."
   },
   {
@@ -1941,7 +1941,7 @@
     "id": 333,
     "type": "general",
     "setup": "Why did the Clydesdale give the pony a glass of water?",
-    "punchline": " Because he was a little horse!"
+    "punchline": "Because he was a little horse!"
   },
   {
     "id": 334,
@@ -2204,6 +2204,43 @@
   {
     "id": 377,
     "type": "programming",
+    "setup": "Documentation is like sex.",
+    "punchline": "When it's good, it's very good. When it's bad, it's better than nothing."
+  },
+  {
+    "id": 378,
+    "type": "programming",
+    "setup": "Knock-knock.",
+    "punchline": "A race condition. Who is there?"
+  },
+  {
+    "id": 379,
+    "type": "programming",
+    "setup": "What's the best part about TCP jokes?",
+    "punchline": "I get to keep telling them until you get them."
+  },
+  {
+    "id": 380,
+    "type": "programming",
+    "setup": "A programmer puts two glasses on his bedside table before going to sleep.",
+    "punchline": "A full one, in case he gets thirsty, and an empty one, in case he doesn’t."
+  },
+  {
+    "id": 381,
+    "type": "programming",
+    "setup": "There are 10 kinds of people in this world.",
+    "punchline": "Those who understand binary, those who don't, and those who weren't expecting a base 3 joke."
+  },
+  {
+    "id": 382,
+    "type": "general",
+    "setup": "Two guys walk into a bar . . .",
+    "punchline": "The first guy says \"Ouch!\" and the second says \"Yeah, I didn't see it either.\""
+  },
+  {
+    "id": 383,
+    "type": "programming",
     "setup": "What did the router say to the doctor?",
     "punchline": "It hurts when IP."
-  }]
+  }
+]
