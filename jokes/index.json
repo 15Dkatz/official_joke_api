@@ -2236,5 +2236,23 @@
     "type": "programming",
     "setup": "What did the router say to the doctor?",
     "punchline": "It hurts when IP."
+  },
+  {
+    "id": 383,
+    "type": "programming",
+    "setup": "An IPv6 packet is walking out of the house.",
+    "punchline": "He goes nowhere."
+  },
+  {
+    "id": 384,
+    "type": "programming",
+    "setup": "A DHCP packet walks into a bar and asks for a beer.",
+    "punchline": "Bartender says, \"here, but I’ll need that back in an hour!\""
+  },
+  {
+    "id": 385,
+    "type": "programming",
+    "setup": "3 Database SQL walked into a NoSQL bar. A little while later they walkout",
+    "punchline": "Because they could not find a table."
   }
 ]
