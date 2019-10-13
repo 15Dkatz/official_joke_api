@@ -2236,5 +2236,11 @@
     "type": "programming",
     "setup": "What did the router say to the doctor?",
     "punchline": "It hurts when IP."
+  },
+  {
+    "id": 383,
+    "type": "programming",
+    "setup": "Me: Trying to explain my friend what programming is.",
+    "punchline": "Friend: Can you hack someones instagram account? Me: Hmmmmmmmmm"
   }
 ]
