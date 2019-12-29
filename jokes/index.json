@@ -2252,13 +2252,19 @@
   {
     "id": 385,
     "type": "programming",
-    "setup": "3 Database SQL walked into a NoSQL bar. A little while later they walkout",
-    "punchline": "Because they could not find a table."
+    "setup": "3 SQL statements walk into a NoSQL bar. Soon, they walk out",
+    "punchline": "They couldn't find a table."
   },
   {
-    "id": 383,
+    "id": 386,
     "type": "general",
     "setup": "I saw a nice stereo on Craigslist for $1. Seller says the volume is stuck on ‘high’",
     "punchline": "I couldn’t turn it down."
+  },
+  {
+    "id": 387,
+    "type": "general",
+    "setup": "My older brother always tore the last pages of my comic books, and never told me why.",
+    "punchline": "I had to draw my own conclusions."
   }
 ]
