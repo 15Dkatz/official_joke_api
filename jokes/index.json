@@ -2254,5 +2254,11 @@
     "type": "programming",
     "setup": "3 Database SQL walked into a NoSQL bar. A little while later they walkout",
     "punchline": "Because they could not find a table."
+  },
+  {
+    "id": 383,
+    "type": "general",
+    "setup": "I saw a nice stereo on Craigslist for $1. Seller says the volume is stuck on ‘high’",
+    "punchline": "I couldn’t turn it down."
   }
 ]
