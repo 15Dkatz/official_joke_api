@@ -48,3 +48,8 @@ Submit a Pull Request, with your joke added to the jokes/index.json file. Make s
 * Clone the repo
 * `npm i && npm run dev`
 * Visit `localhost:3005/jokes/random` or `localhost:3005/jokes/ten` on your browser!
+
+### Run on Google Cloud Run
+
+[![Run on Google
+Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run/?git_repo=https://github.com/15Dkatz/official_joke_api.git)
