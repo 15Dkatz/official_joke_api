@@ -2266,5 +2266,17 @@
     "type": "general",
     "setup": "My older brother always tore the last pages of my comic books, and never told me why.",
     "punchline": "I had to draw my own conclusions."
+  },
+  {
+    "id": 388,
+    "type": "general",
+    "setup": "Why was Cinderalla thrown out of the football team?",
+    "punchline": "Because she ran away from the ball."
+  },
+  {
+    "id": 389,
+    "type": "general",
+    "setup": "What kind of music do welders like?",
+    "punchline": "Heavy metal."
   }
 ]
