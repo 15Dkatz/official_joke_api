@@ -2267,7 +2267,7 @@
     "setup": "My older brother always tore the last pages of my comic books, and never told me why.",
     "punchline": "I had to draw my own conclusions."
   },
-    }
+  {
   "id": 388,
   "type": "general",
   "setup": "3 logicians walk into a bar. The bartender asks: Do all of you want a drink? The first logician says \"I don't know\". The second logician says \"I don't know\" the third logician says \"Yes!\"",
@@ -2295,7 +2295,7 @@
   "id": 392,
   "type": "general",
       "setup": "Artificial intelligence usually beats real stupidity.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 393,
@@ -2331,7 +2331,7 @@
   "id": 398,
   "type": "general",
       "setup": "The box said ‘Requires Windows Vista or better’. So I installed LINUX.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 399,
@@ -2451,7 +2451,7 @@
   "id": 418,
   "type": "general",
       "setup": "Programming today is a race between software engineers striving to build bigger and better idiot-proof programs and the Universe trying to produce bigger and better idiots. So far the Universe is winning.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 419,
@@ -2535,7 +2535,7 @@
   "id": 432,
   "type": "general",
       "setup": "Black holes are where God divided by zero.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 433,
@@ -2571,7 +2571,7 @@
   "id": 438,
   "type": "general",
       "setup": "Hacking is like sex. You get in... you get out... and hope that you didn’t leave something that can be traced back to you.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 439,
@@ -2625,7 +2625,7 @@
   "id": 447,
   "type": "general",
       "setup": "I don't see women as objects. I consider each to be in a class of her own.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 448,
@@ -2655,7 +2655,7 @@
   "id": 452,
   "type": "chuck_norris",
       "setup": "Chuck Norris lost his virginity before his dad did.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 453,
@@ -2679,7 +2679,7 @@
   "id": 456,
   "type": "chuck_norris",
       "setup": "There are no steroids in baseball. Just players Chuck Norris has breathed on.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 457,
@@ -2799,7 +2799,7 @@
   "id": 476,
   "type": "chuck_norris",
       "setup": "Chuck Norris originally appeared in the \"Street Fighter II\" video game, but was removed by Beta Testers because every button caused him to do a roundhouse kick. When asked about this glitch, Norris replied \"That's no glitch.\"",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 477,
@@ -2811,7 +2811,7 @@
   "id": 478,
   "type": "chuck_norris",
       "setup": "Someone once videotaped Chuck Norris getting pissed off. It was called Walker: Texas Chain Saw Masacre.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 479,
@@ -2841,7 +2841,7 @@
   "id": 483,
   "type": "chuck_norris",
       "setup": "Police label anyone attacking Chuck Norris as a Code 45-11.... A suicide.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 484,
@@ -3033,13 +3033,13 @@
   "id": 515,
   "type": "chuck_norris",
       "setup": "Chuck Norris can divide by zero.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 516,
   "type": "chuck_norris",
       "setup": "The grass is always greener on the other side, unless Chuck Norris has been there. In that case the grass is most likely soaked in blood and tears.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 517,
@@ -3057,7 +3057,7 @@
   "id": 519,
   "type": "chuck_norris",
       "setup": "When an episode of Walker Texas Ranger was aired in France, the French surrendered to Chuck Norris just to be on the safe side.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 520,
@@ -3075,7 +3075,7 @@
   "id": 522,
   "type": "chuck_norris",
       "setup": "When Steven Seagal kills a ninja, he only takes its hide. When Chuck Norris kills a ninja, he uses every part.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 523,
@@ -3153,7 +3153,7 @@
   "id": 535,
   "type": "chuck_norris",
       "setup": "In the beginning there was nothing...then Chuck Norris Roundhouse kicked that nothing in the face and said \"Get a job\". That is the story of the universe.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 536,
@@ -3231,7 +3231,7 @@
   "id": 548,
   "type": "chuck_norris",
       "setup": "Chuck Norris has a deep and abiding respect for human life... unless it gets in his way.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 549,
@@ -3327,7 +3327,7 @@
   "id": 564,
   "type": "chuck_norris",
       "setup": "A high tide means Chuck Norris is flying over your coast. The tide is caused by God pissing his pants.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 565,
@@ -3357,7 +3357,7 @@
   "id": 569,
   "type": "chuck_norris",
       "setup": "Chuck Norris doesn't stub his toes. He accidentally destroys chairs, bedframes, and sidewalks.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 570,
@@ -3489,13 +3489,13 @@
   "id": 591,
   "type": "chuck_norris",
       "setup": "It's widely believed that Jesus was Chuck Norris' stunt double for crucifixion due to the fact that it is impossible for nails to pierce Chuck Norris' skin.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 592,
   "type": "chuck_norris",
       "setup": "Chuck Norris did in fact, build Rome in a day.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 593,
@@ -3555,7 +3555,7 @@
   "id": 602,
   "type": "chuck_norris",
       "setup": "Wo hu cang long. The translation from Mandarin Chinese reads: \"Crouching Chuck, Hidden Norris\"",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 603,
@@ -3567,13 +3567,13 @@
   "id": 604,
   "type": "chuck_norris",
       "setup": "Some kids play Kick the can. Chuck Norris played Kick the keg.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 605,
   "type": "chuck_norris",
       "setup": "'Icy-Hot' is too weak for Chuck Norris. After a workout, Chuck Norris rubs his muscles down with liquid-hot MAGMA.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 606,
@@ -3585,7 +3585,7 @@
   "id": 607,
   "type": "chuck_norris",
       "setup": "When Chuck Norris was a baby, he didn't suck his mother's breast. His mother served him whiskey, straight out of the bottle.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 608,
@@ -3615,13 +3615,13 @@
   "id": 612,
   "type": "chuck_norris",
       "setup": "When J. Robert Oppenheimer said \"I am become death, the destroyer Of worlds\", He was not referring to the atomic bomb. He was referring to the Chuck Norris halloween costume he was wearing.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 613,
   "type": "chuck_norris",
       "setup": "Chuck Norris recently had the idea to sell his urine as a canned beverage. We know this beverage as Red Bull.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 614,
@@ -3699,7 +3699,7 @@
   "id": 626,
   "type": "chuck_norris",
       "setup": "The US did not boycott the 1980 Summer Olympics in Moscow due to political reasons: Chuck Norris killed the entire US team with a single round-house kick during TaeKwonDo practice.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 627,
@@ -3789,7 +3789,7 @@
   "id": 641,
   "type": "chuck_norris",
       "setup": "That's not Chuck Norris doing push-ups -- that's Chuck Norris moving the Earth away from the path of a deadly asteroid.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 642,
@@ -3819,13 +3819,13 @@
   "id": 646,
   "type": "chuck_norris",
       "setup": "As President Roosevelt said: \"We have nothing to fear but fear itself. And Chuck Norris.\"",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 647,
   "type": "chuck_norris",
       "setup": "Chuck Norris just says \"no\" to drugs. If he said \"yes\", it would collapse Colombia's infrastructure.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 648,
@@ -3879,7 +3879,7 @@
   "id": 656,
   "type": "chuck_norris",
       "setup": "Chuck Norris is the reason why Waldo is hiding.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 657,
@@ -3891,13 +3891,13 @@
   "id": 658,
   "type": "chuck_norris",
       "setup": "When God said, \"let there be light\", Chuck Norris said, \"say 'please'.\"",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 659,
   "type": "chuck_norris",
       "setup": "Chuck Norris does not eat. Food understands that the only safe haven from Chuck Norris' fists is inside his own body.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 660,
@@ -3915,7 +3915,7 @@
   "id": 662,
   "type": "chuck_norris",
       "setup": "Chuck Norris uses a night light. Not because Chuck Norris is afraid of the dark, but the dark is afraid of Chuck Norris.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 663,
@@ -3939,7 +3939,7 @@
   "id": 666,
   "type": "chuck_norris",
       "setup": "Sticks and stones may break your bones, but a Chuck Norris glare will liquefy your kidneys.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 667,
@@ -3981,7 +3981,7 @@
   "id": 673,
   "type": "chuck_norris",
       "setup": "Contrary to popular belief, the Titanic didn't hit an iceberg. The ship was off course and ran into Chuck Norris while he was doing the backstroke across the Atlantic.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 674,
@@ -3999,7 +3999,7 @@
   "id": 676,
   "type": "chuck_norris",
       "setup": "Chuck Norris? sperm is so badass, he had sex with Nicole Kidman, and 7 months later she prematurely gave birth to a Ford Excursion.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 677,
@@ -4035,7 +4035,7 @@
   "id": 682,
   "type": "chuck_norris",
       "setup": "Saddam Hussein was not found hiding in a \"hole.\" Saddam was roundhouse-kicked in the head by Chuck Norris in Kansas, which sent him through the earth, stopping just short of the surface of Iraq.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 683,
@@ -4065,7 +4065,7 @@
   "id": 687,
   "type": "chuck_norris",
       "setup": "Chuck Norris doesnt wear a watch, HE decides what time it is.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 688,
@@ -4137,7 +4137,7 @@
   "id": 699,
   "type": "chuck_norris",
       "setup": "The best-laid plans of mice and men often go awry. Even the worst-laid plans of Chuck Norris come off without a hitch.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 700,
@@ -4167,7 +4167,7 @@
   "id": 704,
   "type": "chuck_norris",
       "setup": "One time, Chuck Norris accidentally stubbed his toe. It destroyed the entire state of Ohio.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 705,
@@ -4185,7 +4185,7 @@
   "id": 707,
   "type": "chuck_norris",
       "setup": "They had to edit the first ending of 'Lone Wolf McQuade' after Chuck Norris kicked David Carradine's ass, then proceeded to barbecue and eat him.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 708,
@@ -4335,13 +4335,13 @@
   "id": 732,
   "type": "chuck_norris",
       "setup": "Fact: Chuck Norris doesn't consider it sex if the woman survives.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 733,
   "type": "chuck_norris",
       "setup": "It is said that looking into Chuck Norris' eyes will reveal your future. Unfortunately, everybody's future is always the same: death by a roundhouse-kick to the face.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 734,
@@ -4377,7 +4377,7 @@
   "id": 739,
   "type": "chuck_norris",
       "setup": "182,000 Americans die from Chuck Norris-related accidents every year.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 740,
@@ -4401,7 +4401,7 @@
   "id": 743,
   "type": "chuck_norris",
       "setup": "July 4th is Independence day. And the day Chuck Norris was born. Coincidence? I think not.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 744,
@@ -4431,7 +4431,7 @@
   "id": 748,
   "type": "chuck_norris",
       "setup": "In the Words of Julius Caesar, \"Veni, Vidi, Vici, Chuck Norris\". Translation: I came, I saw, and I was roundhouse-kicked inthe face by Chuck Norris.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 749,
@@ -4443,7 +4443,7 @@
   "id": 750,
   "type": "chuck_norris",
       "setup": "Chuck Norris is widely predicted to be first black president. If you're thinking to yourself, \"But Chuck Norris isn't black\", then you are dead wrong. And stop being a racist.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 751,
@@ -4479,13 +4479,13 @@
   "id": 756,
   "type": "chuck_norris",
       "setup": "Chuck Norris once ordered a steak in a restaurant. The steak did what it was told.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 757,
   "type": "chuck_norris",
       "setup": "Most people fear the Reaper. Chuck Norris considers him \"a promising Rookie\".",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 758,
@@ -4497,7 +4497,7 @@
   "id": 759,
   "type": "chuck_norris",
       "setup": "President Roosevelt once rode his horse 100 miles. Chuck Norris carried his the same distance in half the time.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 760,
@@ -4515,7 +4515,7 @@
   "id": 762,
   "type": "chuck_norris",
       "setup": "Chuck Norris was banned from competitive bullriding after a 1992 exhibition in San Antonio, when he rode the bull 1,346 miles from Texas to Milwaukee Wisconsin to pick up his dry cleaning.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 763,
@@ -4539,7 +4539,7 @@
   "id": 766,
   "type": "chuck_norris",
       "setup": "The chemical formula for the highly toxic cyanide ion is CN-. These are also Chuck Norris' initials. This is not a coincidence.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 767,
@@ -4551,7 +4551,7 @@
   "id": 768,
   "type": "chuck_norris",
       "setup": "Think of a hot woman. Chuck Norris did her.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 769,
@@ -4605,13 +4605,13 @@
   "id": 777,
   "type": "chuck_norris",
       "setup": "There?s an order to the universe: space, time, Chuck Norris.... Just kidding, Chuck Norris is first.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 778,
   "type": "chuck_norris",
       "setup": "A man once asked Chuck Norris if his real name is \"Charles\". Chuck Norris did not respond, he simply stared at him until he exploded.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 779,
@@ -4719,7 +4719,7 @@
   "id": 796,
   "type": "chuck_norris",
       "setup": "Chuck Norris has to register every part of his body as a separate lethal weapon. His spleen is considered a concealed weapon in over 50 states.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 797,
@@ -4761,7 +4761,7 @@
   "id": 803,
   "type": "chuck_norris",
       "setup": "After taking a steroids test doctors informed Chuck Norris that he had tested positive. He laughed upon receiving this information, and said \"of course my urine tested positive, what do you think they make steroids from?\"",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 804,
@@ -4797,7 +4797,7 @@
   "id": 809,
   "type": "chuck_norris",
       "setup": "Diamonds are not, despite popular belief, carbon. They are, in fact, Chuck Norris fecal matter. This was proven a recently, when scientific analysis revealed what appeared to be Jean-Claude Van Damme bone fragments inside the Hope Diamond.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 810,
@@ -4833,13 +4833,13 @@
   "id": 815,
   "type": "chuck_norris",
       "setup": "For Spring Break '05, Chuck Norris drove to Madagascar, riding a chariot pulled by two electric eels.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 816,
   "type": "chuck_norris",
       "setup": "The Manhattan Project was not intended to create nuclear weapons, it was meant to recreate the destructive power in a Chuck Norris Roundhouse Kick. They didn't even come close.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 817,
@@ -4851,7 +4851,7 @@
   "id": 818,
   "type": "chuck_norris",
       "setup": "Divide Chuck Norris by zero and you will in fact get one........one bad-ass that is.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 819,
@@ -5151,13 +5151,13 @@
   "id": 868,
   "type": "chuck_norris",
       "setup": "Chuck Norris did not \"lose\" his virginity, he stalked it and then destroyed it with extreme prejudice.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 869,
   "type": "chuck_norris",
       "setup": "Everything King Midas touches turnes to gold. Everything Chuck Norris touches turns up dead.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 870,
@@ -5409,7 +5409,7 @@
   "id": 911,
   "type": "chuck_norris",
       "setup": "Chuck Norris doesn't need to use AJAX because pages are too afraid to postback anyways.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 912,
@@ -5439,7 +5439,7 @@
   "id": 916,
   "type": "chuck_norris",
       "setup": "Chuck Norris doesn't needs try-catch, exceptions are too afraid to raise.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 917,
@@ -5643,7 +5643,7 @@
   "id": 950,
   "type": "general",
       "setup": "Why did I divide sin by tan? Just cos.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 951,
@@ -5667,7 +5667,7 @@
   "id": 954,
   "type": "general",
       "setup": "There are only 10 types of people in the world: those that understand binary, those that don’t, and those that didn't expect a ternary joke.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 955,
@@ -5679,7 +5679,7 @@
   "id": 956,
   "type": "general",
       "setup": "Algorith (noun.): Word used by programmers when... they do not want to explain what they did.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 957,
@@ -5691,7 +5691,7 @@
   "id": 958,
   "type": "general",
       "setup": "Why did the programmer quit his job? Because he didn't get arrays.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 959,
@@ -5739,7 +5739,7 @@
   "id": 966,
   "type": "general",
       "setup": "Who called it female foeticide and not Binary ?",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 967,
@@ -5769,7 +5769,7 @@
   "id": 971,
   "type": "general",
       "setup": "Why did Microsoft release Windows 10 ( and not windows 9) ?Because 7 8 9",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 972,
@@ -5859,7 +5859,7 @@
   "id": 986,
   "type": "general",
       "setup": "I told him I can't open the jar, he said download and install Java",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 987,
@@ -5877,7 +5877,7 @@
   "id": 989,
   "type": "general",
       "setup": "Why did the chicken cross the road? It was called with theOtherSide(chicken)",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 990,
@@ -5895,18 +5895,12 @@
   "id": 992,
   "type": "general",
       "setup": "Why did the programmer die in the shower? The shampoo bottle said: Wash, rinse, repeat.",
-      "punchline": "",
+      "punchline": ""
   },
   {
   "id": 993,
   "type": "general",
   "setup": "A UDP packet walks into a bar. The bartender doesn't acknowledge him.",
-  "punchline": ""
-  },
-  {
-  "id": 994,
-  "type": "general",
-  "setup": "99 Bugs in the Code.  99 Bugs in the Code.  You take one down, patch it around, 127 Bugs in the code
   "punchline": ""
   }
 ]
