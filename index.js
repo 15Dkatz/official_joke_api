@@ -1,6 +1,6 @@
 const express = require('express');
 const LimitingMiddleware = require('limiting-middleware');
-const { randomJoke, randomTen, jokeByType } = require('./handler');
+const { jokes, randomJoke, randomTen, jokeByType, randomSelect } = require('./handler');
 
 const app = express();
 
@@ -29,6 +29,21 @@ app.get('/random_ten', (req, res) => {
 
 app.get('/jokes/random', (req, res) => {
   res.json(randomJoke());
+});
+
+app.get("/jokes/random(/*)?", (req, res) => {
+  try {
+    var num = parseInt(req.path.substring(14, req.path.length));
+  } catch (err) {
+    res.send("The path passed is not a number.");
+  } finally {
+    var count = Object.keys(jokes).length;
+    if (num > count) {
+      res.send("That is a way to large amount of jokes.");
+    } else {
+      res.json(randomSelect(num));
+    }
+  }
 });
 
 app.get('/jokes/ten', (req, res) => {
