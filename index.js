@@ -36,7 +36,8 @@ app.get('/jokes/ten', (req, res) => {
 });
 
 app.get('/jokes/:type/random', (req, res) => {
-  res.json(jokeByType(req.params.type, 1));
+  let joke = jokeByType(req.params.type, 1);
+  res.json(joke.length === 1 ? joke[0] : {});
 });
 
 app.get('/jokes/:type/ten', (req, res) => {
