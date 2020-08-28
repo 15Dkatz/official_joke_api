@@ -200,7 +200,7 @@
   {
     "id": 34,
     "type": "knock-knock",
-    "setup": "Knock knock. \n Who's there? \n Opportunity.",
+    "setup": "Knock knock. \n Who's there? \n Opportunity. \n Opportunity who?",
     "punchline": "That is impossible. Opportunity doesn’t come knocking twice!"
   },
   {
