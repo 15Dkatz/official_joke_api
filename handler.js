@@ -26,6 +26,8 @@ const randomN = (jokeArray, n) => {
 const randomTen = () => randomN(jokes, 10);
 
 const jokeByType = (type, n) => {
+  if(isNaN(n))
+    n = 10;
   return randomN(jokes.filter(joke => joke.type === type), n);
 };
 
