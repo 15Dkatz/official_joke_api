@@ -23,6 +23,12 @@ The endpoints are `jokes/:type/random` or `jokes/:type/ten`. For example:
 
 [https://official-joke-api.appspot.com/jokes/programming/ten](https://official-joke-api.appspot.com/jokes/programming/ten)
 
+### Grab the jokes type!
+
+The endpoints are `jokes/types`. For example:
+
+[https://official-joke-api.appspot.com/jokes/types](https://official-joke-api.appspot.com/jokes/types)
+
 ***
 
 ## How these jokes were collected
