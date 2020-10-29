@@ -29,4 +29,16 @@ const jokeByType = (type, n) => {
   return randomN(jokes.filter(joke => joke.type === type), n);
 };
 
-module.exports = { jokes, randomJoke, randomN, randomTen, jokeByType };
+const jokeTypeList = () => {
+  let jokeTypeArray = []
+
+  jokes.forEach(joke => {
+    if (jokeTypeArray.indexOf(joke.type) == -1) {
+      jokeTypeArray.push(joke.type)
+    }
+  })
+
+  return jokeTypeArray;
+}
+
+module.exports = { jokes, randomJoke, randomN, randomTen, jokeByType, jokeTypeList };
