@@ -29,4 +29,11 @@ const jokeByType = (type, n) => {
   return randomN(jokes.filter(joke => joke.type === type), n);
 };
 
-module.exports = { jokes, randomJoke, randomN, randomTen, jokeByType };
+/**
+ * 
+ * @param {*} id - joke id
+ * @returns array with a single joke or an empty array
+ */
+const jokeById = (id: Number) => (jokes.filter(jk => jk.id === id));
+
+module.exports = { jokes, randomJoke, randomN, randomTen, jokeByType, jokeById };
