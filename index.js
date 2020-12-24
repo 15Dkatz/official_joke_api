@@ -1,6 +1,6 @@
 const express = require('express');
 const LimitingMiddleware = require('limiting-middleware');
-const { randomJoke, randomTen, jokeByType } = require('./handler');
+const { randomJoke, randomTen, jokeByType, jokeById } = require('./handler');
 
 const app = express();
 
@@ -41,6 +41,17 @@ app.get('/jokes/:type/random', (req, res) => {
 
 app.get('/jokes/:type/ten', (req, res) => {
   res.json(jokeByType(req.params.type, 10));
+});
+
+app.get('/jokes/:id', (req, res, next) => {
+  try {
+    const { id } = req.params;
+    const joke = jokeById(+id);
+    if (!joke.length) return next({ statusCode: 404, message: 'joke not found' });
+    return res.json(joke[0]);
+  } catch (e) {
+    return next(e);
+  }
 });
 
 app.use((err, req, res, next) => {
