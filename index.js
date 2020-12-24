@@ -47,8 +47,8 @@ app.get('/jokes/:id', (req, res, next) => {
   try {
     const { id } = req.params;
     const joke = jokeById(+id);
-    if (!joke.length) return next({ statusCode: 404, message: 'joke not found' });
-    return res.json(joke[0]);
+    if (!joke) return next({ statusCode: 404, message: 'joke not found' });
+    return res.json(joke);
   } catch (e) {
     return next(e);
   }
