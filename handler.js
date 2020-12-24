@@ -29,10 +29,9 @@ const jokeByType = (type, n) => {
   return randomN(jokes.filter(joke => joke.type === type), n);
 };
 
-/**
- * 
- * @param {*} id - joke id
- * @returns array with a single joke or an empty array
+/** 
+ * @param {Number} id - joke id
+ * @returns a single joke object or undefined
  */
 const jokeById = (id) => (jokes.filter(jk => jk.id === id)[0]);
 
