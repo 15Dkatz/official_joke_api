@@ -2269,6 +2269,7 @@
   },
   {
     "id": 388,
+<<<<<<< HEAD
     "type": "programming",
     "setup": "What’s the object-oriented way to become wealthy?",
     "punchline": "Inheritance."
@@ -2351,4 +2352,10 @@
     "setup": "What goes after USA?",
     "punchline": "USB."
   }
+=======
+    "type": "dad",
+    "setup": "Why don't eggs tell jokes?",
+    "punchline": "Because they would crack each other up."
+  },
+>>>>>>> Update index.json
 ]
