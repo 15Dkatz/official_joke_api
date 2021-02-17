@@ -2266,5 +2266,35 @@
     "type": "general",
     "setup": "My older brother always tore the last pages of my comic books, and never told me why.",
     "punchline": "I had to draw my own conclusions."
+  },
+  {
+    "id": 388,
+    "type": "programming",
+    "setup": "Whats the object-oriented way to become wealthy?",
+    "punchline": "Inheritance"
+  },
+  {
+    "id": 389,
+    "type": "programming",
+    "setup": "Why did the programmer quit his job?",
+    "punchline": "Because he didn't get arrays."
+  },
+  {
+    "id": 390,
+    "type": "programming",
+    "setup": "What did the Java code say to the C code?",
+    "punchline": "You've got no class."
+  },
+  {
+    "id": 391,
+    "type": "programming",
+    "setup": "What is the most used language in programming?",
+    "punchline": "Profanity."
+  },
+  {
+    "id": 392,
+    "type": "programming",
+    "setup": "Why do programmers always get Christmas and Halloween mixed up?",
+    "punchline": "Because DEC 25 = OCT 31"
   }
 ]
