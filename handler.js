@@ -29,4 +29,9 @@ const jokeByType = (type, n) => {
   return randomN(jokes.filter(joke => joke.type === type), n);
 };
 
-module.exports = { jokes, randomJoke, randomN, randomTen, jokeByType };
+const types = () => {
+  const types = jokes.map(joke => joke.type);
+  return uniqueArray = [ ...new Set(types) ];
+};
+
+module.exports = { jokes, randomJoke, randomN, randomTen, jokeByType, types };
