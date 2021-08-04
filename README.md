@@ -12,7 +12,6 @@
 [https://official-joke-api.appspot.com/random_ten](https://official-joke-api.appspot.com/random_ten)
 
 
-
 [https://official-joke-api.appspot.com/jokes/ten](https://official-joke-api.appspot.com/jokes/ten)
 
 ### Grab jokes by type!
@@ -22,6 +21,14 @@ The endpoints are `jokes/:type/random` or `jokes/:type/ten`. For example:
 [https://official-joke-api.appspot.com/jokes/programming/random](https://official-joke-api.appspot.com/jokes/programming/random)
 
 [https://official-joke-api.appspot.com/jokes/programming/ten](https://official-joke-api.appspot.com/jokes/programming/ten)
+
+[https://official-joke-api.appspot.com/jokes/ten](https://official-joke-api.appspot.com/jokes/ten)
+
+### Grab all types!
+
+The endpoint is `types`:
+
+[https://official-joke-api.appspot.com/types](https://official-joke-api.appspot.com/types)
 
 ***
 
