@@ -2374,5 +2374,11 @@
     "type": "general",
     "setup": "Why does Waldo only wear stripes?",
     "punchline": "Because he doesn't want to be spotted."
+  },
+  {
+    "id": 407,
+    "type": "programming",
+    "setup": "A male developer often gets called as a Dev, then what would you call a female developer?.",
+    "punchline": "Devi."
   }
 ]
