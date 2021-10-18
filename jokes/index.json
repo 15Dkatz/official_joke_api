@@ -2267,4 +2267,10 @@
     "setup": "My older brother always tore the last pages of my comic books, and never told me why.",
     "punchline": "I had to draw my own conclusions."
   }
+  {
+    "id": 388,
+    "type": "dad",
+    "setup": "Why do fathers take an extra pair of socks when they go golfing?",
+    "punchline": "In case they get a hole in one!"
+  }
 ]
