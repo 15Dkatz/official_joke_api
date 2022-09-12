@@ -2270,6 +2270,42 @@
   {
     "id": 388,
     "type": "programming",
+    "setup": "What’s the object-oriented way to become wealthy?",
+    "punchline": "Inheritance."
+  },
+  {
+    "id": 389,
+    "type": "general",
+    "setup": "What do you call a bee that can't make up its mind?",
+    "punchline": "A maybe."
+   },
+   {
+     "id": 390,
+    "type": "general",
+    "setup": "Why was Cinderalla thrown out of the football team?",
+    "punchline": "Because she ran away from the ball."
+  },
+  {
+    "id": 391,
+    "type": "general",
+    "setup": "What kind of music do welders like?",
+    "punchline": "Heavy metal."
+  },
+  {
+    "id": 392,
+    "type": "general",
+    "setup": "Why are “Dad Jokes” so good?",
+    "punchline": "Because the punchline is apparent."
+  },
+  {
+    "id": 393,
+     "type": "programming",
+    "setup": "Java developers wear glasses.",
+    "punchline": "Because they can't C#."
+  },
+  {
+    "id": 394,
+    "type": "programming",
     "setup": "Why dot net developers don't wear glasses?",
     "punchline": "Because they see sharp."
   }
