@@ -29,6 +29,11 @@ The endpoints are `jokes/:type/random` or `jokes/:type/ten`. For example:
 
 [https://official-joke-api.wl.r.appspot.com/jokes/programming/ten](https://official-joke-api.wl.r.appspot.com/jokes/programming/ten)
 
+
+### Grab joke by id!
+
+Use endpoint `/jokes/:id`
+
 ***
 
 ## How these jokes were collected
