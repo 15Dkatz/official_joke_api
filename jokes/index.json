@@ -2290,5 +2290,11 @@
     "type": "general",
     "setup": "What kind of music do welders like?",
     "punchline": "Heavy metal."
+  },
+  {
+    "id": 392,
+    "type": "general",
+    "setup": "Why are “Dad Jokes” so good?",
+    "punchline": "Because the punchline is apparent."
   }
 ]
