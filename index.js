@@ -32,14 +32,17 @@ app.get('/jokes/random', (req, res) => {
 });
 
 app.get("/jokes/random(/*)?", (req, res) => {
+  let num;
+
   try {
-    var num = parseInt(req.path.substring(14, req.path.length));
+    num = parseInt(req.path.substring(14, req.path.length));
   } catch (err) {
-    res.send("The path passed is not a number.");
+    res.send("The passed path is not a number.");
   } finally {
-    var count = Object.keys(jokes).length;
-    if (num > count) {
-      res.send("That is a way to large amount of jokes.");
+    const count = Object.keys(jokes).length;
+
+    if (num > Object.keys(jokes).length) {
+      res.send(`The passed path exceeds the number of jokes (${count}).`);
     } else {
       res.json(randomSelect(num));
     }
