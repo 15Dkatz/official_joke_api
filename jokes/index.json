@@ -2302,5 +2302,11 @@
      "type": "programming",
     "setup": "Java developers wear glasses.",
     "punchline": "Because they can't C#."
+  },
+  {
+    "id": 394,
+    "type": "programming",
+    "setup": "Why dot net developers don't wear glasses?",
+    "punchline": "Because they see sharp."
   }
 ]
