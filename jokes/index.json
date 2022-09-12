@@ -768,6 +768,12 @@
     "punchline": "Put a little boogie in it."
   },
   {
+    "id": 130,
+    "type": "general",
+    "setup": "How good are you at Power Point?",
+    "punchline": "I Excel at it."
+  },
+  {
     "id": 131,
     "type": "general",
     "setup": "How do you organize a space party?",
