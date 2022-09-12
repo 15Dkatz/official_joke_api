@@ -2296,5 +2296,11 @@
     "type": "general",
     "setup": "Why are “Dad Jokes” so good?",
     "punchline": "Because the punchline is apparent."
+  },
+  {
+    "id": 393,
+     "type": "programming",
+    "setup": "Java developers wear glasses.",
+    "punchline": "Because they can't C#."
   }
 ]
