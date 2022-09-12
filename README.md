@@ -3,25 +3,31 @@
 ## Endpoints:
 
 ### Grab a random joke!
-[https://official-joke-api.appspot.com/random_joke](https://official-joke-api.appspot.com/random_joke)
+[https://official-joke-api.wl.r.appspot.com/random_joke](https://official-joke-api.wl.r.appspot.com/random_joke)
 
 
-[https://official-joke-api.appspot.com/jokes/random](https://official-joke-api.appspot.com/jokes/random)
+[https://official-joke-api.wl.r.appspot.com/jokes/random](https://official-joke-api.wl.r.appspot.com/jokes/random)
+
+### Grab your number choice of random jokes!
+[https://official-joke-api.appspot.com/jokes/random/10](http://official-joke-api.appspot.com/jokes/random/10)
+Replace 10 with your choices number. For example, for 50 random jokes, go to:
+[https://official-joke-api.appspot.com/jokes/random/50](http://official-joke-api.appspot.com/jokes/random/50)
+
+The number may not go over the number of jokes that are available inside the jokes API. In that scenario the request will be an error.
 
 ### Grab ten random jokes!
-[https://official-joke-api.appspot.com/random_ten](https://official-joke-api.appspot.com/random_ten)
+[https://official-joke-api.wl.r.appspot.com/random_ten](https://official-joke-api.wl.r.appspot.com/random_ten)
 
 
-
-[https://official-joke-api.appspot.com/jokes/ten](https://official-joke-api.appspot.com/jokes/ten)
+[https://official-joke-api.wl.r.appspot.com/jokes/ten](https://official-joke-api.wl.r.appspot.com/jokes/ten)
 
 ### Grab jokes by type!
 
 The endpoints are `jokes/:type/random` or `jokes/:type/ten`. For example:
 
-[https://official-joke-api.appspot.com/jokes/programming/random](https://official-joke-api.appspot.com/jokes/programming/random)
+[https://official-joke-api.wl.r.appspot.com/jokes/programming/random](https://official-joke-api.wl.r.appspot.com/jokes/programming/random)
 
-[https://official-joke-api.appspot.com/jokes/programming/ten](https://official-joke-api.appspot.com/jokes/programming/ten)
+[https://official-joke-api.wl.r.appspot.com/jokes/programming/ten](https://official-joke-api.wl.r.appspot.com/jokes/programming/ten)
 
 
 ### Grab joke by id!
