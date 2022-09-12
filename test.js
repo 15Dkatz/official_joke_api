@@ -18,4 +18,4 @@ it('should return undefined with an invalid id', () => {
     expect(jokeById('one')).toEqual(undefined);
     expect(jokeById('1')).toEqual(undefined);
     expect(jokeById()).toEqual(undefined);
-})
+});
