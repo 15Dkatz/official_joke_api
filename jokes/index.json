@@ -2262,12 +2262,6 @@
     "punchline": "I couldn’t turn it down."
   },
   {
-    "id": 387,
-    "type": "general",
-    "setup": "My older brother always tore the last pages of my comic books, and never told me why.",
-    "punchline": "I had to draw my own conclusions."
-  },
-  {
     "id": 388,
     "type": "programming",
     "setup": "What’s the object-oriented way to become wealthy?",
@@ -2359,8 +2353,20 @@
   },
   {
     "id": 403,
-    "type": "General",
+    "type": "general",
     "setup": "How do you make the number one disappear?",
-    "punchline": "Add the letter G and it’s “gone”!"
+    "punchline": "Add the letter G and it’s “gone”!",
+  },
+  {
+    "id": 404,
+    "type": "general",
+    "setup": "My older brother always tore the last pages of my comic books, and never told me why.",
+    "punchline": "I had to draw my own conclusions."
+  },
+  {
+    "id": 405,
+    "type": "general",
+    "setup": "The Sergeant-Major growled at the young soldier: I didn’t see you at camouflage training this morning.",
+    "punchline": "Thank you very much, sir."
   }
 ]
