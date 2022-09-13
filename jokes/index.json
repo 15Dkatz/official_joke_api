@@ -2326,5 +2326,35 @@
     "type": "general",
     "setup": "What do you call a suspicious looking laptop?",
     "punchline": "Asus"
+  },
+  {
+    "id": 398,
+    "type": "programming",
+    "setup": "Whats the object-oriented way to become wealthy?",
+    "punchline": "Inheritance"
+  },
+  {
+    "id": 399,
+    "type": "programming",
+    "setup": "Why did the programmer quit his job?",
+    "punchline": "Because he didn't get arrays."
+  },
+  {
+    "id": 400,
+    "type": "programming",
+    "setup": "What did the Java code say to the C code?",
+    "punchline": "You've got no class."
+  },
+  {
+    "id": 401,
+    "type": "programming",
+    "setup": "What is the most used language in programming?",
+    "punchline": "Profanity."
+  },
+  {
+    "id": 402,
+    "type": "programming",
+    "setup": "Why do programmers always get Christmas and Halloween mixed up?",
+    "punchline": "Because DEC 25 = OCT 31"
   }
 ]
