@@ -2350,5 +2350,11 @@
     "type": "programming",
     "setup": "What goes after USA?",
     "punchline": "USB."
+  },
+  {
+    "id": 402,
+    "type": "dad",
+    "setup": "Why don't eggs tell jokes?",
+    "punchline": "Because they would crack each other up."
   }
 ]
