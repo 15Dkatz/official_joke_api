@@ -2380,5 +2380,11 @@
     "type": "programming",
     "setup": "A male developer often gets called as a Dev, then what would you call a female developer?.",
     "punchline": "Devi."
+  },
+  {
+    "id": 408,
+    "type": "general",
+    "setup": "Why did the kid throw the watch out the window?",
+    "punchline": "So time would fly."
   }
 ]
