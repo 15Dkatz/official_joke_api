@@ -2344,5 +2344,11 @@
     "type": "programming",
     "setup": "Why do programmers always get Christmas and Halloween mixed up?",
     "punchline": "Because DEC 25 = OCT 31"
+  },
+  {
+    "id": 401,
+    "type": "programming",
+    "setup": "What goes after USA?",
+    "punchline": "USB."
   }
 ]
