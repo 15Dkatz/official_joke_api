@@ -31,6 +31,7 @@ app.get('/jokes/random', (req, res) => {
   res.json(randomJoke());
 });
 
+// TODO: Needs fixing
 app.get("/jokes/random(/*)?", (req, res) => {
   let num;
 
