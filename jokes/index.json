@@ -2355,7 +2355,7 @@
     "id": 403,
     "type": "general",
     "setup": "How do you make the number one disappear?",
-    "punchline": "Add the letter G and it’s “gone”!",
+    "punchline": "Add the letter G and it’s “gone”!"
   },
   {
     "id": 404,
@@ -2368,10 +2368,11 @@
     "type": "general",
     "setup": "The Sergeant-Major growled at the young soldier: I didn’t see you at camouflage training this morning.",
     "punchline": "Thank you very much, sir."
-  }
+  },
   {
-    "id": 388,
+    "id": 406,
     "type": "general",
-    "setup": "Why does Waldo only wear stripes?"
+    "setup": "Why does Waldo only wear stripes?",
     "punchline": "Because he doesn't want to be spotted."
+  }
 ]
