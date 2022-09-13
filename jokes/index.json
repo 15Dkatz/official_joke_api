@@ -2392,5 +2392,11 @@
     "type": "programming",
     "setup": "Where did the API go to eat?",
     "punchline": "To the RESTaurant."
+  },
+  {
+    "id": 410,
+    "type": "food",
+    "setup": "Why did the rooster cross the road?",
+    "punchline": "He heard that the chickens at KFC were pretty hot."
   }
 ]
