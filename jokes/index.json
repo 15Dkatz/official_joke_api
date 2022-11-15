@@ -2398,5 +2398,64 @@
     "type": "food",
     "setup": "Why did the rooster cross the road?",
     "punchline": "He heard that the chickens at KFC were pretty hot."
+  },
+  {
+    "id": 411,
+    "type": "general",
+    "setup": "What do elves post on Social Media?",
+    "punchline": "Elf-ies."
+  },
+  {
+    "id": 412,
+    "type": "naughty",
+    "setup": "What does the mermaid wear to math class?",
+    "punchline": "Algae-bra."
+  },
+  {
+    "id": 413,
+    "type": "crime",
+    "setup": "Did you hear about the crime in the parking garage?",
+    "punchline": "It was wrong on so many levels."
+  },
+  {
+    "id": 414,
+    "type": "programming",
+    "setup": "Hey, wanna hear a joke?",
+    "punchline": "Parsing HTML with regex."
+  },
+  {
+    "id": 415,
+    "type": "general",
+    "setup": "Why didn't the skeleton go for prom?",
+    "punchline": "Because it had nobody."
+  },
+  {
+    "id": 416,
+    "type": "general",
+    "setup": "A grocery store cashier asked if I would like my milk in a bag.",
+    "punchline": "I told her 'No, thanks. The carton works fine.'"
+  },{
+    "id": 417,
+    "type": "dark",
+    "setup": "Why does Beyonce sing to the left, to the left",
+    "punchline": "Because women don't have rights."
+  },
+  {
+    "id": 418,
+    "type": "general",
+    "setup": "99.9% of the people are dumb!",
+    "punchline": "Fortunately I belong to the remaining 1%"
+  },
+  {
+    "id": 419,
+    "type": "programming",
+    "setup": "I just got fired from my job at the keyboard factory.",
+    "punchline": "They told me I wasn't putting in enough shifts."
+  },
+  {
+    "id": 420,
+    "type": "general",
+    "setup": "You see, mountains aren't just funny.",
+    "punchline": "They are hill areas."
   }
 ]
