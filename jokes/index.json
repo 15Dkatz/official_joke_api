@@ -38,7 +38,7 @@
   {
     "id": 7,
     "type": "general",
-    "setup": "What do you call a singing Laptop",
+    "setup": "What do you call a singing Laptop?",
     "punchline": "A Dell"
   },
   {
@@ -2378,7 +2378,7 @@
   {
     "id": 407,
     "type": "programming",
-    "setup": "A male developer often gets called as a Dev, then what would you call a female developer?.",
+    "setup": "A male developer often gets called as a Dev, then what would you call a female developer?",
     "punchline": "Devi."
   },
   {
