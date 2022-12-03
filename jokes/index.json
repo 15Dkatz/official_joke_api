@@ -172,7 +172,7 @@
   {
     "type": "programming",
     "setup": "Why do Java programmers wear glasses?",
-    "punchline": "Because they don't C#"
+    "punchline": "Because they don't C#."
   },
   {
     "type": "general",
@@ -1908,11 +1908,6 @@
     "type": "general",
     "setup": "Why are “Dad Jokes” so good?",
     "punchline": "Because the punchline is apparent."
-  },
-  {
-     "type": "programming",
-    "setup": "Java developers wear glasses.",
-    "punchline": "Because they can't C#."
   },
   {
     "type": "programming",
