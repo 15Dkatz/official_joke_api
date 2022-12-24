@@ -1995,8 +1995,58 @@
     "punchline": "To the RESTaurant."
   },
   {
-    "type": "food",
+    "type": "general",
     "setup": "Why did the rooster cross the road?",
     "punchline": "He heard that the chickens at KFC were pretty hot."
+  },
+  {
+    "type": "general",
+    "setup": "Did you hear about the Viking who was reincarnated?",
+    "punchline": "He was Bjorn again"
+  },
+  {
+    "type": "general",
+    "setup": "What does the mermaid wear to math class?",
+    "punchline": "Algae-bra."
+  },
+  {
+    "type": "general",
+    "setup": "Did you hear about the crime in the parking garage?",
+    "punchline": "It was wrong on so many levels."
+  },
+  {
+    "type": "programming",
+    "setup": "Hey, wanna hear a joke?",
+    "punchline": "Parsing HTML with regex."
+  },
+  {
+    "type": "general",
+    "setup": "Why didn't the skeleton go for prom?",
+    "punchline": "Because it had nobody."
+  },
+  {
+    "type": "general",
+    "setup": "A grocery store cashier asked if I would like my milk in a bag.",
+    "punchline": "I told her 'No, thanks. The carton works fine.'"
+  },
+  {
+    "type": "general",
+    "setup": "99.9% of the people are dumb!",
+    "punchline": "Fortunately I belong to the remaining 1%"
+  },
+  {
+    "type": "programming",
+    "setup": "I just got fired from my job at the keyboard factory.",
+    "punchline": "They told me I wasn't putting in enough shifts."
+  },
+  {
+    "type": "general",
+    "setup": "You see, mountains aren't just funny.",
+    "punchline": "They are hill areas."
+  },
+  {
+    "type": "general",
+    "setup": "What do elves post on Social Media?",
+    "punchline": "Elf-ies."
   }
 ]
