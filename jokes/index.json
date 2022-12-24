@@ -2402,8 +2402,8 @@
   {
     "id": 411,
     "type": "general",
-    "setup": "What do elves post on Social Media?",
-    "punchline": "Elf-ies."
+    "setup": "Did you hear about the Viking who was reincarnated?",
+    "punchline": "He was Bjorn again"
   },
   {
     "id": 412,
@@ -2457,5 +2457,11 @@
     "type": "general",
     "setup": "You see, mountains aren't just funny.",
     "punchline": "They are hill areas."
+  },
+  {
+    "id": 421,
+    "type": "general",
+    "setup": "What do elves post on Social Media?",
+    "punchline": "Elf-ies."
   }
 ]
