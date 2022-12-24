@@ -2407,13 +2407,13 @@
   },
   {
     "id": 412,
-    "type": "naughty",
+    "type": "general",
     "setup": "What does the mermaid wear to math class?",
     "punchline": "Algae-bra."
   },
   {
     "id": 413,
-    "type": "crime",
+    "type": "general",
     "setup": "Did you hear about the crime in the parking garage?",
     "punchline": "It was wrong on so many levels."
   },
