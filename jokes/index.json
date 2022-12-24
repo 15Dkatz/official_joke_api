@@ -2395,7 +2395,7 @@
   },
   {
     "id": 410,
-    "type": "food",
+    "type": "general",
     "setup": "Why did the rooster cross the road?",
     "punchline": "He heard that the chickens at KFC were pretty hot."
   },
@@ -2434,32 +2434,27 @@
     "type": "general",
     "setup": "A grocery store cashier asked if I would like my milk in a bag.",
     "punchline": "I told her 'No, thanks. The carton works fine.'"
-  },{
-    "id": 417,
-    "type": "dark",
-    "setup": "Why does Beyonce sing to the left, to the left",
-    "punchline": "Because women don't have rights."
   },
   {
-    "id": 418,
+    "id": 417,
     "type": "general",
     "setup": "99.9% of the people are dumb!",
     "punchline": "Fortunately I belong to the remaining 1%"
   },
   {
-    "id": 419,
+    "id": 418,
     "type": "programming",
     "setup": "I just got fired from my job at the keyboard factory.",
     "punchline": "They told me I wasn't putting in enough shifts."
   },
   {
-    "id": 420,
+    "id": 419,
     "type": "general",
     "setup": "You see, mountains aren't just funny.",
     "punchline": "They are hill areas."
   },
   {
-    "id": 421,
+    "id": 420,
     "type": "general",
     "setup": "What do elves post on Social Media?",
     "punchline": "Elf-ies."
