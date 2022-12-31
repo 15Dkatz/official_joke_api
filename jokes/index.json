@@ -986,11 +986,6 @@
   },
   {
     "type": "general",
-    "setup": "What do you call a cow with no legs?",
-    "punchline": "Ground beef."
-  },
-  {
-    "type": "general",
     "setup": "What do you call a cow with two legs?",
     "punchline": "Lean beef."
   },
@@ -1198,11 +1193,6 @@
     "type": "general",
     "setup": "What does an angry pepper do?",
     "punchline": "It gets jalapeño face."
-  },
-  {
-    "type": "general",
-    "setup": "What happens to a frog's car when it breaks down?",
-    "punchline": "It gets toad."
   },
   {
     "type": "general",
@@ -1613,11 +1603,6 @@
     "type": "general",
     "setup": "Why did the chicken get a penalty?",
     "punchline": "For fowl play."
-  },
-  {
-    "type": "general",
-    "setup": "Why did the Clydesdale give the pony a glass of water?",
-    "punchline": "Because he was a little horse!"
   },
   {
     "type": "general",
