@@ -2028,5 +2028,25 @@
     "type": "general",
     "setup": "What do elves post on Social Media?",
     "punchline": "Elf-ies."
+  },
+  {
+    "type": "programming",
+    "setup": "How do you generate a random string?",
+    "punchline": "Put a Windows user in front of Vim and tell them to exit."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the functions stop calling each other?",
+    "punchline": "Because they had constant arguments."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the private classes break up?",
+    "punchline": "Because they never saw each other."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the developer quit his job?",
+    "punchline": "Because he didn't get arrays."
   }
 ]
