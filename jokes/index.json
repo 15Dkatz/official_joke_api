@@ -2028,5 +2028,90 @@
     "type": "general",
     "setup": "What do elves post on Social Media?",
     "punchline": "Elf-ies."
-  }
+  },
+  {
+    "type": "programming",
+    "setup": "What's the best thing about a Boolean?",
+    "punchline": "Even if you're wrong, you're only off by a bit."
+},
+{
+    "type": "programming",
+    "setup": "Why did the React component go to the psychiatrist?",
+    "punchline": "It needed to setState."
+},
+{
+    "type": "programming",
+    "setup": "Why did the React component get arrested?",
+    "punchline": "It was caught using hook dependencies."
+},
+{
+    "type": "programming",
+    "setup": "How many React developers does it take to change a lightbulb?",
+    "punchline": "None, they prefer dark mode."
+},
+{
+    "type": "programming",
+    "setup": "Why don't React developers like nature?",
+    "punchline": "They prefer the virtual DOM."
+},
+{
+    "type": "programming",
+    "setup": "Why did the React component feel hungry?",
+    "punchline": "It needed to consume API."
+},
+{
+    "type": "programming",
+    "setup": "How do you know if a React component is having a bad day?",
+    "punchline": "Its state is stuck in an infinite loop."
+},
+{
+    "type": "programming",
+    "setup": "Why did the React developer break up with his girlfriend?",
+    "punchline": "She didn't have any componentDidMount."
+},
+{
+    "type": "programming",
+    "setup": "How do React developers stay cool in the summer?",
+    "punchline": "They use JSX-air conditioning."
+},
+{
+    "type": "programming",
+    "setup": "Why do React developers prefer Netflix over Hulu?",
+    "punchline": "They like to stream data, not buffers."
+},
+{
+    "type": "programming",
+    "setup": "What's the difference between a React developer and a magician?",
+    "punchline": "The magician makes things disappear, while the React developer makes things reappear in the DOM."
+},
+{
+    "type": "programming",
+    "setup": "Why do React developers never win at poker?",
+    "punchline": "They always redraw."
+},
+{
+    "type": "programming",
+    "setup": "What did the React developer say when they saw a bug?",
+    "punchline": "You need to refactor."
+},
+{
+    "type": "programming",
+    "setup": "How many React developers does it take to change a light bulb?",
+    "punchline": "None, they just re-render the room."
+},
+{
+    "type": "programming",
+    "setup": "Why did the React component go to therapy?",
+    "punchline": "It had too many state changes."
+},
+{
+    "type": "programming",
+    "setup": "What do you get when you cross a React developer with a mathematician?",
+    "punchline": "A function component."
+},
+{
+    "type": "programming",
+    "setup": "How do you know if a React developer is lying?",
+    "punchline": "Their useEffect hooks keep changing."
+}
 ]
