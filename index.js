@@ -12,7 +12,7 @@ app.use((req, res, next) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Try /random_joke, /random_ten, /jokes/random, or /jokes/ten , /jokes/random(/*)');
+  res.send('Try /random_joke, /random_ten, /jokes/random, or /jokes/ten , /jokes/random/<any-number>');
 });
 
 app.get('/ping', (req, res) => {
