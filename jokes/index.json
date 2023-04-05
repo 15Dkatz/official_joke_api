@@ -2051,7 +2051,7 @@
   },
   {
       "type": "programming",
-      "setup": "Why did the programmer go broke? ",
+      "setup": "Why did the programmer go broke?",
       "punchline": "He used up all his cache"
   },
   {
@@ -2069,9 +2069,54 @@
       "setup": "Why was the JavaScript developer sad?",
       "punchline": "He didn't know how to null his feelings."
   },
+    {
+    "type": "general",
+    "setup": "Why couldn't the bicycle stand up by itself?",
+    "punchline": "It was two-tired."
+  },
   {
-      "type": "programming",
-      "setup": "Why did the programmer quit his job?",
-      "punchline": "He didn't get arrays."
+    "type": "general",
+    "setup": "Why did the tomato turn red?",
+    "punchline": "Why did the tomato turn red?"
+  },
+  {
+    "type": "general",
+    "setup": "Why did the chicken cross the playground?",
+    "punchline": "To get to the other slide."
+  },
+  {
+    "type": "general",
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "Because they make up everything."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "Because he was outstanding in his field."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "It got mugged."
+  },
+  {
+    "type": "general",
+    "setup": "Why don't oysters give to charity?",
+    "punchline": "Because they're shellfish."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the golfer wear two pairs of pants?",
+    "punchline": "In case he got a hole in one."
+  },
+  {
+    "type": "general",
+    "setup": "Why do pirates not know the alphabet?",
+    "punchline": "They always get stuck at C."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": " Because it was feeling crumbly."
   }
 ]
