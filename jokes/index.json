@@ -2028,5 +2028,50 @@
     "type": "general",
     "setup": "What do elves post on Social Media?",
     "punchline": "Elf-ies."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the developer go broke buying Bitcoin?",
+    "punchline": "He kept calling it bytecoin and didn't get any."
+  },
+  {
+      "type": "programming",
+      "setup": "Why did the programmer go to art school?",
+      "punchline": "He wanted to learn how to code outside the box."
+  },
+  {
+      "type": "programming",
+      "setup": "Why did the programmer's wife leave him?",
+      "punchline": "He didn't know how to commit."
+  },
+  {
+      "type": "programming",
+      "setup": "Why do programmers prefer dark chocolate?",
+      "punchline": "Because it's bitter like their code."
+  },
+  {
+      "type": "programming",
+      "setup": "Why did the programmer go broke? ",
+      "punchline": "He used up all his cache"
+  },
+  {
+      "type": "programming",
+      "setup": "Why did the programmer always mix up Halloween and Christmas?",
+      "punchline": "Because Oct 31 equals Dec 25."
+  },
+  {
+      "type": "programming",
+      "setup": "Why don't programmers like nature?",
+      "punchline": "There's too many bugs."
+  },
+  {
+      "type": "programming",
+      "setup": "Why was the JavaScript developer sad?",
+      "punchline": "He didn't know how to null his feelings."
+  },
+  {
+      "type": "programming",
+      "setup": "Why did the programmer quit his job?",
+      "punchline": "He didn't get arrays."
   }
 ]
