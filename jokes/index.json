@@ -2028,5 +2028,55 @@
     "type": "general",
     "setup": "What do elves post on Social Media?",
     "punchline": "Elf-ies."
-  }
+  },
+  {
+        "type": "general",
+        "setup": "What did one wall say to the other wall?",
+        "punchline": "I'll meet you at the corner!"
+    },
+    {
+        "type": "general",
+        "setup": "How do you catch a squirrel?",
+        "punchline": "Climb a tree and act like a nut!"
+    },
+    {
+        "type": "general",
+        "setup": "Why don't skeletons fight each other?",
+        "punchline": "They don't have the guts!"
+    },
+    {
+        "type": "general",
+        "setup": "Why did the scarecrow win an award?",
+        "punchline": "Because he was outstanding in his field!"
+    },
+    {
+        "type": "general",
+        "setup": "What did one hat say to the other hat?",
+        "punchline": "You stay here, I'll go on ahead!"
+    },
+    {
+        "type": "general",
+        "setup": "Why don't scientists trust atoms?",
+        "punchline": "Because they make up everything!"
+    },
+    {
+        "type": "general",
+        "setup": "Why did the tomato turn red?",
+        "punchline": "Because it saw the salad dressing!"
+    },
+    {
+        "type": "general",
+        "setup": "What's the difference between a snowman and a snowwoman?",
+        "punchline": "Snowballs!"
+    },
+    {
+        "type": "general",
+        "setup": "Why did the bicycle fall over?",
+        "punchline": "Because it was two-tired!"
+    },
+    {
+        "type": "general",
+        "setup": "What do you call a fake noodle?",
+        "punchline": "An impasta!"
+    }
 ]
