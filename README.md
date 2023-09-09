@@ -64,4 +64,4 @@ Make sure your joke is in the following format:
 ### Run Locally
 * Clone the repo
 * `npm i && npm run dev`
-* Visit `localhost:3005/jokes/random` or `localhost:3005/jokes/ten` on your browser!
+* Visit `localhost:3005/random_joke` or `localhost:3005/random_ten` on your browser!
