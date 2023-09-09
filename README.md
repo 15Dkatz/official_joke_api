@@ -1,27 +1,25 @@
-# Official Joke API
+# Official Joke API with Multi-Language Support
+
+This is a fork of the Official Joke API originally created by [5Dkatz](https://github.com/5Dkatz/official_joke_api). The fork, [osman-koc/joke_api](https://github.com/osman-koc/joke_api), adds multi-language support.
 
 ## Endpoints:
 
 ### Grab a random joke!
-[https://official-joke-api.appspot.com/random_joke](https://official-joke-api.appspot.com/random_joke)
 
-
-[https://official-joke-api.appspot.com/jokes/random](https://official-joke-api.appspot.com/jokes/random)
+- Türkçe: [https://official-joke-api.appspot.com/random_joke?lang=tr](https://official-joke-api.appspot.com/random_joke?lang=tr)
+- English: [https://official-joke-api.appspot.com/random_joke?lang=en](https://official-joke-api.appspot.com/random_joke?lang=en)
 
 ### Grab ten random jokes!
-[https://official-joke-api.appspot.com/random_ten](https://official-joke-api.appspot.com/random_ten)
 
-
-[https://official-joke-api.appspot.com/jokes/ten](https://official-joke-api.appspot.com/jokes/ten)
+- Türkçe: [https://official-joke-api.appspot.com/random_ten?lang=tr](https://official-joke-api.appspot.com/random_ten?lang=tr)
+- English: [https://official-joke-api.appspot.com/random_ten?lang=en](https://official-joke-api.appspot.com/random_ten?lang=en)
 
 ### Grab jokes by type!
 
 The endpoints are `jokes/:type/random` or `jokes/:type/ten`. For example:
 
-[https://official-joke-api.appspot.com/jokes/programming/random](https://official-joke-api.appspot.com/jokes/programming/random)
-
-[https://official-joke-api.appspot.com/jokes/programming/ten](https://official-joke-api.appspot.com/jokes/programming/ten)
-
+- Türkçe: [https://official-joke-api.appspot.com/jokes/programming/random?lang=tr](https://official-joke-api.appspot.com/jokes/programming/random?lang=tr)
+- English: [https://official-joke-api.appspot.com/jokes/programming/random?lang=en](https://official-joke-api.appspot.com/jokes/programming/random?lang=en)
 
 ### Grab joke by id!
 
@@ -35,7 +33,7 @@ The majority of these jokes were contributed by joke-loving coders around the wo
 
 ### Make a contribution!
 
-Submit a Pull Request, with your joke added to the jokes/index.json file. Make sure the joke is in this format:
+Submit a Pull Request, with your joke added to the `jokes/index.json` file. Make sure the joke is in this format:
 
 ```javascript
 {
@@ -43,6 +41,7 @@ Submit a Pull Request, with your joke added to the jokes/index.json file. Make s
   "setup": "What's the best thing about a Boolean?",
   "punchline": "Even if you're wrong, you're only off by a bit."
 }
+-
 ```
 
 ***

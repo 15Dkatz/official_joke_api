@@ -1,15 +1,6 @@
-const jokes = require('./jokes/index.json');
+const trJokes = require('./jokes/tr.json'); // Türkçe espri verilerini yükleyin
+const enJokes = require('./jokes/en.json'); // İngilizce espri verilerini yükleyin
 
-let lastJokeId = 0;
-jokes.forEach(jk => jk.id = ++lastJokeId);
-
-const randomJoke = () => {
-  return jokes[Math.floor(Math.random() * jokes.length)];
-}
-
-/**
- * Get N random jokes from a jokeArray
- */
 const randomN = (jokeArray, n) => {
   const limit = jokeArray.length < n ? jokeArray.length : n;
   const randomIndicesSet = new Set();
@@ -26,18 +17,81 @@ const randomN = (jokeArray, n) => {
   });
 };
 
-const randomTen = () => randomN(jokes, 10);
+const randomJoke = (lang = 'tr') => {
+  let jokesData;
 
-const randomSelect = (number) => randomN(jokes, number);
+  if (lang === 'tr') {
+    jokesData = trJokes;
+  } else if (lang === 'en') {
+    jokesData = enJokes;
+  } else {
+    throw new Error('Unsupported language');
+  }
 
-const jokeByType = (type, n) => {
-  return randomN(jokes.filter(joke => joke.type === type), n);
+  return jokesData[Math.floor(Math.random() * jokesData.length)];
 };
 
-/** 
- * @param {Number} id - joke id
- * @returns a single joke object or undefined
- */
-const jokeById = (id) => (jokes.filter(jk => jk.id === id)[0]);
+const randomTen = (lang = 'tr') => {
+  let jokesData;
 
-module.exports = { jokes, randomJoke, randomN, randomTen, randomSelect, jokeById, jokeByType };
+  if (lang === 'tr') {
+    jokesData = trJokes;
+  } else if (lang === 'en') {
+    jokesData = enJokes;
+  } else {
+    throw new Error('Unsupported language');
+  }
+
+  return randomN(jokesData, 10);
+};
+
+const randomSelect = (number, lang = 'tr') => {
+  let jokesData;
+
+  if (lang === 'tr') {
+    jokesData = trJokes;
+  } else if (lang === 'en') {
+    jokesData = enJokes;
+  } else {
+    throw new Error('Unsupported language');
+  }
+
+  return randomN(jokesData, number);
+};
+
+const jokeByType = (type, n, lang = 'tr') => {
+  let jokesData;
+
+  if (lang === 'tr') {
+    jokesData = trJokes;
+  } else if (lang === 'en') {
+    jokesData = enJokes;
+  } else {
+    throw new Error('Unsupported language');
+  }
+
+  return randomN(jokesData.filter(joke => joke.type === type), n);
+};
+
+const jokeById = (id, lang = 'tr') => {
+  let jokesData;
+
+  if (lang === 'tr') {
+    jokesData = trJokes;
+  } else if (lang === 'en') {
+    jokesData = enJokes;
+  } else {
+    throw new Error('Unsupported language');
+  }
+
+  return jokesData.filter(jk => jk.id === id)[0];
+};
+
+module.exports = {
+  randomJoke,
+  randomN,
+  randomTen,
+  randomSelect,
+  jokeById,
+  jokeByType
+};

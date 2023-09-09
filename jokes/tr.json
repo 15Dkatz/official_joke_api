@@ -1,0 +1,1952 @@
+[
+    {
+      "type": "bilmece",
+      "soru": "Karşıdan baktım hiç yok, yanına vardım pek çok.",
+      "cevap": "Karınca"
+    },
+    {
+      "type": "bilmece",
+      "soru": "Yüzer, sürünür, uçar, yürür, koşar. Hem tek hücrelisi hem de çok hücrelisi var.",
+      "cevap": "Hayvan"
+    },
+    {
+      "type": "bilmece",
+      "soru": "Renklerden bir yay, ama onunla ok atılmaz. Yağmurun peşine takılır, kara takılmaz.",
+      "cevap": "Gökkuşağı"
+    },
+    {
+      "type": "bilmece",
+      "soru": "İçi dolu pamuk. Arkanı yaslan, onu doldurduk.",
+      "cevap": "Yastık"
+    },
+    {
+      "type": "bilmece",
+      "soru": "Tüylü tüylü herkes onu çok sever, dikkat et çifte atarsa üzülürsün hemen.",
+      "cevap": "At"
+    },
+    {
+      "type": "bilmece",
+      "soru": "Masaya hangi örtü serilmez?",
+      "cevap": "Bitki örtüsü"
+    },
+    {
+      "type": "bilmece",
+      "soru": "Dağdan gelir, taştan gelir, bir kükremiş aslan gelir.",
+      "cevap": "Sel"
+    },
+    {
+      "type": "bilmece",
+      "soru": "Arnavutların istila ettiği köy?",
+      "cevap": "Arnavutköy"
+    },
+    {
+      "type": "bilmece",
+      "soru": "Derede tin tin, tepede tin tin, kemiksiz tin tin.",
+      "cevap": "Kelebek"
+    },
+    {
+      "type": "bilmece",
+      "soru": "Ramazan gelir sokaklarda dolaşır insanları onunla sahura kaldırırım.",
+      "cevap": "Davul"
+    },
+    {
+      "type": "bilmece",
+      "soru": "En uzun ve kütleli hayvanım. Eski zamanlarda yaşadım ben neyim?",
+      "cevap": "Dinozor"
+    },
+    {
+      "type": "bilmece",
+      "soru": "Zıp zıp zıplarım, beyaz renkli tüylü bir şeyim peki ben neyim?",
+      "cevap": "Tavşan"
+    },
+    {
+      "type": "bilmece",
+      "soru": "Anaokulundan sonra ne okuruz?",
+      "cevap": "İlkokul"
+    },
+    {
+      "type": "bilmece",
+      "soru": "Minicik doğar, anne sütü ile doyar.",
+      "cevap": "Bebek"
+    },
+    {
+      "type": "bilmece",
+      "soru": "Herkesin önünde şapka çıkarttığı kişi kimdir?",
+      "cevap": "Berber"
+    },
+    {
+      "type": "bilmece",
+      "soru": "Erken uyanmaktır işim. Mahallede çınlar sesim.",
+      "cevap": "Horoz"
+    },
+    {
+      "type": "bilmece",
+      "soru": "Gözlerime takarım, etrafıma bakarım",
+      "cevap": "Gözlük"
+    },
+    {
+      "type": "bilmece",
+      "soru": "Kediler neden dört ayaklarının üstüne düşerler?",
+      "cevap": "Beş ayakları olmadığı için"
+    },
+    {
+      "type": "bilmece",
+      "soru": "Ne yersen orucun bozulmaz?",
+      "cevap": "Dayak"
+    },
+    {
+      "type": "bilmece",
+      "soru": "Ateş olmayan yerde ne olmaz ?",
+      "cevap": "İtfaiye"
+    },
+    {
+      "type": "bilmece",
+      "soru": "Altı canlı üstü cansız",
+      "cevap": "Kaplumbağa"
+    },
+    {
+      "type": "bilmece",
+      "soru": "En çok kardeşi olan meyve hangi meyvedir?",
+      "cevap": "Üzüm"
+    },
+    {
+      "type": "bilmece",
+      "soru": "Kuyruğu var canlı değil konuşur ama insan değil camı var ama pencere değil",
+      "cevap": "Televizyon"
+    },
+    {
+      "type": "bilmece",
+      "soru": "Tay tay gider, üstüne de yeller eser. Ayağı takılırsa, seni yerlerde sürükler.",
+      "cevap": "At"
+    },
+    {
+      "type": "bilmece",
+      "soru": "Çat orada, çat burada, Çat kapı arkasında.",
+      "cevap": "Süpürge"
+    },
+    {
+      "type": "bilmece",
+      "soru": "Kolu var bacağı yok, dikdörtgeni vardır, karesi yok.",
+      "cevap": "Kapı"
+    },
+    {
+      "type": "bilmece",
+      "soru": "İz eder dizi dizi, alır gezdirir bizi.",
+      "cevap": "Ayaklarımız"
+    },
+    {
+      "type": "bilmece",
+      "soru": "Kaplumbağalar için en kötü durum nedir?",
+      "cevap": "Sırtlarının kaşınması"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Yol kenarında bekler herkesi kontrol eder.",
+      "punchline": "Trafik polisi"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hangi macunun tadı güzeldir?",
+      "punchline": "Lahmacun"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Anne kırkayağın en zor işi nedir?",
+      "punchline": "Yavrularının ayaklarını yıkamak"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Zilim var ama kapım yok.",
+      "punchline": "Telefon"
+    },
+    {
+      "type": "bilmece",
+      "setup": "İçinde bir akrep var, zarar vermeden dolanır.",
+      "punchline": "Saat"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ben iki özleyenin arasında dururum. Onları istedikleri yerde konuştururum.",
+      "punchline": "Cep telefonu"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ağzı vardır konuşmaz, yatağı vardır ama hiç uyumaz.",
+      "punchline": "Akarsu"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Elsiz ayaksız kapı açarım.",
+      "punchline": "Anahtar"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bir sihirli fenerim, kibritsiz de yanarım.",
+      "punchline": "Ampul"
+    },
+    {
+      "type": "bilmece",
+      "setup": "İncecik beli, elimin eli.",
+      "punchline": "Çatal"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hangi tasla su içilmez?",
+      "punchline": "Ters tutulan tasla"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bakınca görünürsün, kaçarsan silinirsin.",
+      "punchline": "Ayna"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bebekler hangi memeden süt ememez?",
+      "punchline": "Kulak memesinden"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Duvara çarpan araba ne yapar?",
+      "punchline": "Durur"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Yer altında turuncu minare.",
+      "punchline": "Havuç"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Termometre düşüyorsa bu ne anlama gelir?",
+      "punchline": "Asılı olduğu yerin sağlam olmadığı"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Mantarlar niye şemsiye şeklindedir?",
+      "punchline": "Yağmur yağan yerlerde yaşadıkları için."
+    },
+    {
+      "type": "bilmece",
+      "setup": "Kediler ile kaleciler arasındaki fark nedir?",
+      "punchline": "Birisi tuttuklarını yer diğeri tutamadıklarını"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Herkesin gitmekten korktuğu köy hangisidir?",
+      "punchline": "Tahtalıköy"
+    },
+    {
+      "type": "bilmece",
+      "setup": "İçini çıkartınca büyüyen şey nedir?",
+      "punchline": "Bir çukur"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Servis edilse de yenemeyen şey nedir?",
+      "punchline": "Tenis topu"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Sıcağa koyma kururum, suya koyma köpürürüm.",
+      "punchline": "Sabun"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Kekeleyenler ne zaman bu sorunu yener?",
+      "punchline": "Konuşmadıkları zaman"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Kirpiler nasıl uyur?",
+      "punchline": "Diken üstünde"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Yazları giyinir, kışları soyunur.",
+      "punchline": "Ağaç"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hayır sever kişi kime denir?",
+      "punchline": "Herkese hayır diyenlere"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Şehirler, köyler gezerim ama bir adım bile hareket etmem. Ben neyim?",
+      "punchline": "Yol"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Kurbağalar niye mayo giymezler?",
+      "punchline": "Zıpladıklarında düşmesin diye"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Kıvrım kıvrım kıvrılır çizgisi, ayırır kara ile denizi.",
+      "punchline": "Harita"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Aynı anne babanın, aynı anda doğan çocukları nasıl ikiz olamaz?",
+      "punchline": "Üçüzdürler"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Her gün yeniden doğar, dünyaya haber yayar.",
+      "punchline": "Gazete"
+    },
+    {
+      "type": "bilmece",
+      "setup": "İnsanları yükselten şey nedir?",
+      "punchline": "Asansör"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ormanda ininde yaşar, kışın uzun bir uykuya dalar.",
+      "punchline": "Ayı"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Küçük ve sevimli ördek yavrusu ilk kez suya girerse ne olur?",
+      "punchline": "Sırılsıklam"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bir adam banyo yapar ama ıslanmaz neden?",
+      "punchline": "Çünkü adam ustadır"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hem açanım hem de kapayan.",
+      "punchline": "Anahtar"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bir kişi apartmanın 25. katında cam siliyormuş, camdan düşmüş ama ölmemiş neden?",
+      "punchline": "Candan içeri düşmüş"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Burnu kuyruğundan uzun olan hayvan hangisidir?",
+      "punchline": "Fil"
+    },
+    {
+      "type": "bilmece",
+      "setup": "3 avcı 3 saatte 3 ördek vurabiliyorsa 9 avcının 9 ördeği vurabilmesi için kaç saat lazımdır?",
+      "punchline": "9 saat"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ay varken uçar, güneş varken kaçar.",
+      "punchline": "Yarasa"
+    },
+    {
+      "type": "bilmece",
+      "setup": "En temiz böcek hangi böcektir?",
+      "punchline": "Hamamböceği"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Kökleri yukarı, dalları aşağı.",
+      "punchline": "Saç"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Başkasına verdiğimiz halde bizim tutuğumuz şey nedir?",
+      "punchline": "Söz"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Her şey onun içindedir.",
+      "punchline": "Sözlük"
+    },
+    {
+      "type": "bilmece",
+      "setup": "29 harf içeren ama sadece 3 hecede söylenen kelime nedir?",
+      "punchline": "Alfabe"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Avcılar neden avlanırken tek gözünü kapatır?",
+      "punchline": "İki gözünü de kapatırsa avı göremez"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Kullandıkça gelişen şey nedir?",
+      "punchline": "Beyin"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Delik dolu olan ama su tutabilen şey nedir?",
+      "punchline": "Sünger"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Neyi kırdığında çok mutlu olursun?",
+      "punchline": "Rekor"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Başta uzun olan, ama zaman geçtikçe kısalan şey nedir?",
+      "punchline": "Mum"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Kaynatılabilen ama yenilemeyen şey nedir?",
+      "punchline": "Ders"
+    },
+    {
+      "type": "bilmece",
+      "setup": "10 tane ağır sandığı en kolay nasıl çekersiniz?",
+      "punchline": "Fotoğraf makinesiyle"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Çiğnenen ama yutulmayan şey nedir?",
+      "punchline": "Kurallar"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Boş bir çantaya kaç kitap koyulabilir?",
+      "punchline": "1. Çünkü 1 kitap koyduktan sonra boş bir çanta olmaz."
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ne versem yer, su verirsem ölür.",
+      "punchline": "Ateş"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Yazın bahçede, kışın küpte.",
+      "punchline": "Turşu"
+    },
+    {
+      "type": "bilmece",
+      "setup": "İp bağladım sopaya uçtu gitti havaya.",
+      "punchline": "Uçurtma"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Aradığın şeyi niye her zaman en son baktığın yerde bulursun?",
+      "punchline": "Çünkü bulunca bakmayı bırakırsın"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bilmece bildirmece ayak altında kaydırmaca.",
+      "punchline": "Paten"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Sende var, bende yok. Sabahta var, akşamda yok",
+      "punchline": "S harfi"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Sadece birisi taksa bile iki kişiyi birbirine bağlayan şey nedir?",
+      "punchline": "Evlilik yüzüğü"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Kurudukça daha çok ıslatılan şey nedir?",
+      "punchline": "Havlu"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hangi bebek hiçbir zaman ağlamaz?",
+      "punchline": "Oyuncak bebek"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Başta sert olan ama sonra yumuşayan ve sürekli sürekli içine hava verdiğin şey nedir?",
+      "punchline": "Sakız"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Yağmur yağınca ne yükselir?",
+      "punchline": "Su seviyesi"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Her gün beni doldururlar, sen de gelip boşaltırsın. Ben neyim?",
+      "punchline": "Posta kutusu"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hey gidi gidiver, şu gidiyi tutuver, ne tatlıca eti var, püsküllüce kuyruğu var.",
+      "punchline": "Balık"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Sabah akşam çalışır, hırsızlar ondan kaçışır.",
+      "punchline": "Bekçi"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Neyin kanatları yoktur ama başına konabilir?",
+      "punchline": "Talih kuşunun"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ayağı var yürüyemez, dili var konuşamaz",
+      "punchline": "Bebek"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bir trenim var gittiği yolu dümdüz eder.",
+      "punchline": "Ütü"
+    },
+    {
+      "type": "bilmece",
+      "setup": "İyi armut peşinde, Gözü ballı işinde, Kışın uyurken bile, Balık tutar düşünde",
+      "punchline": "Ayı"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Sever dağı ormanı, şişmana çıkmış adı, kışın uyuşur kanı, yazın meyve düşmanı.",
+      "punchline": "Ayı"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Pazardan aldım büsbütün, eve geldim dilim dilim.",
+      "punchline": "Mandalina"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Boyu boşu boyluca, Bacakları boynunca, Benekli giysisini, Giymiş boylu boyunca.",
+      "punchline": "Zürafa"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Telefondaki tuşların çarpımı kaç eder?",
+      "punchline": "0 eder. Çünkü 0 bütün çarpılanları yutar."
+    },
+    {
+      "type": "bilmece",
+      "setup": "Yiyeceklerden sütü sever, diliyle yalayarak içer, miyav miyav diyerek oyun oynamak ister?",
+      "punchline": "Kedi"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bir duvar bir duvarla buluşmak isterse nerede buluşur?",
+      "punchline": "Köşede"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Daldan dala tırmanır, tüm muzlara saldırır",
+      "punchline": "Maymun"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bilmece bildirmece dudak üstünde kaydırmaca.",
+      "punchline": "Ruj"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Altmış para, yetmiş para; Sapı uzun, kendi kara.",
+      "punchline": "Vişne"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hangi kanun insanları yargılamaz?",
+      "punchline": "Yer çekimi kanunu."
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ayağınla basınca kırt kırt eder. Güneşi görünce eriyip gider.",
+      "punchline": "Kar"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Masal masal maskara, eli yüzü kapkara.",
+      "punchline": "Baca"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hangi yapraklar sonbaharda dökülmez?",
+      "punchline": "Kitap yaprakları"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hangi simit yenmez?",
+      "punchline": "Deniz simidi"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ankara niçin soğuktur?",
+      "punchline": "06 olduğundan"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ayağını yorganına göre uzatmayan ne olur?",
+      "punchline": "Üşür."
+    },
+    {
+      "type": "bilmece",
+      "setup": "Adamın biri durmadan uluyormuş, neden?",
+      "punchline": "İçine kurt düşmüş de ondan."
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hangi kuşağı belinize bağlayamazsınız?",
+      "punchline": "Gökkuşağını"
+    },
+    {
+      "type": "bilmece",
+      "setup": "En hızlı yenilen şey nedir?",
+      "punchline": "Maaş"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Yazın en çok kim hava atar?",
+      "punchline": "Vantilatör"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hangi kaba su konmaz?",
+      "punchline": "Ayakkabıya"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hiç kimsenin okuyamadığı yazı hangisidir?",
+      "punchline": "Alın yazısı"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hiç yorulmadan dünya yolculuğu yapan şey nedir?",
+      "punchline": "Posta pulu"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hiç hareket etmeden neyimizi değiştirebiliriz?",
+      "punchline": "Düşüncemizi"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Termometre ile öğretmen arasında ne benzerlik vardır?",
+      "punchline": "Her ikisi de sıfırı gösterdiği zaman, insanlar titrer."
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hangi yolda yürünmez?",
+      "punchline": "Samanyolunda"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hiç ceza alınmadan öldürülen şey nedir?",
+      "punchline": "Vakit"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Kızdığını en çok kim belli eder?",
+      "punchline": "Ütü"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hangi barajda su olmaz?",
+      "punchline": "Futbolcuların kurduğu barajda."
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hangi kale tarihi değildir?",
+      "punchline": "Futbol kalesi"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Sürekli döküldüğü halde tükenmeyen şey nedir?",
+      "punchline": "Dil"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Elbiselerden başka ne ütülenir?",
+      "punchline": "Kafa ütülenir"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Erkekler niçin kravat takar?",
+      "punchline": "İki yakaları bir araya gelsin diye."
+    },
+    {
+      "type": "bilmece",
+      "setup": "Eve gelen hırsız neyi çalmaz?",
+      "punchline": "Zili"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Denizler niçin tuzludur?",
+      "punchline": "Balıklar kokmasın diye"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hangi yazı silinmez?",
+      "punchline": "Alın yazısı."
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hangi köye kimse gitmek istemez?",
+      "punchline": "Tahtalı köye."
+    },
+    {
+      "type": "bilmece",
+      "setup": "İnsan, en çok hangi zilden etkilenir?",
+      "punchline": "Karnında çalan zilden"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Damlaya damlaya ne olur?",
+      "punchline": "Su faturası kabarır."
+    },
+    {
+      "type": "bilmece",
+      "setup": "En neşeli çiçek hangisidir?",
+      "punchline": "Gül"
+    },
+    {
+      "type": "bilmece",
+      "setup": "En güzel kokan fil hangisidir?",
+      "punchline": "Karanfil"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hangi top zıplamaz?",
+      "punchline": "Kar topu"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Kim evini kiraya vermez?",
+      "punchline": "Kaplumbağa"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hangi macunla diş fırçalanmaz?",
+      "punchline": "Lahmacunla"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hangi bağda üzüm yetişmez?",
+      "punchline": "Ayakkabı bağında"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Horoz nerede öter?",
+      "punchline": "Kendi çöplüğünde"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hangi kazanın kaymakamı yoktur?",
+      "punchline": "Trafik kazasının"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Çalındığı halde görülmeyen şey nedir?",
+      "punchline": "Islık"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Yankesiciler neden modayı takip ederler?",
+      "punchline": "Ceplerin yerini öğrenmek için."
+    },
+    {
+      "type": "bilmece",
+      "setup": "Dokunmadan tutulan şey nedir?",
+      "punchline": "Oruç"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Gözlemeyi en çok kim sever?",
+      "punchline": "Nöbetçi"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Karanlıkta neyimizi göremeyiz?",
+      "punchline": "Gölgemizi"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hangi karnede sıfır olmaz?",
+      "punchline": "Sağlık karnesinde"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Arı ile eşek arasında ne fark vardır?",
+      "punchline": "Arının eşeği vardır ama eşeğin arısı yoktur."
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hangi adam hamama girmez?",
+      "punchline": "Kardan adam"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Tavuklar en çok hangi ülkeyi sever?",
+      "punchline": "Mısır"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bir gökçe tepe, etrafı küpe, altın ağarcık, gümüş küpe",
+      "punchline": "Gökyüzü, yıldızlar, Güneş, Ay"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Kırıldığı zaman kullanılabilen şey nedir?",
+      "punchline": "Yumurta"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Benzin ile insan arasındaki benzerlik nedir?",
+      "punchline": "İkisinin de sulusu çekilmez."
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ateş olmayan yerde ne olmaz?",
+      "punchline": "İtfaiye"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bir elmayı yerken kurt bulmaktan daha kötüsü ne olabilir?",
+      "punchline": "Yarım kurt bulmak."
+    },
+    {
+      "type": "bilmece",
+      "setup": "Günlerin padişahı, haftaların şahı, uzatır bacakları, dinletir ayakları",
+      "punchline": "Pazar"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hangi yolda trafik kazası olmaz?",
+      "punchline": "Samanyolu"
+    },
+    {
+      "type": "bilmece",
+      "setup": "En kibar kuş hangisidir?",
+      "punchline": "Baykuş"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Servis yapıldığı halde yenmeyen şey nedir?",
+      "punchline": "Tenis topu"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Dışı var içi yok, dayak yer suçu yok.",
+      "punchline": "Top"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Allah yapar yapısını. Bıçak açar kapısını.",
+      "punchline": "Karpuz"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Yuvarlaktır düz değil, doksan dokuz yüz değil",
+      "punchline": "Tesbih"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Sakalı var bıyığı yok",
+      "punchline": "Keçi"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Dört ayağı var canı yok, ayağını kessen kanı yok.",
+      "punchline": "Masa"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Yol üstünde kırmızı iplik.",
+      "punchline": "Solucan"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Dört ayağı var yürümez",
+      "punchline": "Masa"
+    },
+    {
+      "type": "bilmece",
+      "setup": "İnsanlar hangi ay en az uykuyu uyurlar?",
+      "punchline": "Şubat. Sonuçta en kısa ay"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Kıştan kaçmaz, yaprağı uçmaz.",
+      "punchline": "Çam ağacı"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Kendi büyük kuyruğu küçük",
+      "punchline": "Deve"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Pulları var, parası yok, kanadı var, uçması yok",
+      "punchline": "Balık"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Kışın yatar, yazın kalkar.",
+      "punchline": "Soba"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Kulağını büktükçe ağzı sulanır.",
+      "punchline": "Musluk"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Özü şirin tüylü halde, lezzeti var tatlı halde",
+      "punchline": "Şeftali"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ev kadar yer kaplar, fareden korkar",
+      "punchline": "Fil"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Küçük küçük dişleri var ne de büyük işleri var.",
+      "punchline": "Tarak"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Altı taş üstü taş, ortasında küçük baş",
+      "punchline": "Kaplumbağa"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Yağmur yağarken yükselen şey nedir?",
+      "punchline": "Şemsiye"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Canlıyı acıtır, cansızı acıtmaz.",
+      "punchline": "İğne"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Balıkların en korktuğu ilimiz neresidir?",
+      "punchline": "Balıkesir"
+    },
+    {
+      "type": "bilmece",
+      "setup": "İstanbul’da yaşayan adam niye Ankara’ya gömülemez?",
+      "punchline": "Çünkü hala yaşıyor"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Akşamları bir süper kahramana dönüşen şehrimiz hangisidir?",
+      "punchline": "Batman"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hangi ayda 27 gün vardır ?",
+      "punchline": "Bütün aylarda"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ünlü oyuncu niye Muğla’ya gömülmüştür?",
+      "punchline": "Öldüğü için"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bir sürü kedinin yaşadığı dağ hangisidir?",
+      "punchline": "Tekirdağ"
+    },
+    {
+      "type": "bilmece",
+      "setup": "2 ile 2 ne zaman 4 etmez?",
+      "punchline": "Yan yana gelince"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Virajlarda arabanın hangi tekeri dönmez?",
+      "punchline": "Yedek tekerleği"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Üç kedi, üç fareyi üç dakikada yakalarsa dokuz kedi, dokuz fareyi kaç dakikada yakalar?",
+      "punchline": "Üç. Çünkü her kediye bir fare düşer."
+    },
+    {
+      "type": "bilmece",
+      "setup": "En çok acıtan ilimiz hangisidir?",
+      "punchline": "Tokat"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Küçük çocuk, sevmek istediği kuşa ne der?",
+      "punchline": "Kon-yaa"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ağırlığı olmayan şey nedir?",
+      "punchline": "Gölge"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bir sürü tuşu vardır ama yazı yazılmaz",
+      "punchline": "Piyano"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Tüyden daha hafiftir ama dünyanın en güçlü insanı bile uzun süre tutamaz",
+      "punchline": "Nefes"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hangi on tatlıdır?",
+      "punchline": "Balon"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Fil kadar büyük olan ama ağırlığı olmayan şey nedir?",
+      "punchline": "Filin gölgesi"
+    },
+    {
+      "type": "bilmece",
+      "setup": "En çok alınan ve verilen şey nedir?",
+      "punchline": "Hava"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Tek katlı, kırmızı renkli bir evin merdivenleri ne renk olur?",
+      "punchline": "Tek katlı evde merdiven olmaz"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bir madenden çıktım, etrafıma odun sardılar. Şimdi herkes beni kullanıyor. Ben neyim?",
+      "punchline": "Kurşun kalem"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Everest Dağı keşfedilmeden önce en uzun dağ hangisiydi?",
+      "punchline": "Everest Dağı"
+    },
+    {
+      "type": "bilmece",
+      "setup": "En az ikili olarak verilebilen şey nedir?",
+      "punchline": "Seçenek"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Kırmızı mendil mavi denize düşerse ne olur?",
+      "punchline": "Islanır"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bir tabutta kırk ölü.",
+      "punchline": "Kibrit"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Gittiğin her yere taşıdığın ama hiç ağırlık yapmayan şey nedir?",
+      "punchline": "İsmin"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Aşağı çevirince dolar, yukarı çevirince boşalır",
+      "punchline": "Şapka"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Can bedenden çıkmayınca ne olur?",
+      "punchline": "Diğer derslere geç kalır"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Elden ele ulaşır, tüm dünyayı dolaşır.",
+      "punchline": "Para"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Üç gözü var, bir şapkası, bir de direği.",
+      "punchline": "Trafik lambası"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Sarıdır sallanır, dalında ballanır.",
+      "punchline": "Portakal"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Zıp zıp zıplıyor, yuvarlanınca da durmuyor.",
+      "punchline": "Top"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Harfler dizilmiş yan yana, haydi bana baksana. Sayfalarım var benim, gelip beni okusana.",
+      "punchline": "Kitap"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Karşıdan baktım al, ağzıma aldım bal.",
+      "punchline": "Kiraz"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Alçacık adamcık, başında tabakçık.",
+      "punchline": "Mantar"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Su koyarsın dolar, içersin biter.",
+      "punchline": "Bardak"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Gez gez bıkmaz, iz bırakır akıllanmaz.",
+      "punchline": "Ayakkabı"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bıldırcın budunu kaşır, bulduğunu ağza taşır.",
+      "punchline": "Kaşık"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Mikropları öldürür, hastaları güldürür.",
+      "punchline": "İlaç"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Alçacık dalı, yemesi pek ballı.",
+      "punchline": "Çilek"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ağzı var odun yutar, bacasında duman tüter.",
+      "punchline": "Soba"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Yağmurlu havada gökyüzünden göz kırpar.",
+      "punchline": "Şimşek"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bir ocak, bütün dünyayı ısıtır",
+      "punchline": "Güneş"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bulutlardan süzülür, inci gibi dizilir, çamur olur ezilir. Bilin bakalım bu nedir?",
+      "punchline": "Yağmur"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ortaya bir gümüş yüzük koydum; Ay geldi alamadı, güneş geldi, aldı.",
+      "punchline": "Buz"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Gökte gördüm bir köprü, rengi var yedi türlü",
+      "punchline": "Gökkuşağı"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Yedi diyar üstünden bir nefeste geçen nedir?",
+      "punchline": "Rüzgar"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Kat kat kutular İçinde insan yaşar.",
+      "punchline": "Apartman"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Tık tık çalışır, kurulunca bağrışır",
+      "punchline": "Çalar saat"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Gökten yağar kar değil, ses çıkarır taş değil, yuvarlaktır top değil, bilin bakalım bu nedir?",
+      "punchline": "Dolu"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Doksan dokuz cemaat, iki müezzin, bir imam.",
+      "punchline": "Tesbih"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Çıt demeden yere düşer.",
+      "punchline": "Güneş ışığı"
+    },
+    {
+      "type": "bilmece",
+      "setup": "İstanbul’da bir tane, İzmir'de iki tane, Ankara’da hiç yok",
+      "punchline": "İ harfi"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ağzımıza hoş gelir, dolu gider boş gelir.",
+      "punchline": "Kaşık"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bir çarşafım var, her yeri örter denizi örtmez.",
+      "punchline": "Kar"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ateşsiz yanar, bir top nar.",
+      "punchline": "Güneş"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Kapı arkasında tüllü gelin",
+      "punchline": "Süpürge"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Giresun neden ülkemizin en güçlü ilidir?",
+      "punchline": "Çünkü yanında Ordu var."
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ben giderim o gider, kâh benden önce gider, kâh arkamdan emekler",
+      "punchline": "Gölge"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ben varmadan o varır, her şeyden çok yol alır",
+      "punchline": "Işık"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Geceleri fener, gündüzleri söner.",
+      "punchline": "Yıldızlar"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hem denizde hem karada dolaşır, evini sırtında taşır",
+      "punchline": "Kaplumbağa"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Daldan dala atlarım, kuyruğumla sarkarım",
+      "punchline": "Maymun"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Renk renk nakışları var, yerde sürünür yatar.",
+      "punchline": "Halı"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ayakları kürekli, ne kadar da yürekli, suda gider bir gemi",
+      "punchline": "Ördek"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ateşe girer yanmaz, suya düşer ıslanmaz.",
+      "punchline": "Güneş"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Dam üstünde yarım çörek.",
+      "punchline": "Ay"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Eve bitişik oda, yemek pişer orada.",
+      "punchline": "Mutfak"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Pamuk gibi tüyleri, havucu koparır dişleri, kulakları duyar her sesi, hızla çıkar tepeyi",
+      "punchline": "Tavşan"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Siyah beyaz benekli, yürüyen merdiven sanki",
+      "punchline": "Zürafa"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Meyvelerin şefi hangisidir?",
+      "punchline": "Şeftali"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hangi top zıplamaz?",
+      "punchline": "Kartopu"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Suyun orta yerinde, canlı bir ada yatar, alnının üzerinde, sanki bir fıskiye var.",
+      "punchline": "Balina"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Benim ikiz oğlum var, biri oturur biri kalkar, ikisi de çalışkandır, ikisi de yük kucaklar.",
+      "punchline": "Terazi"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Domates ne zaman kızarır?",
+      "punchline": "Utanınca"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Parmakları yok kolu var. Ayakları yok sırtı var.",
+      "punchline": "Ceket"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bir adam aldığı gazeteleri buzdolabına koyuyormuş, neden?",
+      "punchline": "Taze haberler alabilmek için"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bir kabus gördüğünü ne zaman anlarsın?",
+      "punchline": "Uyanınca"
+    },
+    {
+      "type": "bilmece",
+      "setup": "İplik iplik dökülür yere düşer sökülür, dinlemez gönül hatır, o herkesi ıslatır",
+      "punchline": "Yağmur"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hangi örtü masada kullanılmaz?",
+      "punchline": "Bitki örtüsü"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Çok hoşa gider süsleri, tam yedidir renkleri.",
+      "punchline": "Gökkuşağı"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bir çorap kukla, bir çorap kuklaya ne demiş?",
+      "punchline": "Seni ele geçirmişler"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Makyajsız sayıya ne denir?",
+      "punchline": "Doğal sayı"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Denizaltının bir küçüğüne ne denir?",
+      "punchline": "Deniz 5"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Pişirirsen aş olur, pişirmezsen kuş olur",
+      "punchline": "Yumurta"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Sen gidersin o gider, yok onda üzüntü keder, gündüz onun dostudur, gece onu yok eder.",
+      "punchline": "Gölge"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Altı ayaklı fil; ortasında dil.",
+      "punchline": "Terazi"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Altı çukur, ova değil, üstü kubbe, hava değil, içinde bir bülbül öter, otuz iki kız çevresini bekler",
+      "punchline": "Ağız"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Dumanı tüter, isterse gider, balık değildir, denizde yüzer.",
+      "punchline": "Vapur"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Evlerin yabancısı, her gün evlerde konuk, ev halkı karşısında taş gibi sessiz, donuk.",
+      "punchline": "Televizyon"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Karadandır kazanı, bacadan çıkar dumanı",
+      "punchline": "Soba"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Dışı bahar içi kış, yememiş içmemiz hepsini bize saklamış.",
+      "punchline": "Buzdolabı"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hışıl hışıl ses verir, dağa taşa süs verir. Ne yerde durur, ne gökte, değen yüze mest verir.",
+      "punchline": "Rüzgar"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Öğütülür, buğday değil; rengi siyah kömür değil; sulu pişer, ekmek değil; köpüğü var, sabun değil.",
+      "punchline": "Kahve"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ayağı kılsız, lakin akılsız, başı yassıdır, bıyıklı hırsız.",
+      "punchline": "Fare"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Katık oldum aşına, öp de koy başına, beni nasıl öğütür? sor, değirmen taşına",
+      "punchline": "Ekmek"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Dilberin yanağıdır, temmuz ayı çağıdır, vatanını sorarsan, Amasya’nın bağıdır.",
+      "punchline": "Elma"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Dişim var  ağzım yok, yerim başın üstüdür",
+      "punchline": "Tarak"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Benim iki pencerem var, etrafı etten duvar; gece olur kaparım, gündüz olur açarım.",
+      "punchline": "Göz"
+    },
+    {
+      "type": "bilmece",
+      "setup": "İnce uzun boyu var, içi sarı dışı sarı, benekli kabuğu var",
+      "punchline": "Muz"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Küçücük top biçiminde, sert bir kabuk içinde, bu milletin öz malıdır, ne Hint’dedir, ne Çin’de.",
+      "punchline": "Fındık"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Yeni doğan bir bebeğin dişleri ne renk olur?",
+      "punchline": "Yeni doğan bebeklerin dişleri olmaz"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Beş kardeş var çalışkan, her bir işe alışkan, bıkmazlar usanmazlar, beraber çalışmaktan.",
+      "punchline": "Parmaklar"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Az gitti uz gitti. Dere tepe düz gitti. Gözlerini açınca anında her şey bitti.",
+      "punchline": "Rüya"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Burnu havuçtur, gözleri kömür, soğuk dondurur, sıcak öldürür",
+      "punchline": "Kardan Adam"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Dili çatal, kuyruk uzun, yoktur kışın çıkar yazın",
+      "punchline": "Yılan"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Önce beyaz kar gibi, sonra yeşil yonca gibi. Kızarır kan olur sanki, öyle de lezzeti var ki.",
+      "punchline": "Kiraz"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Yağmur sonu göklerde, yedi renkli bir yayım.",
+      "punchline": "Gökkuşağı"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Yüzlerce iğnesi vardır ama dikiş yapamaz.",
+      "punchline": "Kirpi"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Yokuştur ayak ayak, çık yukarı kata bak.",
+      "punchline": "Merdiven"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Biz biz, biz idik; otuz iki kız idik; ezildik, büzüldük; bir duvara dizildik.",
+      "punchline": "Dişler"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Güneş görür kızarır, topraktayken sararır, tencerede türlü aş, adını ondan alır.",
+      "punchline": "Domates"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Güzün gider, yazın gelir; uzun ince bacaklı",
+      "punchline": "Leylek"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Tatlıdır armağanım, pek acıtır silahım, temizdir benim adım, ben kimim söyle canım?",
+      "punchline": "Arı"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Mavi atlas, iğne batmaz, makas kesmez, terzi biçmez.",
+      "punchline": "Bulut"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Yolda gider izi kalır, yuvasını sırtında taşır",
+      "punchline": "Salyangoz"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Duvarda dolanırım sekiz küçük ayağımla, durmadan ağ örerim bilin bakalım ben kimim",
+      "punchline": "Örümcek"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Attım bir ipi, geldi kocaman biri",
+      "punchline": "Balık"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Biz biz, biz idik; yüz bin tane kız idik; gece oldu dizildik; gündüz oldu silindik.",
+      "punchline": "Yıldızlar"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Kendisi yuvarlak meşinden, gençler gider peşinden, kaleye girince, kimi olur eşinden.",
+      "punchline": "Futbol topu"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Yol üstünde oklu yumak",
+      "punchline": "Kirpi"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Yaştır kurutamazsın, her yerde bulamazsın, çiçeklerden toplanır, tadına doyamazsın.",
+      "punchline": "Bal"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Vırakına bayıldım, susar susmaz ayıldım",
+      "punchline": "Kurbağa"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Çiçek onun, dal onun yediğimiz bal onun. İğnesi var batırır kanadı var götürür",
+      "punchline": "Arı"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Gece gezer, gündüz kaçar",
+      "punchline": "Yarasa"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ayakları kürekli, ne kadar da yürekli, suda bir gemi",
+      "punchline": "Ördek"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hem böcektir hem kelebek, Koza yapar öbek öbek",
+      "punchline": "İpek böceği"
+    },
+    {
+      "type": "bilmece",
+      "setup": "On ay yatar, iki ay kalkar. Feneri yakar, etrafa bakar.",
+      "punchline": "Ateş böceği"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Daldan dala kırmızı pala",
+      "punchline": "Sincap"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Havuç gördü dayanamaz, zıplamadan duramaz",
+      "punchline": "Tavşan"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bir ülkenin 64 tane şehri var, bunlardan 32'si siyah 32'si beyaz, bu ülkenin adı nedir?",
+      "punchline": "Satranç tahtası"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Sütü pek çok sever mırıl mırıl der",
+      "punchline": "Kedi"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Kümeslerin efesi, her sabah çınlar sesi",
+      "punchline": "Horoz"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Uzaktan gördüm taş, yürür yavaş yavaş. Yanına varıp gördüm, dört ayaklı bir baş",
+      "punchline": "Kaplumbağa"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Yatınca kediden alçak; Kalkınca deveden yüksek",
+      "punchline": "Kuş"
+    },
+    {
+      "type": "bilmece",
+      "setup": "A ile başlar, A ile biter; Boynu atkılı ormanda gezer",
+      "punchline": "Aslan"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ay var iken uçar; gün var iken kaçar",
+      "punchline": "Yarasa"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Dağdan gelir takır takır, gömleği yok sırtı açık",
+      "punchline": "Keçi"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Çıktım dağın tepesine, baktım ayın yarısına. Havada bir kuş gördüm, meme verir yavrusuna.",
+      "punchline": "Yarasa"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bukalemun'un dili ne kadar uzayabilir ?",
+      "punchline": "Kendi dili kadar"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bir varmış, bir yokmuş. Onu dinleyen mest olmuş",
+      "punchline": "Masal"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Uzaktan baktım kara taş, yakından baktım dört ayak bir baş",
+      "punchline": "Kaplumbağa"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Kaya düşmüş yere, bul onu her yerde.",
+      "punchline": "Taş"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Başında saç yok, içinde tat yok",
+      "punchline": "Kabak"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Dizi dizi odalar birbirini kovalar",
+      "punchline": "Tren"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Zili var, kapısı yok",
+      "punchline": "Telefon"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Geceleri gökyüzünde sarı tas.",
+      "punchline": "Dolunay"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Karşıdan baktım hiç yok yanına vardım pek çok",
+      "punchline": "Karınca"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Kışın en lazım organlarımız",
+      "punchline": "Kaş kol"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Sesi var canı yok, konuşur ağzı yok",
+      "punchline": "Radyo"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Çöpe atılan erik ne olur?",
+      "punchline": "Teleferik"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bir kırkayak için en zor iş nedir?",
+      "punchline": "Ayakkabılarını giymek"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Eli var. Ayağı yok. Karnı yarık, canı yok",
+      "punchline": "Ceket"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bir ağacı oymuşlar, içine sesleri koymuşlar. Yanlış söyleyince kucağını sıkmışlar.",
+      "punchline": "Saz"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ağzı var, konuşamaz. Yatağı var, hiç uyumaz",
+      "punchline": "Akarsu"
+    },
+    {
+      "type": "bilmece",
+      "setup": "İki evin arası, altın paşa parası",
+      "punchline": "Ay"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Gelişi aslan gibi, duruşu kaplan gibi, yayılır hasır gibi, sürünür esir gibi.",
+      "punchline": "Kedi"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Sudan topraktan çıkarım hemen her yemekte ben varım",
+      "punchline": "Tuz"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Dereler tepeler, şık şık küpeler.",
+      "punchline": "Kiraz"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Üzüm yenmeyen bağ, uzar uzar boylu boyunca…",
+      "punchline": "Ayakkabı bağı"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Dağ kadar büyük, yaprak kadar hafif",
+      "punchline": "Bulut"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ay varken uçar, gün varken kaçar.",
+      "punchline": "Yarasa"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Alçacık dallı yemesi ballı.",
+      "punchline": "Çilek"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Evi sırtında, ayağı karnında. İzi yıldız, gözleri boynuz.",
+      "punchline": "Salyangoz"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Sadece benim ama başkasında da var",
+      "punchline": "İsim"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Tuvaletteki ona ne denir?",
+      "punchline": "Sifon"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hangi kalemle yazı yazılmaz?",
+      "punchline": "Kontrol kalemi"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Elemeden yoğurur, gün aşırı doğurur.",
+      "punchline": "Tavuk"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Uzaktan baktım ak taş gibi, yanına vardım sütlaç gibi",
+      "punchline": "Mantar"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Efe’nin selamı var. Hangi Efe?",
+      "punchline": "Künefe"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Akşam baktım çok idi, sabah baktım yok idi.",
+      "punchline": "Yıldız"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Birisi konuşmaya başlayınca bozulan şey nedir?",
+      "punchline": "Sessizlik"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Kaya düşmüş yere, bul onu her yerde",
+      "punchline": "Taş"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Etli makarnanın kısaltması nedir?",
+      "punchline": "M@K@RN@"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Kara tavuk dalda yatarmış. Dal kırılmış yerde kalmış.",
+      "punchline": "Zeytin"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Yazın yersin yaşını kışın yersin başını",
+      "punchline": "Soğan"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Yemeğin suyuna kim bandı?",
+      "punchline": "Koli bandı"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Sarı mendil mavi denize düşerse ne olur?",
+      "punchline": "Islanır"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hiç ağırlığım yok ama tüm gemileri batırabilirim. Peki, ben neyim?",
+      "punchline": "Delik"
+    },
+    {
+      "type": "bilmece",
+      "setup": "12 oğlu var, 4 kızı var",
+      "punchline": "Yıl"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Yerlerde yürüyemez, gölgesi yok. Dağlar aşar, gücü çok",
+      "punchline": "Ses"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Aşağı çevirsen dolar, yukarı çevirsem boşalır",
+      "punchline": "Şapka"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Alçacık boyu var, mor kadifeden donu var",
+      "punchline": "Patlıcan"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Benim bir dostum var, kuyruğundan uzun burnu var.",
+      "punchline": "Fil"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Dal üstündeyim, yanaklarım al al. Çok küçüğüm ama tadım bal bal.",
+      "punchline": "Kiraz"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Adını söylerim, yok olur",
+      "punchline": "Sessizlik"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Yarım kaşık, duvara yapışık",
+      "punchline": "Kulak"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bakması güzel, alması üzer.",
+      "punchline": "Gül"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ben de var sen de yok, baban da var annen de yok.",
+      "punchline": "B harfi"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Boyun olan ama kafası olmayan, kolları olan ama elleri olmayan şey nedir?",
+      "punchline": "Tişört"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Adını söylerim, yok olur",
+      "punchline": "Lav"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Gelişi aslandır, duruşu kaplan. Sobayı çok sever, kendini yere serer.",
+      "punchline": "Kedi"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Elemeden yoğurur, gün aşırı doğurur",
+      "punchline": "Tavuk"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Hanım içerde, saçı dışarıda",
+      "punchline": "Mısır"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Su yutmuş toprağa ne denir?",
+      "punchline": "Çamur"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ağır suya ne denir?",
+      "punchline": "Buz"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Ateş değil ama yanar, kanatları yok ama uçar, ayakları yok ama koşar.",
+      "punchline": "Güneş"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Öte lin lin, beri lin lin. Ayak üstü durur lin lin.",
+      "punchline": "Kapı"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Da Vinci'nin herkesten sakladığı mesleği nedir?",
+      "punchline": "Vinç operatörü"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Bodrum'un serin sularında yüzmek istiyorum ne yapmalıyım?",
+      "punchline": "Bodrum'a gitmelisin"
+    },
+    {
+      "type": "bilmece",
+      "setup": "En komik kimdir?",
+      "punchline": "Komedyenler"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Şair Ömer, Çiftçi Mehmet'e ne demiş?",
+      "punchline": "Ben yazarım, sen biçersin"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Son gülen kimdir?",
+      "punchline": "Geç anlayandır"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Masaya hangi örtü serilmez?",
+      "punchline": "Bitki örtüsü"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Van Gogh aslen nerelidir?",
+      "punchline": "Van"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Klimt bakkala girmiş, bakkalda Dali'yi görmüş Dali'ye ne demiş?",
+      "punchline": "Bu Dali de kim"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Dört tekerleği ve sinekleri olan nedir?",
+      "punchline": "Bir çöp kamyonu"
+    },
+    {
+      "type": "bilmece",
+      "setup": "Kimin ayakları vardır ama asla yürüyemez?",
+      "punchline": "Masa"
+    }
+  ]
