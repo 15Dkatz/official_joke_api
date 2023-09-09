@@ -31,9 +31,14 @@ Use endpoint `/jokes/:id`
 
 The majority of these jokes were contributed by joke-loving coders around the world!
 
-### Make a contribution!
+To contribute, please follow these steps:
 
-Submit a Pull Request, with your joke added to the `jokes/index.json` file. Make sure the joke is in this format:
+1. Submit a Pull Request with your joke.
+2. Determine the language for your joke: Turkish (tr) or English (en).
+3. Add your joke to the respective JSON file:
+   - If your joke is in Turkish, add it to `jokes/tr.json`.
+   - If your joke is in English, add it to `jokes/en.json`.
+
 
 ```javascript
 {
