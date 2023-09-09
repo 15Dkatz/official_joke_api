@@ -6,19 +6,25 @@ This is a fork of the Official Joke API originally created by [5Dkatz](https://g
 
 ### Grab a random joke!
 
-- Türkçe: [https://official-joke-api.appspot.com/random_joke?lang=tr](https://official-joke-api.appspot.com/random_joke?lang=tr)
-- English: [https://official-joke-api.appspot.com/random_joke?lang=en](https://official-joke-api.appspot.com/random_joke?lang=en)
+- Turkish: 
+  - [https://official-joke-api.appspot.com/random_joke?lang=tr](/random_joke?lang=tr)
+- English: 
+  - [https://official-joke-api.appspot.com/random_joke?lang=en](/random_joke?lang=en)
 
 ### Grab ten random jokes!
 
-- Türkçe: [https://official-joke-api.appspot.com/random_ten?lang=tr](https://official-joke-api.appspot.com/random_ten?lang=tr)
-- English: [https://official-joke-api.appspot.com/random_ten?lang=en](https://official-joke-api.appspot.com/random_ten?lang=en)
+- Turkish: 
+  - [https://official-joke-api.appspot.com/random_ten?lang=tr](/random_ten?lang=tr)
+  - [https://official-joke-api.appspot.com/random_joke?lang=tr](/jokes/ten?lang=tr)
+- English: 
+  - [https://official-joke-api.appspot.com/random_ten?lang=en](/random_ten?lang=en)
+  - [https://official-joke-api.appspot.com/random_joke?lang=en](/jokes/ten?lang=en)
 
 ### Grab jokes by type!
 
 The endpoints are `jokes/:type/random` or `jokes/:type/ten`. For example:
 
-- Türkçe: [https://official-joke-api.appspot.com/jokes/programming/random?lang=tr](https://official-joke-api.appspot.com/jokes/programming/random?lang=tr)
+- Turkish: [https://official-joke-api.appspot.com/jokes/programming/random?lang=tr](https://official-joke-api.appspot.com/jokes/programming/random?lang=tr)
 - English: [https://official-joke-api.appspot.com/jokes/programming/random?lang=en](https://official-joke-api.appspot.com/jokes/programming/random?lang=en)
 
 ### Grab joke by id!
