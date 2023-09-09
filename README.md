@@ -31,6 +31,8 @@ Use endpoint `/jokes/:id`
 
 The majority of these jokes were contributed by joke-loving coders around the world!
 
+### Make a contribution!
+
 To contribute, please follow these steps:
 
 1. Submit a Pull Request with your joke.
@@ -39,6 +41,7 @@ To contribute, please follow these steps:
    - If your joke is in Turkish, add it to `jokes/tr.json`.
    - If your joke is in English, add it to `jokes/en.json`.
 
+Make sure your joke is in the following format:
 
 ```javascript
 {
