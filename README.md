@@ -7,18 +7,18 @@ This is a fork of the Official Joke API originally created by [5Dkatz](https://g
 ### Grab a random joke!
 
 - Turkish: 
-  - [https://official-joke-api.appspot.com/random_joke?lang=tr](/random_joke?lang=tr)
+  - [/random_joke?lang=tr](https://official-joke-api.appspot.com/random_joke?lang=tr)
 - English: 
-  - [https://official-joke-api.appspot.com/random_joke?lang=en](/random_joke?lang=en)
+  - [/random_joke?lang=en](https://official-joke-api.appspot.com/random_joke?lang=en)
 
 ### Grab ten random jokes!
 
 - Turkish: 
-  - [https://official-joke-api.appspot.com/random_ten?lang=tr](/random_ten?lang=tr)
-  - [https://official-joke-api.appspot.com/random_joke?lang=tr](/jokes/ten?lang=tr)
+  - [/random_ten?lang=tr](https://official-joke-api.appspot.com/random_ten?lang=tr)
+  - [/random_joke?lang=tr](https://official-joke-api.appspot.com/jokes/ten?lang=tr)
 - English: 
-  - [https://official-joke-api.appspot.com/random_ten?lang=en](/random_ten?lang=en)
-  - [https://official-joke-api.appspot.com/random_joke?lang=en](/jokes/ten?lang=en)
+  - [/random_ten?lang=en](https://official-joke-api.appspot.com/random_ten?lang=en)
+  - [/random_joke?lang=en](https://official-joke-api.appspot.com/jokes/ten?lang=en)
 
 ### Grab jokes by type!
 
