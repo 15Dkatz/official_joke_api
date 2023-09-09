@@ -24,8 +24,10 @@ This is a fork of the Official Joke API originally created by [5Dkatz](https://g
 
 The endpoints are `jokes/:type/random` or `jokes/:type/ten`. For example:
 
-- Turkish: [https://official-joke-api.appspot.com/jokes/programming/random?lang=tr](https://official-joke-api.appspot.com/jokes/programming/random?lang=tr)
-- English: [https://official-joke-api.appspot.com/jokes/programming/random?lang=en](https://official-joke-api.appspot.com/jokes/programming/random?lang=en)
+- Turkish: 
+  - [/jokes/programming/random?lang=tr](https://official-joke-api.appspot.com/jokes/programming/random?lang=tr)
+- English: 
+  - [/jokes/programming/random?lang=en](https://official-joke-api.appspot.com/jokes/programming/random?lang=en)
 
 ### Grab joke by id!
 
