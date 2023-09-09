@@ -41,7 +41,6 @@ Submit a Pull Request, with your joke added to the `jokes/index.json` file. Make
   "setup": "What's the best thing about a Boolean?",
   "punchline": "Even if you're wrong, you're only off by a bit."
 }
--
 ```
 
 ***
