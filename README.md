@@ -25,7 +25,7 @@ This is a fork of the Official Joke API originally created by [5Dkatz](https://g
 The endpoints are `jokes/:type/random` or `jokes/:type/ten`. For example:
 
 - Turkish: 
-  - [/jokes/bilmece/random?lang=tr](https://official-joke-api.appspot.com/jokes/programming/random?lang=tr)
+  - [/jokes/bilmece/random?lang=tr](https://official-joke-api.appspot.com/jokes/bilmece/random?lang=tr)
 - English: 
   - [/jokes/programming/random?lang=en](https://official-joke-api.appspot.com/jokes/programming/random?lang=en)
 
