@@ -1,27 +1,33 @@
-# Official Joke API
+# Official Joke API with Multi-Language Support
+
+This is a fork of the Official Joke API originally created by [5Dkatz](https://github.com/5Dkatz/official_joke_api). The fork, [osman-koc/joke_api](https://github.com/osman-koc/joke_api), adds multi-language support.
 
 ## Endpoints:
 
 ### Grab a random joke!
-[https://official-joke-api.appspot.com/random_joke](https://official-joke-api.appspot.com/random_joke)
 
-
-[https://official-joke-api.appspot.com/jokes/random](https://official-joke-api.appspot.com/jokes/random)
+- Turkish: 
+  - [/random_joke?lang=tr](https://official-joke-api.appspot.com/random_joke?lang=tr)
+- English: 
+  - [/random_joke?lang=en](https://official-joke-api.appspot.com/random_joke?lang=en)
 
 ### Grab ten random jokes!
-[https://official-joke-api.appspot.com/random_ten](https://official-joke-api.appspot.com/random_ten)
 
-
-[https://official-joke-api.appspot.com/jokes/ten](https://official-joke-api.appspot.com/jokes/ten)
+- Turkish: 
+  - [/random_ten?lang=tr](https://official-joke-api.appspot.com/random_ten?lang=tr)
+  - [/random_joke?lang=tr](https://official-joke-api.appspot.com/jokes/ten?lang=tr)
+- English: 
+  - [/random_ten?lang=en](https://official-joke-api.appspot.com/random_ten?lang=en)
+  - [/random_joke?lang=en](https://official-joke-api.appspot.com/jokes/ten?lang=en)
 
 ### Grab jokes by type!
 
 The endpoints are `jokes/:type/random` or `jokes/:type/ten`. For example:
 
-[https://official-joke-api.appspot.com/jokes/programming/random](https://official-joke-api.appspot.com/jokes/programming/random)
-
-[https://official-joke-api.appspot.com/jokes/programming/ten](https://official-joke-api.appspot.com/jokes/programming/ten)
-
+- Turkish: 
+  - [/jokes/programming/random?lang=tr](https://official-joke-api.appspot.com/jokes/programming/random?lang=tr)
+- English: 
+  - [/jokes/programming/random?lang=en](https://official-joke-api.appspot.com/jokes/programming/random?lang=en)
 
 ### Grab joke by id!
 
@@ -35,7 +41,15 @@ The majority of these jokes were contributed by joke-loving coders around the wo
 
 ### Make a contribution!
 
-Submit a Pull Request, with your joke added to the jokes/index.json file. Make sure the joke is in this format:
+To contribute, please follow these steps:
+
+1. Submit a Pull Request with your joke.
+2. Determine the language for your joke: Turkish (tr) or English (en).
+3. Add your joke to the respective JSON file:
+   - If your joke is in Turkish, add it to `jokes/tr.json`.
+   - If your joke is in English, add it to `jokes/en.json`.
+
+Make sure your joke is in the following format:
 
 ```javascript
 {
@@ -50,4 +64,4 @@ Submit a Pull Request, with your joke added to the jokes/index.json file. Make s
 ### Run Locally
 * Clone the repo
 * `npm i && npm run dev`
-* Visit `localhost:3005/jokes/random` or `localhost:3005/jokes/ten` on your browser!
+* Visit `localhost:3005/random_joke` or `localhost:3005/random_ten` on your browser!

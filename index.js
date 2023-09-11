@@ -20,19 +20,23 @@ app.get('/ping', (req, res) => {
 });
 
 app.get('/random_joke', (req, res) => {
-  res.json(randomJoke());
+  const lang = req.query.lang || 'en';
+  res.json(randomJoke(lang));
 });
 
 app.get('/random_ten', (req, res) => {
-  res.json(randomTen());
+  const lang = req.query.lang || 'en';
+  res.json(randomTen(lang));
 });
 
 app.get('/jokes/random', (req, res) => {
-  res.json(randomJoke());
+  const lang = req.query.lang || 'en';
+  res.json(randomJoke(lang));
 });
 
 // TODO: Needs fixing
 app.get("/jokes/random(/*)?", (req, res) => {
+  const lang = req.query.lang || 'en';
   let num;
 
   try {
@@ -45,27 +49,31 @@ app.get("/jokes/random(/*)?", (req, res) => {
     if (num > Object.keys(jokes).length) {
       res.send(`The passed path exceeds the number of jokes (${count}).`);
     } else {
-      res.json(randomSelect(num));
+      res.json(randomSelect(num, lang));
     }
   }
 });
 
 app.get('/jokes/ten', (req, res) => {
-  res.json(randomTen());
+  const lang = req.query.lang || 'en';
+  res.json(randomTen(lang));
 });
 
 app.get('/jokes/:type/random', (req, res) => {
-  res.json(jokeByType(req.params.type, 1));
+  const lang = req.query.lang || 'en';
+  res.json(jokeByType(req.params.type, 1, lang));
 });
 
 app.get('/jokes/:type/ten', (req, res) => {
-  res.json(jokeByType(req.params.type, 10));
+  const lang = req.query.lang || 'en';
+  res.json(jokeByType(req.params.type, 10, lang));
 });
 
 app.get('/jokes/:id', (req, res, next) => {
   try {
+    const lang = req.query.lang || 'en';
     const { id } = req.params;
-    const joke = jokeById(+id);
+    const joke = jokeById(+id, lang);
     if (!joke) return next({ statusCode: 404, message: 'joke not found' });
     return res.json(joke);
   } catch (e) {
