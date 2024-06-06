@@ -1,6 +1,61 @@
 [
   {
     "type": "general",
+    "setup": "How does a penguin build its house?",
+    "punchline": "Igloos it together."
+  }
+  {
+    "type": "general",
+    "setup": "Why did the scarecrow become a successful neurosurgeon?",
+    "punchline": "He was outstanding in his field and knew how to handle brains."
+  },
+  {
+    "type": "general",
+    "setup": "Why don't mountains ever get cold?",
+    "punchline": "They wear snow caps."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "Because it was two-tired."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "It got mugged."
+  },
+  {
+    "type": "general",
+    "setup": "Why don't seagulls fly over the bay?",
+    "punchline": "Because then they'd be bagels."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the tomato turn red?",
+    "punchline": "Because it saw the salad dressing."
+  },
+  {
+    "type": "general",
+    "setup": "Why was the math book always worried?",
+    "punchline": "Because it had too many variables to solve."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the moon skip dinner?",
+    "punchline": "It was already full."
+  },
+  {
+    "type": "general",
+    "setup": "Why don't scientists trust stairs?",
+    "punchline": "They're always up to something."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the ghost go to the party?",
+    "punchline": "He heard it was going to be a boo-ling affair."
+  }
+  {
+    "type": "general",
     "setup": "What did the fish say when it hit the wall?",
     "punchline": "Dam."
   },
