@@ -2038,5 +2038,10 @@
     "type": "general",
     "setup": "Due to complaints, Hawaii passed a law where you're not allowed to laugh above a certain decibel.",
     "punchline": "You can only use a low ha."
+  },
+  {
+    "type": "general",
+    "setup": "Why are football stadiums so cool?",
+    "punchline": "Because every seat has a fan in it."
   }
 ]
