@@ -1,5 +1,8 @@
 const jokes = require('./jokes/index.json');
 
+let lastJokeId = 0;
+jokes.forEach(jk => jk.id = ++lastJokeId);
+
 const randomJoke = () => {
   return jokes[Math.floor(Math.random() * jokes.length)];
 }
