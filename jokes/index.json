@@ -607,7 +607,7 @@
   {
     "type": "general",
     "setup": "How do you find Will Smith in the snow?",
-    "punchline": " Look for fresh prints."
+    "punchline": "Look for fresh prints."
   },
   {
     "type": "general",
@@ -622,7 +622,7 @@
   {
     "type": "general",
     "setup": "How do you get a baby alien to sleep?",
-    "punchline": " You rocket."
+    "punchline": "You rocket."
   },
   {
     "type": "general",
@@ -802,12 +802,12 @@
   {
     "type": "general",
     "setup": "What did Michael Jackson name his denim store?",
-    "punchline": "   Billy Jeans!"
+    "punchline": "Billy Jeans!"
   },
   {
     "type": "general",
     "setup": "What did one nut say as he chased another nut?",
-    "punchline": " I'm a cashew!"
+    "punchline": "I'm a cashew!"
   },
   {
     "type": "general",
@@ -1077,7 +1077,7 @@
   {
     "type": "general",
     "setup": "What do you call a pile of cats?",
-    "punchline": " A Meowtain."
+    "punchline": "A Meowtain."
   },
   {
     "type": "general",
@@ -1132,7 +1132,7 @@
   {
     "type": "general",
     "setup": "What do you call two barracuda fish?",
-    "punchline": " A Pairacuda!"
+    "punchline": "A Pairacuda!"
   },
   {
     "type": "general",
@@ -1207,7 +1207,7 @@
   {
     "type": "general",
     "setup": "What is a centipedes's favorite Beatle song?",
-    "punchline": " I want to hold your hand, hand, hand, hand..."
+    "punchline": "I want to hold your hand, hand, hand, hand..."
   },
   {
     "type": "general",
@@ -1337,7 +1337,7 @@
   {
     "type": "general",
     "setup": "What's blue and not very heavy?",
-    "punchline": " Light blue."
+    "punchline": "Light blue."
   },
   {
     "type": "general",
@@ -1432,7 +1432,7 @@
   {
     "type": "general",
     "setup": "Where do bees go to the bathroom?",
-    "punchline": " The BP station."
+    "punchline": "The BP station."
   },
   {
     "type": "general",
@@ -2030,19 +2030,44 @@
     "punchline": "Elf-ies."
   },
   {
+    "type": "general",
+    "setup": "While I was sleeping my friends decided to write math equations on me.",
+    "punchline": "You should have seen the expression on my face when I woke up."
+  },
+  {
+    "type": "general",
+    "setup": "Due to complaints, Hawaii passed a law where you're not allowed to laugh above a certain decibel.",
+    "punchline": "You can only use a low ha."
+  },
+  {
+    "type": "general",
+    "setup": "Why are football stadiums so cool?",
+    "punchline": "Because every seat has a fan in it."
+  },
+  {
+    "type": "programming",
+    "setup": "How do you generate a random string?",
+    "punchline": "Put a Windows user in front of Vim and tell them to exit."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the functions stop calling each other?",
+    "punchline": "Because they had constant arguments."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the private classes break up?",
+    "punchline": "Because they never saw each other."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the developer quit his job?",
+    "punchline": "Because he didn't get arrays."
+  },
+  {
     "type": "programming",
     "setup": "What's the best thing about a Boolean?",
     "punchline": "Even if you're wrong, you're only off by a bit."
-  },
-  {
-    "type": "programming",
-    "setup": "Why did the React component go to the psychiatrist?",
-    "punchline": "It needed to setState."
-  },
-  {
-    "type": "programming",
-    "setup": "Why did the React component get arrested?",
-    "punchline": "It was caught using hook dependencies."
   },
   {
     "type": "programming",
@@ -2056,62 +2081,7 @@
   },
   {
     "type": "programming",
-    "setup": "Why did the React component feel hungry?",
-    "punchline": "It needed to consume API."
-  },
-  {
-    "type": "programming",
-    "setup": "How do you know if a React component is having a bad day?",
-    "punchline": "Its state is stuck in an infinite loop."
-  },
-  {
-    "type": "programming",
-    "setup": "Why did the React developer break up with his girlfriend?",
-    "punchline": "She didn't have any componentDidMount."
-  },
-  {
-    "type": "programming",
-    "setup": "How do React developers stay cool in the summer?",
-    "punchline": "They use JSX-air conditioning."
-  },
-  {
-    "type": "programming",
-    "setup": "Why do React developers prefer Netflix over Hulu?",
-    "punchline": "They like to stream data, not buffers."
-  },
-  {
-    "type": "programming",
-    "setup": "What's the difference between a React developer and a magician?",
-    "punchline": "The magician makes things disappear, while the React developer makes things reappear in the DOM."
-  },
-  {
-    "type": "programming",
-    "setup": "Why do React developers never win at poker?",
-    "punchline": "They always redraw."
-  },
-  {
-    "type": "programming",
-    "setup": "What did the React developer say when they saw a bug?",
-    "punchline": "You need to refactor."
-  },
-  {
-    "type": "programming",
-    "setup": "How many React developers does it take to change a light bulb?",
-    "punchline": "None, they just re-render the room."
-  },
-  {
-    "type": "programming",
-    "setup": "Why did the React component go to therapy?",
-    "punchline": "It had too many state changes."
-  },
-  {
-    "type": "programming",
     "setup": "What do you get when you cross a React developer with a mathematician?",
     "punchline": "A function component."
-  },
-  {
-    "type": "programming",
-    "setup": "How do you know if a React developer is lying?",
-    "punchline": "Their useEffect hooks keep changing."
   }
 ]
