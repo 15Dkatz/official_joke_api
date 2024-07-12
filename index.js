@@ -37,15 +37,15 @@ app.get("/jokes/random/:num", (req, res) => {
     num = parseInt(req.params.num);
     if (!num) {
       res.send("The passed path is not a number.");
-    }else{
+    } else {
       if (num > count) {
         res.send(`The passed path exceeds the number of jokes (${count}).`);
       } else {
         res.json(randomSelect(num));
       }
     }
-  } catch (err) {
-    res.send('Unexpected error');
+  } catch (e) {
+    return next(e);
   } 
 });
 
