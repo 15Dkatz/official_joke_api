@@ -14,6 +14,9 @@
 
 [https://official-joke-api.appspot.com/jokes/ten](https://official-joke-api.appspot.com/jokes/ten)
 
+### Grab any number of random jokes!
+[https://official-joke-api.appspot.com/jokes/random/<any-number>](https://official-joke-api.appspot.com/jokes/random/<any-number>)
+
 ### Grab jokes by type!
 
 The endpoints are `jokes/:type/random` or `jokes/:type/ten`. For example:
