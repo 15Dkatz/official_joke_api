@@ -2063,5 +2063,25 @@
     "type": "programming",
     "setup": "Why did the developer quit his job?",
     "punchline": "Because he didn't get arrays."
+  },
+  {
+    "type": "programming",
+    "setup": "What's the best thing about a Boolean?",
+    "punchline": "Even if you're wrong, you're only off by a bit."
+  },
+  {
+    "type": "programming",
+    "setup": "How many React developers does it take to change a lightbulb?",
+    "punchline": "None, they prefer dark mode."
+  },
+  {
+    "type": "programming",
+    "setup": "Why don't React developers like nature?",
+    "punchline": "They prefer the virtual DOM."
+  },
+  {
+    "type": "programming",
+    "setup": "What do you get when you cross a React developer with a mathematician?",
+    "punchline": "A function component."
   }
 ]
