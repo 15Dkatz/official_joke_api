@@ -1181,11 +1181,6 @@
   },
   {
     "type": "general",
-    "setup": "What does a female snake use for support?",
-    "punchline": "A co-Bra!"
-  },
-  {
-    "type": "general",
     "setup": "What does a pirate pay for his corn?",
     "punchline": "A buccaneer!"
   },
@@ -2163,5 +2158,10 @@
     "type": "general",
     "setup": "Why did the cookie go to the doctor?",
     "punchline": " Because it was feeling crumbly."
+  },
+  {
+    "type": "programming",
+    "setup": "What do you call a computer mouse that swears a lot?",
+    "punchline": "A cursor!"
   }
 ]
