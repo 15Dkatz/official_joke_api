@@ -607,7 +607,7 @@
   {
     "type": "general",
     "setup": "How do you find Will Smith in the snow?",
-    "punchline": " Look for fresh prints."
+    "punchline": "Look for fresh prints."
   },
   {
     "type": "general",
@@ -622,7 +622,7 @@
   {
     "type": "general",
     "setup": "How do you get a baby alien to sleep?",
-    "punchline": " You rocket."
+    "punchline": "You rocket."
   },
   {
     "type": "general",
@@ -802,12 +802,12 @@
   {
     "type": "general",
     "setup": "What did Michael Jackson name his denim store?",
-    "punchline": "   Billy Jeans!"
+    "punchline": "Billy Jeans!"
   },
   {
     "type": "general",
     "setup": "What did one nut say as he chased another nut?",
-    "punchline": " I'm a cashew!"
+    "punchline": "I'm a cashew!"
   },
   {
     "type": "general",
@@ -1077,7 +1077,7 @@
   {
     "type": "general",
     "setup": "What do you call a pile of cats?",
-    "punchline": " A Meowtain."
+    "punchline": "A Meowtain."
   },
   {
     "type": "general",
@@ -1132,7 +1132,7 @@
   {
     "type": "general",
     "setup": "What do you call two barracuda fish?",
-    "punchline": " A Pairacuda!"
+    "punchline": "A Pairacuda!"
   },
   {
     "type": "general",
@@ -1207,7 +1207,7 @@
   {
     "type": "general",
     "setup": "What is a centipedes's favorite Beatle song?",
-    "punchline": " I want to hold your hand, hand, hand, hand..."
+    "punchline": "I want to hold your hand, hand, hand, hand..."
   },
   {
     "type": "general",
@@ -1337,7 +1337,7 @@
   {
     "type": "general",
     "setup": "What's blue and not very heavy?",
-    "punchline": " Light blue."
+    "punchline": "Light blue."
   },
   {
     "type": "general",
@@ -1432,7 +1432,7 @@
   {
     "type": "general",
     "setup": "Where do bees go to the bathroom?",
-    "punchline": " The BP station."
+    "punchline": "The BP station."
   },
   {
     "type": "general",
@@ -2030,6 +2030,61 @@
     "punchline": "Elf-ies."
   },
   {
+    "type": "general",
+    "setup": "While I was sleeping my friends decided to write math equations on me.",
+    "punchline": "You should have seen the expression on my face when I woke up."
+  },
+  {
+    "type": "general",
+    "setup": "Due to complaints, Hawaii passed a law where you're not allowed to laugh above a certain decibel.",
+    "punchline": "You can only use a low ha."
+  },
+  {
+    "type": "general",
+    "setup": "Why are football stadiums so cool?",
+    "punchline": "Because every seat has a fan in it."
+  },
+  {
+    "type": "programming",
+    "setup": "How do you generate a random string?",
+    "punchline": "Put a Windows user in front of Vim and tell them to exit."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the functions stop calling each other?",
+    "punchline": "Because they had constant arguments."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the private classes break up?",
+    "punchline": "Because they never saw each other."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the developer quit his job?",
+    "punchline": "Because he didn't get arrays."
+  },
+  {
+    "type": "programming",
+    "setup": "What's the best thing about a Boolean?",
+    "punchline": "Even if you're wrong, you're only off by a bit."
+  },
+  {
+    "type": "programming",
+    "setup": "How many React developers does it take to change a lightbulb?",
+    "punchline": "None, they prefer dark mode."
+  },
+  {
+    "type": "programming",
+    "setup": "Why don't React developers like nature?",
+    "punchline": "They prefer the virtual DOM."
+  },
+  {
+    "type": "programming",
+    "setup": "What do you get when you cross a React developer with a mathematician?",
+    "punchline": "A function component."
+  },
+  {
     "type": "programming",
     "setup": "Why did the developer go broke buying Bitcoin?",
     "punchline": "He kept calling it bytecoin and didn't get any."
@@ -2069,15 +2124,10 @@
       "setup": "Why was the JavaScript developer sad?",
       "punchline": "He didn't know how to null his feelings."
   },
-    {
+  {
     "type": "general",
     "setup": "Why couldn't the bicycle stand up by itself?",
     "punchline": "It was two-tired."
-  },
-  {
-    "type": "general",
-    "setup": "Why did the tomato turn red?",
-    "punchline": "Why did the tomato turn red?"
   },
   {
     "type": "general",
