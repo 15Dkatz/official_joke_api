@@ -2272,5 +2272,10 @@
     "type": "general",
     "setup": "What do you call fake spaghetti?",
     "punchline": "An impasta."
+  },
+  {
+    "type": "general",
+    "setup": "What do you call a thieving alligator?",
+    "punchline": "A crookodile!"
   }
 ]
