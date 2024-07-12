@@ -2083,5 +2083,90 @@
     "type": "programming",
     "setup": "What do you get when you cross a React developer with a mathematician?",
     "punchline": "A function component."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the developer go broke buying Bitcoin?",
+    "punchline": "He kept calling it bytecoin and didn't get any."
+  },
+  {
+      "type": "programming",
+      "setup": "Why did the programmer go to art school?",
+      "punchline": "He wanted to learn how to code outside the box."
+  },
+  {
+      "type": "programming",
+      "setup": "Why did the programmer's wife leave him?",
+      "punchline": "He didn't know how to commit."
+  },
+  {
+      "type": "programming",
+      "setup": "Why do programmers prefer dark chocolate?",
+      "punchline": "Because it's bitter like their code."
+  },
+  {
+      "type": "programming",
+      "setup": "Why did the programmer go broke?",
+      "punchline": "He used up all his cache"
+  },
+  {
+      "type": "programming",
+      "setup": "Why did the programmer always mix up Halloween and Christmas?",
+      "punchline": "Because Oct 31 equals Dec 25."
+  },
+  {
+      "type": "programming",
+      "setup": "Why don't programmers like nature?",
+      "punchline": "There's too many bugs."
+  },
+  {
+      "type": "programming",
+      "setup": "Why was the JavaScript developer sad?",
+      "punchline": "He didn't know how to null his feelings."
+  },
+  {
+    "type": "general",
+    "setup": "Why couldn't the bicycle stand up by itself?",
+    "punchline": "It was two-tired."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the chicken cross the playground?",
+    "punchline": "To get to the other slide."
+  },
+  {
+    "type": "general",
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "Because they make up everything."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "Because he was outstanding in his field."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "It got mugged."
+  },
+  {
+    "type": "general",
+    "setup": "Why don't oysters give to charity?",
+    "punchline": "Because they're shellfish."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the golfer wear two pairs of pants?",
+    "punchline": "In case he got a hole in one."
+  },
+  {
+    "type": "general",
+    "setup": "Why do pirates not know the alphabet?",
+    "punchline": "They always get stuck at C."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": " Because it was feeling crumbly."
   }
 ]
