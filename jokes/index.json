@@ -71,6 +71,11 @@
   },
   {
     "type": "programming",
+    "setup": "Why would a guitarist become a good programmer?",
+    "punchline": "He's adept at riffing in C#."
+  },
+  {
+    "type": "programming",
     "setup": "What's the best thing about a Boolean?",
     "punchline": "Even if you're wrong, you're only off by a bit."
   },
@@ -1873,8 +1878,8 @@
     "type": "general",
     "setup": "What do you call a bee that can't make up its mind?",
     "punchline": "A maybe."
-   },
-   {
+  },
+  {
     "type": "general",
     "setup": "Why was Cinderalla thrown out of the football team?",
     "punchline": "Because she ran away from the ball."
