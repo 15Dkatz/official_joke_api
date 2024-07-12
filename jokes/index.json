@@ -41,11 +41,6 @@
   },
   {
     "type": "general",
-    "setup": "How do you organize an outer space party?",
-    "punchline": "You planet"
-  },
-  {
-    "type": "general",
     "setup": "What kind of shoes does a thief wear?",
     "punchline": "Sneakers"
   },
@@ -113,11 +108,6 @@
     "type": "general",
     "setup": "What does C.S. Lewis keep at the back of his wardrobe?",
     "punchline": "Narnia business!"
-  },
-  {
-    "type": "programming",
-    "setup": "Why do programmers always mix up Halloween and Christmas?",
-    "punchline": "Because Oct 31 == Dec 25"
   },
   {
     "type": "programming",
@@ -718,11 +708,6 @@
     "type": "general",
     "setup": "How many seconds are in a year?",
     "punchline": "12. January 2nd, February 2nd, March 2nd, April 2nd.... etc"
-  },
-  {
-    "type": "general",
-    "setup": "How many South Americans does it take to change a lightbulb?",
-    "punchline": "A Brazilian"
   },
   {
     "type": "general",
@@ -1835,11 +1820,6 @@
     "punchline": "A full one, in case he gets thirsty, and an empty one, in case he doesn’t."
   },
   {
-    "type": "programming",
-    "setup": "There are 10 kinds of people in this world.",
-    "punchline": "Those who understand binary, those who don't, and those who weren't expecting a base 3 joke."
-  },
-  {
     "type": "general",
     "setup": "Two guys walk into a bar . . .",
     "punchline": "The first guy says \"Ouch!\" and the second says \"Yeah, I didn't see it either.\""
@@ -2183,11 +2163,6 @@
     "type": "general",
     "setup": "Why did the golfer wear two pairs of pants?",
     "punchline": "In case he got a hole in one."
-  },
-  {
-    "type": "general",
-    "setup": "Why do pirates not know the alphabet?",
-    "punchline": "They always get stuck at C."
   },
   {
     "type": "general",
