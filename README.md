@@ -2,28 +2,28 @@
 
 ## Endpoints:
 
-### Grab a random joke!
+### Grab a random joke
 [https://official-joke-api.appspot.com/random_joke](https://official-joke-api.appspot.com/random_joke)
 
 
 [https://official-joke-api.appspot.com/jokes/random](https://official-joke-api.appspot.com/jokes/random)
 
-### Grab ten random jokes!
+### Grab ten random jokes
 [https://official-joke-api.appspot.com/random_ten](https://official-joke-api.appspot.com/random_ten)
 
 
 [https://official-joke-api.appspot.com/jokes/ten](https://official-joke-api.appspot.com/jokes/ten)
 
-### Grab any number of random jokes!
+### Grab any number of random jokes
 
 Usage: `https://official-joke-api.appspot.com/jokes/random/<any-number>`
 
 For example:
-[https://official-joke-api.appspot.com/jokes/random/5](https://official-joke-api.appspot.com/jokes/random/5)
-[https://official-joke-api.appspot.com/jokes/random/25](https://official-joke-api.appspot.com/jokes/random/25)
-[https://official-joke-api.appspot.com/jokes/random/250](https://official-joke-api.appspot.com/jokes/random/250)
+* [https://official-joke-api.appspot.com/jokes/random/5](https://official-joke-api.appspot.com/jokes/random/5)
+* [https://official-joke-api.appspot.com/jokes/random/25](https://official-joke-api.appspot.com/jokes/random/25)
+* [https://official-joke-api.appspot.com/jokes/random/250](https://official-joke-api.appspot.com/jokes/random/250)
 
-### Grab jokes by type!
+### Grab jokes by type
 
 The endpoints are `jokes/:type/random` or `jokes/:type/ten`. For example:
 
@@ -32,7 +32,7 @@ The endpoints are `jokes/:type/random` or `jokes/:type/ten`. For example:
 [https://official-joke-api.appspot.com/jokes/programming/ten](https://official-joke-api.appspot.com/jokes/programming/ten)
 
 
-### Grab joke by id!
+### Grab joke by id
 
 Use endpoint `/jokes/:id`
 
@@ -59,4 +59,4 @@ Submit a Pull Request, with your joke added to the jokes/index.json file. Make s
 ### Run Locally
 * Clone the repo
 * `npm i && npm run dev`
-* Visit `localhost:3005/jokes/random` or `localhost:3005/jokes/ten` on your browser!
+* Visit `localhost:3005/jokes/random` or `localhost:3005/jokes/ten` on your browser
