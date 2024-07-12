@@ -2126,6 +2126,35 @@
   },
   {
     "type": "general",
+    "setup": "Why did the math book look sad?",
+    "punchline": "Because it had too many problems."
+  },
+  {
+    "type": "general",
+    "setup": "What's a computer's favorite snack?",
+    "punchline": "Microchips."
+  },
+  {
+    "type": "general",
+    "setup": "What did the janitor say when he jumped out of the closet?",
+    "punchline": "Supplies!"
+  },
+  {
+    "type": "general",
+    "setup": "What did one ocean say to the other ocean?",
+    "punchline": "Nothing, they just waved."
+  },
+  {
+    "type": "general",
+    "setup": "What's the best thing about Switzerland?",
+    "punchline": "I don't know, but their flag is a big plus."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "In case he got a hole in one."
+  {
+    "type": "general",
     "setup": "Why did the chicken cross the playground?",
     "punchline": "To get to the other slide."
   },
@@ -2168,5 +2197,80 @@
     "type": "programming",
     "setup": "What do you call a computer mouse that swears a lot?",
     "punchline": "A cursor!"
+  },
+  {
+    "type": "design",
+    "setup": "Why did the designer break up with their font?",
+    "punchline": "Because it wasn't their type."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the programmer quit their job?",
+    "punchline": "They didn't get arrays."
+  },
+  {
+    "type": "life",
+    "setup": "Why did the developer go broke?",
+    "punchline": "They kept spending all their cache."
+  },
+  {
+    "type": "programming",
+    "setup": "How do you comfort a designer?",
+    "punchline": "You give them some space... between the elements."
+  },
+  {
+    "type": "programming",
+    "setup": "Why don't programmers like nature?",
+    "punchline": "Too many bugs."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the programmer bring a ladder to work?",
+    "punchline": "They heard the code needed to be debugged from a higher level."
+  },
+  {
+    "type": "general",
+    "setup": "Why was the developer always calm?",
+    "punchline": "Because they knew how to handle exceptions."
+  },
+  {
+    "type": "programming",
+    "setup": "Why was the font always tired?",
+    "punchline": "It was always bold."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the developer go to therapy?",
+    "punchline": "They had too many unresolved issues."
+  },
+  {
+    "type": "programming",
+    "setup": "Why was the designer always cold?",
+    "punchline": "Because they always used too much ice-olation."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the programmer bring a broom to work?",
+    "punchline": "To clean up all the bugs."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the developer break up with their keyboard?",
+    "punchline": "It just wasn't their type anymore."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the programmer always carry a pencil?",
+    "punchline": "They preferred to write in C#."
+  },
+  {
+    "type": "general",
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "They don't have the guts."
+  },
+  {
+    "type": "general",
+    "setup": "What do you call fake spaghetti?",
+    "punchline": "An impasta."
   }
 ]
