@@ -15,7 +15,13 @@
 [https://official-joke-api.appspot.com/jokes/ten](https://official-joke-api.appspot.com/jokes/ten)
 
 ### Grab any number of random jokes!
-[https://official-joke-api.appspot.com/jokes/random/<any-number>](https://official-joke-api.appspot.com/jokes/random/<any-number>)
+
+Usage: `https://official-joke-api.appspot.com/jokes/random/<any-number>`
+
+For example:
+[https://official-joke-api.appspot.com/jokes/random/5](https://official-joke-api.appspot.com/jokes/random/5)
+[https://official-joke-api.appspot.com/jokes/random/25](https://official-joke-api.appspot.com/jokes/random/25)
+[https://official-joke-api.appspot.com/jokes/random/250](https://official-joke-api.appspot.com/jokes/random/250)
 
 ### Grab jokes by type!
 
