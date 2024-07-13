@@ -3,6 +3,8 @@ const jokes = require('./jokes/index.json');
 let lastJokeId = 0;
 jokes.forEach(jk => jk.id = ++lastJokeId);
 
+const types = Array.from(new Set(jokes.map(joke => joke.type)));
+
 const randomJoke = () => {
   return jokes[Math.floor(Math.random() * jokes.length)];
 }
@@ -42,4 +44,4 @@ const count = Object.keys(jokes).length;
  */
 const jokeById = (id) => (jokes.filter(jk => jk.id === id)[0]);
 
-module.exports = { jokes, randomJoke, randomN, randomTen, randomSelect, jokeById, jokeByType, count };
+module.exports = { jokes, types, randomJoke, randomN, randomTen, randomSelect, jokeById, jokeByType, count };

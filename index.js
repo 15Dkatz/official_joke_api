@@ -1,6 +1,6 @@
 const express = require('express');
 const LimitingMiddleware = require('limiting-middleware');
-const { randomJoke, randomTen, randomSelect, jokeByType, jokeById, count } = require('./handler');
+const { types, randomJoke, randomTen, randomSelect, jokeByType, jokeById, count } = require('./handler');
 
 const app = express();
 
@@ -71,6 +71,10 @@ app.get('/jokes/:id', (req, res, next) => {
     return next(e);
   }
 });
+
+app.get('/types', (req, res, next) => {
+  res.json(types);
+})
 
 app.use((err, req, res, next) => {
   const statusCode = err.statusCode || 500;
