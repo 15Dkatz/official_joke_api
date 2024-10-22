@@ -1885,7 +1885,7 @@
     "punchline": "Because seven ate nine."
   },
   {
-    "type": "dad",
+    "type": "general",
     "setup": "Why do fathers take an extra pair of socks when they go golfing?",
     "punchline": "In case they get a hole in one!"
   },
@@ -1915,7 +1915,7 @@
     "punchline": "USB."
   },
   {
-    "type": "dad",
+    "type": "general",
     "setup": "Why don't eggs tell jokes?",
     "punchline": "Because they would crack each other up."
   },
@@ -2253,5 +2253,250 @@
     "type": "general",
     "setup": "What do you call a thieving alligator?",
     "punchline": "A crookodile!"
+  },
+  {
+    "type": "general",
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "In case he got a hole in one!"
+  },
+  {
+    "type": "general",
+    "setup": "What’s orange and sounds like a parrot?",
+    "punchline": "A carrot!"
+  },
+  {
+    "type": "general",
+    "setup": "Why don’t skeletons fight each other?",
+    "punchline": "They don’t have the guts."
+  },
+  {
+    "type": "general",
+    "setup": "What’s brown and sticky?",
+    "punchline": "A stick."
+  },
+  {
+    "type": "general",
+    "setup": "What do you call a factory that makes OK products?",
+    "punchline": "A satisfactory."
+  },
+  {
+    "type": "general",
+    "setup": "Why don’t eggs tell jokes?",
+    "punchline": "They’d crack each other up."
+  },
+  {
+    "type": "general",
+    "setup": "What did the janitor say when he jumped out of the closet?",
+    "punchline": "Supplies!"
+  },
+  {
+    "type": "general",
+    "setup": "What do you get when you cross a snowman and a vampire?",
+    "punchline": "Frostbite."
+  },
+  {
+    "type": "general",
+    "setup": "What did the ocean say to the beach?",
+    "punchline": "Nothing, it just waved."
+  },
+  {
+    "type": "general",
+    "setup": "Why don’t some fish play piano?",
+    "punchline": "They can’t find their tuna."
+  },
+  {
+    "type": "general",
+    "setup": "How does a penguin build its house?",
+    "punchline": "Igloos it together."
+  },
+  {
+    "type": "general",
+    "setup": "What do you call fake spaghetti?",
+    "punchline": "An impasta."
+  },
+  {
+    "type": "general",
+    "setup": "Why do cows have hooves instead of feet?",
+    "punchline": "Because they lactose."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the math book look sad?",
+    "punchline": "It had too many problems."
+  },
+  {
+    "type": "general",
+    "setup": "How does the moon cut his hair?",
+    "punchline": "Eclipse it."
+  },
+  {
+    "type": "general",
+    "setup": "What do you call a fish wearing a crown?",
+    "punchline": "A kingfish."
+  },
+  {
+    "type": "general",
+    "setup": "Why are spiders so smart?",
+    "punchline": "They find everything on the web."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "Because he was outstanding in his field."
+  },
+  {
+    "type": "general",
+    "setup": "What kind of shoes do ninjas wear?",
+    "punchline": "Sneakers."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "It was two tired."
+  },
+  {
+    "type": "general",
+    "setup": "What do you call a bear with no teeth?",
+    "punchline": "A gummy bear."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the tomato turn red?",
+    "punchline": "Because it saw the salad dressing!"
+  },
+  {
+    "type": "general",
+    "setup": "What do you call a lazy kangaroo?",
+    "punchline": "A pouch potato."
+  },
+  {
+    "type": "general",
+    "setup": "What kind of tea is hard to swallow?",
+    "punchline": "Reality."
+  },
+  {
+    "type": "general",
+    "setup": "What did one wall say to the other?",
+    "punchline": "I’ll meet you at the corner."
+  },
+  {
+    "type": "general",
+    "setup": "How do cows stay up to date?",
+    "punchline": "They read the moos-paper."
+  },
+  {
+    "type": "general",
+    "setup": "What do you call a group of musical whales?",
+    "punchline": "An orca-stra."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the mushroom go to the party alone?",
+    "punchline": "Because he was a fungi."
+  },
+  {
+    "type": "general",
+    "setup": "What’s the difference between a well-dressed man on a unicycle and a poorly dressed man on a bike?",
+    "punchline": "Attire."
+  },
+  {
+    "type": "general",
+    "setup": "Why was the broom late?",
+    "punchline": "It swept in late."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "It got mugged."
+  },
+  {
+    "type": "general",
+    "setup": "What do you call a cold dog sitting on a bunny?",
+    "punchline": "A chili dog on a bun."
+  },
+  {
+    "type": "general",
+    "setup": "What did the buffalo say when his son left?",
+    "punchline": "Bison."
+  },
+  {
+    "type": "general",
+    "setup": "How does a cucumber become a pickle?",
+    "punchline": "It goes through a jarring experience."
+  },
+  {
+    "type": "general",
+    "setup": "What’s green and sings?",
+    "punchline": "Elvis Parsley."
+  },
+  {
+    "type": "general",
+    "setup": "Why was the computer cold?",
+    "punchline": "It left its Windows open."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the tree go to the dentist?",
+    "punchline": "It needed a root canal."
+  },
+  {
+    "type": "general",
+    "setup": "What do you call cheese that isn’t yours?",
+    "punchline": "Nacho cheese."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the barber win the race?",
+    "punchline": "He took a short cut."
+  },
+  {
+    "type": "general",
+    "setup": "What did the grape do when it got stepped on?",
+    "punchline": "It let out a little wine."
+  },
+  {
+    "type": "general",
+    "setup": "What did the big flower say to the little flower?",
+    "punchline": "Hi, bud!"
+  },
+  {
+    "type": "general",
+    "setup": "Why do seagulls fly over the sea?",
+    "punchline": "Because if they flew over the bay, they’d be bagels."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the hipster burn his mouth?",
+    "punchline": "He ate the pizza before it was cool."
+  },
+  {
+    "type": "general",
+    "setup": "How do you catch a squirrel?",
+    "punchline": "Climb a tree and act like a nut."
+  },
+  {
+    "type": "general",
+    "setup": "What did the snowman order at the diner?",
+    "punchline": "An iceburger."
+  },
+  {
+    "type": "general",
+    "setup": "Why was the calendar afraid?",
+    "punchline": "Its days were numbered."
+  },
+  {
+    "type": "general",
+    "setup": "What do you call an alligator in a vest?",
+    "punchline": "An investigator."
+  },
+  {
+    "type": "general",
+    "setup": "What happens when a snowman throws a tantrum?",
+    "punchline": "He has a meltdown."
+  },
+  {
+    "type": "general",
+    "setup": "Why can’t you give Elsa a balloon?",
+    "punchline": "Because she’ll let it go."
   }
 ]
