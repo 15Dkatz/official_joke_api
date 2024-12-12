@@ -1,0 +1,315 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "Jokes API",
+      "version": "1.0.0",
+      "description": "API for fetching jokes (by 15Dkatz/official_joke_api)"
+    },
+    "servers": [
+      {
+        "url": "https://official-joke-api.appspot.com",
+        "description": "Live server"
+      },
+      {
+        "url": "http://localhost:3005",
+        "description": "Local server"
+      }
+    ],
+    "paths": {
+      "/": {
+        "get": {
+          "summary": "Root endpoint",
+          "description": "Returns a message with available endpoints",
+          "responses": {
+            "200": {
+              "description": "A message with available endpoints",
+              "content": {
+                "text/plain": {
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/ping": {
+        "get": {
+          "summary": "Ping endpoint",
+          "description": "Returns pong",
+          "responses": {
+            "200": {
+              "description": "pong",
+              "content": {
+                "text/plain": {
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/random_joke": {
+        "get": {
+          "summary": "Get a random joke",
+          "responses": {
+            "200": {
+              "description": "A random joke",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "id": { "type": "integer" },
+                      "punchline": { "type": "string" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/random_ten": {
+        "get": {
+          "summary": "Get ten random jokes",
+          "responses": {
+            "200": {
+              "description": "Ten random jokes",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": { "type": "integer" },
+                        "punchline": { "type": "string" }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/jokes/random": {
+        "get": {
+          "summary": "Get a random joke",
+          "responses": {
+            "200": {
+              "description": "A random joke",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "id": { "type": "integer" },
+                      "punchline": { "type": "string" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/jokes/random/{num}": {
+        "get": {
+          "summary": "Get a specified number of random jokes",
+          "parameters": [
+            {
+              "name": "num",
+              "in": "path",
+              "required": true,
+              "schema": {
+                "type": "integer"
+              },
+              "description": "Number of jokes to retrieve"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "A specified number of random jokes",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": { "type": "integer" },
+                        "punchline": { "type": "string" }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/jokes/ten": {
+        "get": {
+          "summary": "Get ten random jokes",
+          "responses": {
+            "200": {
+              "description": "Ten random jokes",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": { "type": "integer" },
+                        "punchline": { "type": "string" }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/jokes/{type}/random": {
+        "get": {
+          "summary": "Get a random joke by type",
+          "parameters": [
+            {
+              "name": "type",
+              "in": "path",
+              "required": true,
+              "schema": {
+                "type": "string"
+              },
+              "description": "Type of joke"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "A random joke by type",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "id": { "type": "integer" },
+                      "punchline": { "type": "string" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/jokes/{type}/ten": {
+        "get": {
+          "summary": "Get ten random jokes by type",
+          "parameters": [
+            {
+              "name": "type",
+              "in": "path",
+              "required": true,
+              "schema": {
+                "type": "string"
+              },
+              "description": "Type of joke"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Ten random jokes by type",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": { "type": "integer" },
+                        "punchline": { "type": "string" }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/jokes/{id}": {
+        "get": {
+          "summary": "Get a joke by ID",
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true,
+              "schema": {
+                "type": "integer"
+              },
+              "description": "ID of the joke"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "A joke by ID",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "id": { "type": "integer" },
+                      "punchline": { "type": "string" }
+                    }
+                  }
+                }
+              }
+            },
+            "404": {
+              "description": "Joke not found",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "type": { "type": "string" },
+                      "message": { "type": "string" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/types": {
+        "get": {
+          "summary": "Get all joke types",
+          "responses": {
+            "200": {
+              "description": "List of joke types",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,11 +1,16 @@
 const express = require('express');
 const LimitingMiddleware = require('limiting-middleware');
+const swaggerUi = require('swagger-ui-express');
+const swaggerDocument = require('./swagger.json');
+
 const { types, randomJoke, randomTen, randomSelect, jokeByType, jokeById, count } = require('./handler');
 
 const app = express();
 
 app.use(new LimitingMiddleware().limitByIp());
-
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument, {
+  customSiteTitle: "Jokes API"
+}));
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
   next();
@@ -46,7 +51,7 @@ app.get("/jokes/random/:num", (req, res) => {
     }
   } catch (e) {
     return next(e);
-  } 
+  }
 });
 
 app.get('/jokes/ten', (req, res) => {
