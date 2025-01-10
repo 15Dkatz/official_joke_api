@@ -1,5 +1,5 @@
 # Official Joke API
-
+#add rate limiter to your application using express-rate-limiter
 ## Endpoints:
 
 ### Grab a random joke
