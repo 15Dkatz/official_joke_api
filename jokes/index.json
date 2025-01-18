@@ -2253,5 +2253,10 @@
     "type": "general",
     "setup": "What do you call a thieving alligator?",
     "punchline": "A crookodile!"
+  },
+    {
+    "type": "general",
+    "setup": "Why do pirates take so long to learn the alphabet?",
+    "punchline": "They can be stuck for years at C!"
   }
 ]
