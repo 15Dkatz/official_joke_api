@@ -2065,39 +2065,39 @@
     "punchline": "He kept calling it bytecoin and didn't get any."
   },
   {
-      "type": "programming",
-      "setup": "Why did the programmer go to art school?",
-      "punchline": "He wanted to learn how to code outside the box."
+    "type": "programming",
+    "setup": "Why did the programmer go to art school?",
+    "punchline": "He wanted to learn how to code outside the box."
   },
   {
-      "type": "programming",
-      "setup": "Why did the programmer's wife leave him?",
-      "punchline": "He didn't know how to commit."
+    "type": "programming",
+    "setup": "Why did the programmer's wife leave him?",
+    "punchline": "He didn't know how to commit."
   },
   {
-      "type": "programming",
-      "setup": "Why do programmers prefer dark chocolate?",
-      "punchline": "Because it's bitter like their code."
+    "type": "programming",
+    "setup": "Why do programmers prefer dark chocolate?",
+    "punchline": "Because it's bitter like their code."
   },
   {
-      "type": "programming",
-      "setup": "Why did the programmer go broke?",
-      "punchline": "He used up all his cache"
+    "type": "programming",
+    "setup": "Why did the programmer go broke?",
+    "punchline": "He used up all his cache"
   },
   {
-      "type": "programming",
-      "setup": "Why did the programmer always mix up Halloween and Christmas?",
-      "punchline": "Because Oct 31 equals Dec 25."
+    "type": "programming",
+    "setup": "Why did the programmer always mix up Halloween and Christmas?",
+    "punchline": "Because Oct 31 equals Dec 25."
   },
   {
-      "type": "programming",
-      "setup": "Why don't programmers like nature?",
-      "punchline": "There's too many bugs."
+    "type": "programming",
+    "setup": "Why don't programmers like nature?",
+    "punchline": "There's too many bugs."
   },
   {
-      "type": "programming",
-      "setup": "Why was the JavaScript developer sad?",
-      "punchline": "He didn't know how to null his feelings."
+    "type": "programming",
+    "setup": "Why was the JavaScript developer sad?",
+    "punchline": "He didn't know how to null his feelings."
   },
   {
     "type": "general",
@@ -2253,5 +2253,60 @@
     "type": "general",
     "setup": "What do you call a thieving alligator?",
     "punchline": "A crookodile!"
+  },
+  {
+    "type": "general",
+    "setup": "What did the Confederate soldiers use to eat off of?",
+    "punchline": "Civil ware."
+  },
+  {
+    "type": "general",
+    "setup": "What is the leading cause of divorce in long-term marriages?",
+    "punchline": "A stalemate."
+  },
+  {
+    "type": "general",
+    "setup": "What did the mermaid wear to her math class?",
+    "punchline": "An algae bra."
+  },
+  {
+    "type": "general",
+    "setup": "You wanna hear a joke about pizza?",
+    "punchline": "Never mind, it was too cheesy."
+  },
+  {
+    "type": "general",
+    "setup": "What did the green grape say to the purple grape?",
+    "punchline": "Breathe, you idiot!"
+  },
+  {
+    "type": "general",
+    "setup": "Why did the scarecrow get an award?",
+    "punchline": "He was outstanding in his field."
+  },
+  {
+    "type": "general",
+    "setup": "Why is Diarrhea hereditary?",
+    "punchline": "It runs in your genes."
+  },
+  {
+    "type": "general",
+    "setup": "What is a pirate's favorite letter?",
+    "punchline": "Tis' the c."
+  },
+  {
+    "type": "general",
+    "setup": "What's a criminal`s best asset?",
+    "punchline": "His lie-ability."
+  },
+  {
+    "type": "general",
+    "setup": "What did the triangle say to the circle?",
+    "punchline": "You're so pointless."
+  },
+  {
+    "type": "general",
+    "setup": "What did the cannibal get when he showed up to the party late?",
+    "punchline": "A cold shoulder!"
   }
 ]
