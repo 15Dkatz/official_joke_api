@@ -2253,5 +2253,10 @@
     "type": "general",
     "setup": "What do you call a thieving alligator?",
     "punchline": "A crookodile!"
+  },
+  {
+    "type": "general",
+    "setup": "Everyone told Sam not to sing",
+    "punchline": "But Samsung"
   }
 ]
