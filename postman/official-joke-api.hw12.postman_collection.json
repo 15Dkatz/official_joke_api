@@ -1,0 +1,382 @@
+{
+	"info": {
+		"_postman_id": "3ef466da-1bbd-4961-b6dd-3e7ae4d094e6",
+		"name": "Official Joke API — HW12 (Yevhen)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14927783"
+	},
+	"item": [
+		{
+			"name": "Random joke (legacy)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", () => pm.response.to.have.status(200));",
+							"pm.test(\"Content-Type is JSON\", () => pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\"));",
+							"pm.test(\"Responds quickly (<1500ms)\", () => pm.expect(pm.response.responseTime).to.be.below(1500));",
+							"const json = pm.response.json();",
+							"pm.test(\"Body is an object\", () => pm.expect(typeof json).to.eql(\"object\"));",
+							"pm.test(\"Has required joke fields\", () => { pm.expect(json).to.have.property(\"id\"); pm.expect(json).to.have.property(\"type\"); pm.expect(json).to.have.property(\"setup\"); pm.expect(json).to.have.property(\"punchline\"); });",
+							"pm.test(\"Setup & punchline are non-empty\", () => { pm.expect(json.setup).to.be.a(\"string\").and.not.empty; pm.expect(json.punchline).to.be.a(\"string\").and.not.empty; });"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/random_joke",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"random_joke"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Random joke",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", () => pm.response.to.have.status(200));",
+							"pm.test(\"Content-Type is JSON\", () => pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\"));",
+							"pm.test(\"Responds quickly (<1500ms)\", () => pm.expect(pm.response.responseTime).to.be.below(1500));",
+							"const json = pm.response.json();",
+							"pm.test(\"Body is an object\", () => pm.expect(typeof json).to.eql(\"object\"));",
+							"pm.test(\"Has required joke fields\", () => { pm.expect(json).to.have.property(\"id\"); pm.expect(json).to.have.property(\"type\"); pm.expect(json).to.have.property(\"setup\"); pm.expect(json).to.have.property(\"punchline\"); });",
+							"pm.test(\"Setup & punchline are non-empty\", () => { pm.expect(json.setup).to.be.a(\"string\").and.not.empty; pm.expect(json.punchline).to.be.a(\"string\").and.not.empty; });"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/jokes/random",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"jokes",
+						"random"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ten random jokes (legacy)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", () => pm.response.to.have.status(200));",
+							"pm.test(\"Content-Type is JSON\", () => pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\"));",
+							"pm.test(\"Responds quickly (<1500ms)\", () => pm.expect(pm.response.responseTime).to.be.below(1500));",
+							"const json = pm.response.json();",
+							"pm.test(\"Body is an array\", () => pm.expect(Array.isArray(json)).to.be.true);",
+							"pm.test(\"Array length is 10\", () => pm.expect(json.length).to.eql(10));",
+							"pm.test(\"Each item has required joke fields\", () => {\n  json.forEach(j => {\n    pm.expect(j).to.have.property(\"id\");\n    pm.expect(j).to.have.property(\"type\").that.is.a(\"string\");\n    pm.expect(j).to.have.property(\"setup\").that.is.a(\"string\").and.not.empty;\n    pm.expect(j).to.have.property(\"punchline\").that.is.a(\"string\").and.not.empty;\n  });\n});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/random_ten",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"random_ten"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ten random jokes",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", () => pm.response.to.have.status(200));",
+							"pm.test(\"Content-Type is JSON\", () => pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\"));",
+							"pm.test(\"Responds quickly (<1500ms)\", () => pm.expect(pm.response.responseTime).to.be.below(1500));",
+							"const json = pm.response.json();",
+							"pm.test(\"Body is an array\", () => pm.expect(Array.isArray(json)).to.be.true);",
+							"pm.test(\"Array length is 10\", () => pm.expect(json.length).to.eql(10));",
+							"pm.test(\"Each item has required joke fields\", () => {\n  json.forEach(j => {\n    pm.expect(j).to.have.property(\"id\");\n    pm.expect(j).to.have.property(\"type\").that.is.a(\"string\");\n    pm.expect(j).to.have.property(\"setup\").that.is.a(\"string\").and.not.empty;\n    pm.expect(j).to.have.property(\"punchline\").that.is.a(\"string\").and.not.empty;\n  });\n});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/jokes/ten",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"jokes",
+						"ten"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Five random jokes",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", () => pm.response.to.have.status(200));",
+							"pm.test(\"Content-Type is JSON\", () => pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\"));",
+							"pm.test(\"Responds quickly (<1500ms)\", () => pm.expect(pm.response.responseTime).to.be.below(1500));",
+							"const json = pm.response.json();",
+							"pm.test(\"Body is an array\", () => pm.expect(Array.isArray(json)).to.be.true);",
+							"pm.test(\"Array length is 5\", () => pm.expect(json.length).to.eql(5));",
+							"pm.test(\"Each item has required joke fields\", () => {\n  json.forEach(j => {\n    pm.expect(j).to.have.property(\"id\");\n    pm.expect(j).to.have.property(\"type\").that.is.a(\"string\");\n    pm.expect(j).to.have.property(\"setup\").that.is.a(\"string\").and.not.empty;\n    pm.expect(j).to.have.property(\"punchline\").that.is.a(\"string\").and.not.empty;\n  });\n});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/jokes/random/5",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"jokes",
+						"random",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Twenty five random jokes",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", () => pm.response.to.have.status(200));",
+							"pm.test(\"Content-Type is JSON\", () => pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\"));",
+							"pm.test(\"Responds quickly (<1500ms)\", () => pm.expect(pm.response.responseTime).to.be.below(1500));",
+							"const json = pm.response.json();",
+							"pm.test(\"Body is an array\", () => pm.expect(Array.isArray(json)).to.be.true);",
+							"pm.test(\"Array length is 25\", () => pm.expect(json.length).to.eql(25));",
+							"pm.test(\"Each item has required joke fields\", () => {\n  json.forEach(j => {\n    pm.expect(j).to.have.property(\"id\");\n    pm.expect(j).to.have.property(\"type\").that.is.a(\"string\");\n    pm.expect(j).to.have.property(\"setup\").that.is.a(\"string\").and.not.empty;\n    pm.expect(j).to.have.property(\"punchline\").that.is.a(\"string\").and.not.empty;\n  });\n});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/jokes/random/25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"jokes",
+						"random",
+						"25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get joke types",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", () => pm.response.to.have.status(200));",
+							"pm.test(\"Content-Type is JSON\", () => pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\"));",
+							"const json = pm.response.json();",
+							"pm.test(\"Types is an array\", () => pm.expect(Array.isArray(json)).to.be.true);",
+							"pm.test(\"Includes \\\"programming\\\"\", () => pm.expect(json).to.include(\"programming\"));"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/types",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"types"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Programming — random",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", () => pm.response.to.have.status(200));",
+							"pm.test(\"Content-Type is JSON\", () => pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\"));",
+							"pm.test(\"Responds quickly (<1500ms)\", () => pm.expect(pm.response.responseTime).to.be.below(1500));",
+							"",
+							"const json = pm.response.json();",
+							"",
+							"// Поддерживаем и объект, и массив из одного элемента",
+							"const data = Array.isArray(json) ? json[0] : json;",
+							"",
+							"pm.test(\"JSON is object or single-item array\", () => {",
+							"  if (Array.isArray(json)) pm.expect(json.length).to.be.gte(1);",
+							"  pm.expect(typeof data).to.eql(\"object\");",
+							"});",
+							"",
+							"pm.test(\"Has required joke fields\", () => {",
+							"  pm.expect(data).to.have.property(\"id\");",
+							"  pm.expect(data).to.have.property(\"type\").that.is.a(\"string\");",
+							"  pm.expect(data).to.have.property(\"setup\").that.is.a(\"string\").and.not.empty;",
+							"  pm.expect(data).to.have.property(\"punchline\").that.is.a(\"string\").and.not.empty;",
+							"});",
+							"",
+							"pm.test('Type is \"programming\"', () => {",
+							"  pm.expect(data.type).to.eql(\"programming\");",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/jokes/programming/random",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"jokes",
+						"programming",
+						"random"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Programming — ten",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", () => pm.response.to.have.status(200));",
+							"pm.test(\"Content-Type is JSON\", () => pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\"));",
+							"pm.test(\"Responds quickly (<1500ms)\", () => pm.expect(pm.response.responseTime).to.be.below(1500));",
+							"const json = pm.response.json();",
+							"pm.test(\"Body is an array\", () => pm.expect(Array.isArray(json)).to.be.true);",
+							"pm.test(\"Array length is 10\", () => pm.expect(json.length).to.eql(10));",
+							"pm.test(\"Each item has required joke fields\", () => {\n  json.forEach(j => {\n    pm.expect(j).to.have.property(\"id\");\n    pm.expect(j).to.have.property(\"type\").that.is.a(\"string\");\n    pm.expect(j).to.have.property(\"setup\").that.is.a(\"string\").and.not.empty;\n    pm.expect(j).to.have.property(\"punchline\").that.is.a(\"string\").and.not.empty;\n  });\n});",
+							"pm.test(\"All jokes are of type \\\"programming\\\"\", () => json.forEach(j => pm.expect(j.type).to.eql(\"programming\")));"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/jokes/programming/ten",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"jokes",
+						"programming",
+						"ten"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Joke by id (1)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status 200\", () => pm.response.to.have.status(200));",
+							"const json = pm.response.json();",
+							"pm.test(\"Has id\", () => pm.expect(json).to.have.property(\"id\"));"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/jokes/1",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"jokes",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "",
+			"type": "default"
+		}
+	]
+}
