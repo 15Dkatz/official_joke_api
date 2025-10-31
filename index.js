@@ -11,26 +11,27 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get('/', (req, res) => {
-  res.send('Try /random_joke, /random_ten, /jokes/random, or /jokes/ten , /jokes/random/<any-number>');
+app.get('/', (_req, res) => {
+  res.type('text').send('Official Joke API — customized for SeAMK ✅');
 });
 
 app.get('/ping', (req, res) => {
   res.send('pong');
 });
 
-app.get('/random_joke', (req, res) => {
-  res.json(randomJoke());
-});
+// --- Staattiset reitit ENNEN parametri­reittejä ---
+const jokes = require('./jokes/index.json');
+app.get('/jokes/count', (_req, res) => res.json({ count: jokes.length }));
+app.get('/types', (_req, res) => res.json(types));
 
-app.get('/random_ten', (req, res) => {
+// Yksi satunnainen (helpottaa testejä)
+app.get('/jokes/random', (_req, res) => res.json(randomJoke()));
+
+app.get('/jokes/ten', (req, res) => {
   res.json(randomTen());
 });
 
-app.get('/jokes/random', (req, res) => {
-  res.json(randomJoke());
-});
-
+// N kpl satunnaisia
 app.get("/jokes/random/:num", (req, res) => {
   let num;
   try {
@@ -49,9 +50,7 @@ app.get("/jokes/random/:num", (req, res) => {
   } 
 });
 
-app.get('/jokes/ten', (req, res) => {
-  res.json(randomTen());
-});
+
 
 app.get('/jokes/:type/random', (req, res) => {
   res.json(jokeByType(req.params.type, 1));
@@ -72,11 +71,8 @@ app.get('/jokes/:id', (req, res, next) => {
   }
 });
 
-app.get('/types', (req, res, next) => {
-  res.json(types);
-})
 
-app.use((err, req, res, next) => {
+app.use((err, _req, res, _next) => {
   const statusCode = err.statusCode || 500;
 
   res.status(statusCode).json({
@@ -84,6 +80,6 @@ app.use((err, req, res, next) => {
   });
 });
 
-const PORT = process.env.PORT || 3005;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`listening on ${PORT}`));
 
