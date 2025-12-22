@@ -2253,5 +2253,35 @@
     "type": "general",
     "setup": "What do you call a thieving alligator?",
     "punchline": "A crookodile!"
+  },
+  {
+    "type": "knock-knock",
+    "setup": "Knock, knock. \n Who's there? \n Banana. \n Banana who? \n Knock, knock. \n Who’s there? \n Banana. \n Banana who? \n Knock, knock. \n Who’s there? \n Orange. \n Orange who?",
+    "punchline": "Orange you glad I didn't say banana?"
+  },
+  {
+    "type": "knock-knock",
+    "setup": "Knock, knock. \n Who's there? \n Lettuce. \n Lettuce who?",
+    "punchline": "Lettuce in, it's freezing!"
+  },
+  {
+    "type": "knock-knock",
+    "setup": "Knock, knock. \n Who's there? \n Anita. \n Anita who?",
+    "punchline": "Anita use the bathroom, let me in!"
+  },
+  {
+    "type": "knock-knock",
+    "setup": "Knock, knock. \n Who's there? \n Wayne. \n Wayne who?",
+    "punchline": "Wayne dwops keep falling on my head."
+  },
+  {
+    "type": "knock-knock",
+    "setup": "Knock, knock. \n Who's there? \n To. \n To who?",
+    "punchline": "Actually, it’s to whom."
+  },
+  {
+    "type": "knock-knock",
+    "setup": "Knock, knock. \n Who's there? \n Doris. \n Doris who?",
+    "punchline": "Doris locked, let me in!"
   }
 ]
