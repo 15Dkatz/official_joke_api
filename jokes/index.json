@@ -1,5 +1,10 @@
 [
   {
+    "type": "programming",
+    "setup": "Why do programmers love Dark Mode?",
+    "punchline": "Because the light attacts Bugs!"
+  },
+  {
     "type": "general",
     "setup": "What did the fish say when it hit the wall?",
     "punchline": "Dam."
