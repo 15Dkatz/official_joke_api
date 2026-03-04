@@ -72,6 +72,22 @@ app.get('/jokes/:id', (req, res, next) => {
   }
 });
 
+app.get('/jokes/:type/:count', (req, res, next) => {
+  const { type, count: countParam } = req.params;
+  const isValidSelectedType = types.includes(type);
+  if (!isValidSelectedType) {
+    return next({ statusCode: 400, message: 'Invalid Joke Type' });
+  }
+
+  const customJokesCount = parseInt(countParam, 10);
+  console.log('customJokesCount', typeof customJokesCount);
+  if(!customJokesCount || customJokesCount <= 0) {
+    return next({ statusCode: 400, message: 'Invalid Count' });
+  }
+
+  return res.json(jokeByType(type, customJokesCount));
+});
+
 app.get('/types', (req, res, next) => {
   res.json(types);
 })
