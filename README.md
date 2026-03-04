@@ -34,6 +34,13 @@ The endpoints are `jokes/:type/random` or `jokes/:type/ten`. For example:
 
 [https://official-joke-api.appspot.com/jokes/programming/ten](https://official-joke-api.appspot.com/jokes/programming/ten)
 
+### Grab custom number of jokes by type
+
+The endpoints are `jokes/:type/num`. For example:
+
+[https://official-joke-api.appspot.com/jokes/programming/7](https://official-joke-api.appspot.com/jokes/programming/7)
+
+
 
 ### Grab joke by id
 
