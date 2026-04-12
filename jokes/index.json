@@ -150,6 +150,11 @@
     "punchline": "It gets toad away"
   },
   {
+     "type": "general",
+  "setup": "Why does my boss bring his wife's problems to the office?",
+  "punchline": "Because apparently, we’re the unofficial customer support team for his marriage."
+  },
+  {
     "type": "general",
     "setup": "did you know the first French fries weren't cooked in France?",
     "punchline": "they were cooked in Greece"
