@@ -7,83 +7,89 @@ const app = express();
 app.use(new LimitingMiddleware().limitByIp());
 
 app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', '*');
-  next();
+	res.header('Access-Control-Allow-Origin', '*');
+	next();
 });
 
 app.get('/', (req, res) => {
-  res.send('Try /random_joke, /random_ten, /jokes/random, or /jokes/ten , /jokes/random/<any-number>');
+	res.send('Try /random_joke, /random_ten, /jokes/random, or /jokes/ten , /jokes/random/<any-number>');
 });
 
 app.get('/ping', (req, res) => {
-  res.send('pong');
+	res.send('pong');
 });
 
 app.get('/random_joke', (req, res) => {
-  res.json(randomJoke());
+	res.json(randomJoke());
 });
 
 app.get('/random_ten', (req, res) => {
-  res.json(randomTen());
+	res.json(randomTen());
 });
 
 app.get('/jokes/random', (req, res) => {
-  res.json(randomJoke());
+	res.json(randomJoke());
 });
 
-app.get("/jokes/random/:num", (req, res) => {
-  let num;
-  try {
-    num = parseInt(req.params.num);
-    if (!num) {
-      res.send("The passed path is not a number.");
-    } else {
-      if (num > count) {
-        res.send(`The passed path exceeds the number of jokes (${count}).`);
-      } else {
-        res.json(randomSelect(num));
-      }
-    }
-  } catch (e) {
-    return next(e);
-  } 
+app.get('/jokes/random/:num', (req, res) => {
+	let num;
+	try {
+		num = parseInt(req.params.num);
+		if (isNaN(num) || num <= 0) {
+			res.status(400).json({ type: 'error', message: 'The passed path is not a number.' });
+		} else {
+			if (num > count) {
+				res.status(400).json({ type: 'error', message: `The passed path exceeds the number of jokes (${count}).` });
+			} else {
+				res.json(randomSelect(num));
+			}
+		}
+	} catch (e) {
+		return next(e);
+	}
 });
 
 app.get('/jokes/ten', (req, res) => {
-  res.json(randomTen());
+	res.json(randomTen());
 });
 
-app.get('/jokes/:type/random', (req, res) => {
-  res.json(jokeByType(req.params.type, 1));
+app.get('/jokes/:type/random', (req, res, next) => {
+	if (!types.includes(req.params.type)) {
+		return next({ statusCode: 400, message: `Type '${req.params.type}' not found` });
+	}
+	res.json(jokeByType(req.params.type, 1));
 });
 
-app.get('/jokes/:type/ten', (req, res) => {
-  res.json(jokeByType(req.params.type, 10));
+app.get('/jokes/:type/ten', (req, res, next) => {
+	if (!types.includes(req.params.type)) {
+		return next({ statusCode: 400, message: `Type '${req.params.type}' not found` });
+	}
+	res.json(jokeByType(req.params.type, 10));
 });
 
 app.get('/jokes/:id', (req, res, next) => {
-  try {
-    const { id } = req.params;
-    const joke = jokeById(+id);
-    if (!joke) return next({ statusCode: 404, message: 'joke not found' });
-    return res.json(joke);
-  } catch (e) {
-    return next(e);
-  }
+	try {
+		const { id } = req.params;
+		const joke = jokeById(+id);
+		if (!joke) return next({ statusCode: 404, message: 'joke not found' });
+		return res.json(joke);
+	} catch (e) {
+		return next(e);
+	}
 });
 
-app.get('/types', (req, res, next) => {
-  res.json(types);
-})
+app.get('/types', (req, res) => {
+	res.json(types);
+});
 
 app.use((err, req, res, next) => {
-  const statusCode = err.statusCode || 500;
+	const statusCode = err.statusCode || 500;
 
-  res.status(statusCode).json({
-    type: 'error', message: err.message
-  });
+	res.status(statusCode).json({
+		type: 'error',
+		message: err.message,
+	});
 });
 
 const PORT = process.env.PORT || 3005;
 app.listen(PORT, () => console.log(`listening on ${PORT}`));
-
