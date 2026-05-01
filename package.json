@@ -4,7 +4,7 @@
   "description": "### Grab a random joke!",
   "main": "index.js",
   "scripts": {
-    "test": "node ./test.js",
+   "test": "jest",
     "start": "node ./",
     "dev": "nodemon ./",
     "deploy": "gcloud config set project official-joke-api && gcloud app deploy"

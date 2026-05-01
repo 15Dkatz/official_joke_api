@@ -2253,5 +2253,45 @@
     "type": "general",
     "setup": "What do you call a thieving alligator?",
     "punchline": "A crookodile!"
+  },
+  {
+    "type": "programming",
+    "setup": "Why do programmers prefer dark mode?",
+    "punchline": "Because light attracts bugs."
+  },
+  {
+    "type": "programming",
+    "setup": "Why was the computer cold?",
+    "punchline": "It forgot to close its Windows."
+  },
+  {
+    "type": "programming",
+    "setup": "Why do Python programmers hate whitespace jokes?",
+    "punchline": "Because they find them indenting."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the JavaScript developer feel sad?",
+    "punchline": "Because he didn’t Node how to Express himself."
+  },
+  {
+    "type": "programming",
+    "setup": "Why do programmers always mix up coffee and code?",
+    "punchline": "Because both require strong Java."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the coder get kicked out of school?",
+    "punchline": "He kept breaking class."
+  },
+  {
+    "type": "programming",
+    "setup": "Why do programmers hate nature?",
+    "punchline": "Too many bugs and no debugging tools."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the function return early?",
+    "punchline": "It had no arguments."
   }
 ]

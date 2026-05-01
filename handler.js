@@ -1,47 +1,50 @@
 const jokes = require('./jokes/index.json');
 
 let lastJokeId = 0;
-jokes.forEach(jk => jk.id = ++lastJokeId);
+jokes.forEach((jk) => (jk.id = ++lastJokeId));
 
-const types = Array.from(new Set(jokes.map(joke => joke.type)));
+const types = Array.from(new Set(jokes.map((joke) => joke.type)));
+const jokesByTypeMap = new Map(types.map((type) => [type, jokes.filter((joke) => joke.type === type)]));
 
-const randomJoke = () => {
-  return jokes[Math.floor(Math.random() * jokes.length)];
-}
+const randomJoke = () => jokes[Math.floor(Math.random() * jokes.length)];
+const isValidType = (type) => types.includes(type);
 
 /**
  * Get N random jokes from a jokeArray
  */
 const randomN = (jokeArray, n) => {
-  const limit = jokeArray.length < n ? jokeArray.length : n;
-  const randomIndicesSet = new Set();
+    const limit = Math.min(jokeArray.length, n);
+    const shuffled = [...jokeArray];
 
-  while (randomIndicesSet.size < limit) {
-    const randomIndex = Math.floor(Math.random() * jokeArray.length);
-    if (!randomIndicesSet.has(randomIndex)) {
-      randomIndicesSet.add(randomIndex);
+    for (let i = shuffled.length - 1; i > shuffled.length - limit - 1; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
     }
-  }
 
-  return Array.from(randomIndicesSet).map(randomIndex => {
-    return jokeArray[randomIndex];
-  });
+    return shuffled.slice(-limit);
 };
 
 const randomTen = () => randomN(jokes, 10);
 
-const randomSelect = (number) => randomN(jokes, number);
-
-const jokeByType = (type, n) => {
-  return randomN(jokes.filter(joke => joke.type === type), n);
+const randomSelect = (number) => {
+    if (!Number.isInteger(number) || number <= 0) {
+        throw new Error('Number must be a positive integer');
+    }
+    return randomN(jokes, number);  // ← ADD return
 };
 
-const count = Object.keys(jokes).length;
+const jokeByType = (type, n) => {
+	const filtered = jokesByTypeMap.get(type) || [];
+	return randomN(filtered, n);
+};
 
-/** 
+const count = jokes.length;
+const jokeIndexById = new Map(jokes.map((jk) => [jk.id, jk]));
+
+/**
  * @param {Number} id - joke id
  * @returns a single joke object or undefined
  */
-const jokeById = (id) => (jokes.filter(jk => jk.id === id)[0]);
+const jokeById = (id) => jokeIndexById.get(id);
 
-module.exports = { jokes, types, randomJoke, randomN, randomTen, randomSelect, jokeById, jokeByType, count };
+module.exports = { jokes, types, randomJoke, randomN, randomTen, randomSelect, jokeById, jokeByType, count, isValidType };
