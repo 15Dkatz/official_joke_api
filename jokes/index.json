@@ -2254,4 +2254,104 @@
     "setup": "What do you call a thieving alligator?",
     "punchline": "A crookodile!"
   }
+  {
+    "type": "general",
+    "setup": "Why don't mountains ever get tired?",
+    "punchline": "Because they peak once a day."
+  },
+  {
+    "type": "general",
+    "setup": "What do you call a kangaroo that won't get off the couch?",
+    "punchline": "A pouch potato."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the pencil get promoted?",
+    "punchline": "It always drew the right conclusions."
+  },
+  {
+    "type": "general",
+    "setup": "Why don't eggs tell jokes?",
+    "punchline": "They'd crack each other up."
+  },
+  {
+    "type": "general",
+    "setup": "Why was the baker always so calm?",
+    "punchline": "He knew how to roll with it."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the broom miss the meeting?",
+    "punchline": "It got swept up in something."
+  },
+  {
+    "type": "general",
+    "setup": "What do you call a bear caught in the rain?",
+    "punchline": "A drizzly bear."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the cookie go to the gym?",
+    "punchline": "It wanted to work on its crunch."
+  },
+  {
+    "type": "general",
+    "setup": "What do you call a rabbit that's great at math?",
+    "punchline": "A multiply hare."
+  },
+  {
+    "type": "general",
+    "setup": "Why was the notebook always so relaxed?",
+    "punchline": "It kept everything in order."
+  },
+  {
+    "type": "general",
+    "setup": "Why did the coffee file a complaint?",
+    "punchline": "It got mugged every morning."
+  },
+  {
+    "type": "general",
+    "setup": "Why don't mirrors ever argue?",
+    "punchline": "They always reflect before speaking."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the programmer wear glasses?",
+    "punchline": "To improve their C#."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the developer go broke?",
+    "punchline": "They used up all their cache."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the JavaScript developer bring an umbrella?",
+    "punchline": "In case of callback showers."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the developer stay calm?",
+    "punchline": "They knew every bug had a stack trace."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the CSS developer never panic?",
+    "punchline": "They knew how to handle the style."
+  },
+  {
+    "type": "programming",
+    "setup": "Why was the database always invited to dinner?",
+    "punchline": "Because it knew all the tables."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did the programmer love autumn?",
+    "punchline": "Because the leaves finally stopped falling through."
+  },
+  {
+    "type": "programming",
+    "setup": "Why did Git break up with SVN?",
+    "punchline": "It found a better commit-ment."
+  }
 ]
